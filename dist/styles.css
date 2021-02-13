@@ -1,0 +1,11 @@
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+  background-color: #20686c;
+  background: -webkit-gradient(linear, left top, left bottom, from(90), color-stop(#20686c), color-stop(70.71%, #005236));
+  background: linear-gradient(90, #20686c, #005236 70.71%);
+  border-bottom: 15px rgba(0, 0, 0, 0.05) dashed;
+  border-top: 15px rgba(0, 0, 0, 0.05) dashed;
+}
+/*# sourceMappingURL=styles.css.map */
