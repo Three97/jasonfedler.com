@@ -6,6 +6,10 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+.bg-highlight {
+  background-color: #6bc4a6;
+}
+
 .jumbotron {
   padding: 2rem 1rem;
   font-weight: 700;
@@ -14,7 +18,7 @@ body {
   background-color: #20686c;
   background: -webkit-gradient(linear, left top, left bottom, from(90), color-stop(#20686c), color-stop(70.71%, #005236));
   background: linear-gradient(90, #20686c, #005236 70.71%);
-  border-bottom: 15px rgba(0, 0, 0, 0.05) dashed;
+  border-bottom: 15px rgba(0, 0, 0, 0.1) dashed;
   border-top: 15px rgba(0, 0, 0, 0.05) dashed;
 }
 
