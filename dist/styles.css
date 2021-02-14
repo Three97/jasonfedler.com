@@ -16,12 +16,36 @@ a:hover {
   color: white;
 }
 
+.fg-primary {
+  color: #20686c;
+}
+
+.fg-secondary {
+  color: #005236;
+}
+
+.fg-highlight1 {
+  color: #6bc4a6;
+}
+
+.fg-highlight2 {
+  color: #fe982a;
+}
+
+.fg-highlight3 {
+  color: #bc4f07;
+}
+
 .text-monospace {
   font-family: 'Roboto Mono', monospace;
 }
 
-.bg-highlight {
+.bg-highlight-muted {
   background-color: rgba(107, 196, 166, 0.25);
+}
+
+.card-equal-height {
+  height: 100%;
 }
 
 .jumbotron {
@@ -33,9 +57,5 @@ a:hover {
   background: #005236;
   border-bottom: 15px rgba(0, 0, 0, 0.15) dashed;
   border-top: 15px rgba(0, 0, 0, 0.1) dashed;
-}
-
-.tech-list {
-  font-family: 'Roboto Mono', monospace;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -15,10 +15,34 @@ a {
   }
 }
 
+.fg-primary {
+  color: $primary-color;
+}
+
+.fg-secondary {
+  color: $secondary-color;
+}
+
+.fg-highlight1 {
+  color: $highlight1-color;
+}
+
+.fg-highlight2 {
+  color: $highlight2-color;
+}
+
+.fg-highlight3 {
+  color: $highlight3-color;
+}
+
 .text-monospace {
   font-family: 'Roboto Mono', monospace;
 }
 
-.bg-highlight {
+.bg-highlight-muted {
   background-color: $highlight1-muted-color;
+}
+
+.card-equal-height {
+  height: 100%;
 }
