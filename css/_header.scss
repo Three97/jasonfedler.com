@@ -2,11 +2,11 @@
   padding: 2rem 1rem;
   font-weight: 700;
   margin-bottom: 2rem;
-  color: whitesmoke;
+  color: white;
   background-color: $primary-color;
-  background: linear-gradient(90, $primary-color, $secondary-color 70.71%);
-  border-bottom: 15px rgba(0, 0, 0, 0.1) dashed;
-  border-top: 15px rgba(0, 0, 0, 0.05) dashed;
+  background: $secondary-color; // $linear-horizontal-reverse-gradient;
+  border-bottom: 15px rgba(0, 0, 0, 0.15) dashed;
+  border-top: 15px rgba(0, 0, 0, 0.1) dashed;
 }
 
 .tech-list {

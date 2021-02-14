@@ -2,10 +2,23 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  transition: background-color 300ms ease-in-out;
+  color: $link-color;
+
+  &:hover {
+    background-color: $highlight2-color;
+    padding: 0.25em 0.5em;
+    color: $link-hover-color;
+  }
+}
+
 .text-monospace {
   font-family: 'Roboto Mono', monospace;
 }
 
 .bg-highlight {
-  background-color: $highlight1-color;
+  background-color: $highlight1-muted-color;
 }
