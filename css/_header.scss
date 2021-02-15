@@ -1,10 +1,10 @@
 .jumbotron {
-  padding: 2rem 1rem;
-  font-weight: 700;
-  margin-bottom: 2rem;
-  color: white;
+  padding: $banner-padding;
+  font-weight: $banner-font-weight;
+  margin-bottom: $banner-margin-bottom;
+  color: $banner-text-color;
   background-color: $primary-color;
-  background: $secondary-color; // $linear-horizontal-reverse-gradient;
-  border-bottom: 15px rgba(0, 0, 0, 0.15) dashed;
-  border-top: 15px rgba(0, 0, 0, 0.1) dashed;
+  background: $secondary-color;
+  border-bottom: $banner-bottom-border;
+  border-top: $banner-top-border;
 }
