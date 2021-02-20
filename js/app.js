@@ -1,10 +1,11 @@
 const updateLinks = function() {
-  // and include an icon that indicates such
   var allLinks = document.querySelectorAll("a");
   for(let link of allLinks) {
     // update all links to be opened in new tab
     link.setAttribute("target", "_blank");
     const baseInnerHtml = link.innerHTML;
+    
+    // and include an icon that indicates such
     link.innerHTML = baseInnerHtml + 
       "<span role='img' aria-label='follow'>" +
       "<svg width='24' height='24' viewBox='0 0 24 24' focusable='false' role='presentation'>" +
