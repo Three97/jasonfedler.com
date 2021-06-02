@@ -12,8 +12,9 @@ a {
 
   &:hover {
     background-color: $highlight2-color;
-    padding: 0.25em 0.5em;
+    padding: 0.25em 1em;
     color: $link-hover-color;
+    border-radius: 0.25rem;
   }
 }
 

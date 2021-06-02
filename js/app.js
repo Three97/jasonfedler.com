@@ -17,3 +17,15 @@ const updateLinks = function() {
       "</span>"
   }
 }();
+
+const updateCopyright = function() {
+  const startYear = 2021;
+  const currentYear = new Date().getFullYear();
+  let yearRange = currentYear;
+  if (startYear !== currentYear) {
+    yearRange = startYear + " - " + currentYear;
+  }
+
+  let placeHolder = document.getElementById("yearRange");
+  placeHolder.innerText = yearRange;
+}();
