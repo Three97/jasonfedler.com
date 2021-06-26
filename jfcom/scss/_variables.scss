@@ -1,0 +1,20 @@
+$primary-color: rgb(32, 104, 108);
+$secondary-color: rgb(0, 82, 54);
+$highlight1-color: rgb(107, 196, 166);
+$highlight1-muted-color: rgba(107, 196, 166, 0.25);
+$highlight2-color: rgb(254, 152, 42);
+$highlight3-color: rgb(188, 79, 7);
+
+$link-color: rgba(0, 0, 139, 0.8);
+$link-hover-color: white;
+
+$linear-horizontal-gradient: linear-gradient(to right, $primary-color, $secondary-color);
+$linear-horizontal-reverse-gradient: linear-gradient(to right, $primary-color 0 5%, $secondary-color 5% 95%, $primary-color 95% 100%);
+$linear-vertical-gradient: linear-gradient(to bottom, $primary-color, $secondary-color);
+
+$banner-text-color: white;
+$banner-top-border: 15px rgba(0, 0, 0, 0.1) dashed;
+$banner-bottom-border: 15px rgba(0, 0, 0, 0.15) dashed;
+$banner-padding: 2em 1em;
+$banner-font-weight: 700;
+$banner-margin-bottom: 2rem;

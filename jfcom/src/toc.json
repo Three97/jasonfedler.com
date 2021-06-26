@@ -1,0 +1,101 @@
+{
+  "title": "JasonFedler.com",
+  "subtitle": "Senior Software Engineer",
+  "skills": [
+    {
+      "skill": "C#",
+      "color": "#512bd4",
+      "proficiency": 75
+    },
+    {
+      "skill": ".NET",
+      "color": "#512bd4",
+      "proficiency": 70
+    },
+    {
+      "skill": "SQL Server",
+      "color": "#0078d4",
+      "proficiency": 65
+    },
+    {
+      "skill": "EF",
+      "color": "#512bd4",
+      "proficiency": 65
+    },
+    {
+      "skill": "Git",
+      "color": "#512bd4",
+      "proficiency": 55
+    },
+    {
+      "skill": "JavaScript",
+      "color": "#ff8d00",
+      "proficiency": 50
+    },
+    {
+      "skill": "HTML",
+      "color": "#ff8d00",
+      "proficiency": 75
+    },
+    {
+      "skill": "CSS",
+      "color": "#ff8d00",
+      "proficiency": 65
+    },
+    {
+      "skill": "SCSS",
+      "color": "#bf4080",
+      "proficiency": 35
+    },
+    {
+      "skill": "React",
+      "color": "#61dafb",
+      "proficiency": 25
+    },
+    {
+      "skill": "Imposter Syndrom",
+      "color": "#005236",
+      "proficiency": 99
+    }
+  ],
+  "footer": "",
+  "cards": [
+    {
+      "title": "Ramblings",
+      "sub-title": "I write about stuff occasionally",
+      "links": [
+        {
+          "name": "Nerd Blog",
+          "url": "https://blog.jasonfedler.com",
+          "tooltip": "Nerd blog"
+        },
+        {
+          "name": "Cycling Blog",
+          "url": "https://cycling.jasonfedler.com",
+          "tooltip": "Cycling blog"
+        }
+      ]
+    },
+    {
+      "title": "Socials",
+      "sub-title": "My presence on the interwebs",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://three97.github.com",
+          "tooltip": "All my sh*t is online"
+        },
+        {
+          "name": "Linked In",
+          "url": "https://www.linkedin.com/in/jason-fedler-35b33a8/",
+          "tooltip": "21st century resume that I don't keep up with near as much as I should"
+        },
+        {
+          "name": "Instragram",
+          "url": "https://instagram.com/threeninet7",
+          "tooltip": "I share photos occasionally"
+        }
+      ]
+    }
+  ]
+}

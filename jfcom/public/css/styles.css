@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-transition: background-color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
+  -webkit-transition: padding 300ms ease-in-out;
+  transition: padding 300ms ease-in-out;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+  color: rgba(0, 0, 139, 0.8);
+}
+
+a:hover {
+  background-color: #fe982a;
+  padding: 0.25em 1em;
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.fg-primary {
+  color: #20686c;
+}
+
+.fg-secondary {
+  color: #005236;
+}
+
+.fg-highlight1 {
+  color: #6bc4a6;
+}
+
+.fg-highlight2 {
+  color: #fe982a;
+}
+
+.fg-highlight3 {
+  color: #bc4f07;
+}
+
+.text-monospace {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.bg-highlight-muted {
+  background-color: rgba(107, 196, 166, 0.25);
+}
+
+.card-equal-height {
+  height: 100%;
+}
+
+.jumbotron {
+  padding: 2em 1em;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: white;
+  background-color: #20686c;
+  background: #005236;
+  border-bottom: 15px rgba(0, 0, 0, 0.15) dashed;
+  border-top: 15px rgba(0, 0, 0, 0.1) dashed;
+}
+/*# sourceMappingURL=styles.css.map */
