@@ -3,8 +3,8 @@
 name: CI
 
 # add Linode CLI
-- name: Linode cli
-  uses: brendon1555/setup-linode-cli@v1.0.2
+# - name: Linode cli
+#   uses: brendon1555/setup-linode-cli@v1.0.2
 
 # Controls when the action will run. 
 on:
