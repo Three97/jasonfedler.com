@@ -53,7 +53,7 @@
       "proficiency": 25
     },
     {
-      "skill": "Imposter Syndrom",
+      "skill": "Imposter Syndrome",
       "color": "#005236",
       "proficiency": 99
     }
@@ -62,7 +62,7 @@
   "cards": [
     {
       "title": "Ramblings",
-      "sub-title": "I write about stuff occasionally",
+      "subtitle": "I write about stuff occasionally",
       "links": [
         {
           "name": "Nerd Blog",
@@ -77,18 +77,29 @@
       ]
     },
     {
-      "title": "Socials",
-      "sub-title": "My presence on the interwebs",
+      "title": "Professional Socials",
+      "subtitle": "My presence on the interwebs",
       "links": [
         {
           "name": "GitHub",
-          "url": "https://three97.github.com",
+          "url": "https://github.com/Three97",
           "tooltip": "All my sh*t is online"
         },
         {
           "name": "Linked In",
           "url": "https://www.linkedin.com/in/jason-fedler-35b33a8/",
           "tooltip": "21st century resume that I don't keep up with near as much as I should"
+        }
+      ]
+    },
+    {
+      "title": "Personal Socials",
+      "subtitle": "I do other stuff, too",
+      "links": [
+        {
+          "name": "Strava",
+          "url": "https://www.strava.com/athletes/16406695",
+          "tooltip": "Strava is a service that keeps up with athletic activities"
         },
         {
           "name": "Instragram",

@@ -2,7 +2,6 @@ import React, { FC } from "react";
 import ISkill from "../interfaces/ISkill";
 
 const Card: FC<ISkill> = function({ skill, proficiency, color }) {
-  // const percentage = `${proficiency}`;
   const styleForProgBar = {
     height: "24px",
     width: proficiency.toString() + "%",
