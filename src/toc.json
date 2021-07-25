@@ -4,56 +4,67 @@
   "skills": [
     {
       "skill": "C#",
+      "site": "",
       "color": "#512bd4",
       "proficiency": 75
     },
     {
       "skill": ".NET",
+      "site": "",
       "color": "#512bd4",
       "proficiency": 70
     },
     {
       "skill": "SQL Server",
+      "site": "",
       "color": "#0078d4",
       "proficiency": 65
     },
     {
       "skill": "EF",
+      "site": "",
       "color": "#512bd4",
       "proficiency": 65
     },
     {
       "skill": "Git",
+      "site": "",
       "color": "#512bd4",
       "proficiency": 55
     },
     {
       "skill": "JavaScript",
+      "site": "",
       "color": "#ff8d00",
       "proficiency": 50
     },
     {
       "skill": "HTML",
+      "site": "",
       "color": "#ff8d00",
       "proficiency": 75
     },
     {
       "skill": "CSS",
+      "site": "",
       "color": "#ff8d00",
       "proficiency": 65
     },
     {
-      "skill": "SCSS",
+      "skill": "Sass",
+      "site": "",
       "color": "#bf4080",
       "proficiency": 35
     },
     {
       "skill": "React",
+      "site": "",
       "color": "#61dafb",
       "proficiency": 25
     },
     {
       "skill": "Imposter Syndrome",
+      "site": "https://en.wikipedia.org/wiki/Impostor_syndrome",
       "color": "#005236",
       "proficiency": 99
     }

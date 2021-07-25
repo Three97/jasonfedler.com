@@ -1,20 +1,20 @@
 import React, { FC } from "react";
 import ISkill from "../interfaces/ISkill";
 
-const Card: FC<ISkill> = function({ skill, proficiency, color }) {
+const Skill: FC<ISkill> = function({ skill, site, proficiency, color }) {
   const styleForProgBar = {
-    height: "24px",
+    height: "1.5rem",
     width: proficiency.toString() + "%",
     backgroundColor: color
   }
   return (
     <div className="row mb-1">      
       <div className="col-md-4 text-end code">
-        {skill}
+        <a href={site}>{skill}</a>
       </div>
       <div className="col-md-6">
         <div className="bg-light w-100">
-          <div className="text-start" style={styleForProgBar}>
+          <div className="text-start proficiency" style={styleForProgBar}>
             <div className="ms-1 text-white">{proficiency}%</div>
           </div>
         </div>
@@ -23,4 +23,4 @@ const Card: FC<ISkill> = function({ skill, proficiency, color }) {
   );
 }
 
-export default Card;
+export default Skill;

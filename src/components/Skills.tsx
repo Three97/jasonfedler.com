@@ -11,7 +11,7 @@ const Skills: FC<any> = function({ props: items }) {
       </div>
       {items.map((item: ISkill, i: number) => {
         return (
-          <Skill key={++i} skill={item.skill} proficiency={item.proficiency} color={item.color} />
+          <Skill key={++i} site={item.site} skill={item.skill} proficiency={item.proficiency} color={item.color} />
         );
       })}
     </div>
