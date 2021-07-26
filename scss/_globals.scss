@@ -49,3 +49,22 @@ a {
 .card-equal-height {
   height: 100%;
 }
+
+.proficiency {
+  background-image: 
+    repeating-linear-gradient(
+      -45deg, 
+      transparent, 
+      transparent 1rem,
+      $primary-color 1rem,
+      $secondary-color 2rem
+    );
+  background-size: 200% 200%;
+  animation: barberpole 10s linear infinite;
+}
+
+@keyframes barberpole {
+  100% {
+    background-position: 100% 100%;
+  }
+}
