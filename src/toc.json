@@ -63,6 +63,18 @@
       "proficiency": 25
     },
     {
+      "skill": "Identity Server",
+      "site": "",
+      "color": "#61dafb",
+      "proficiency": 20
+    },
+    {
+      "skill": "OAuth, OIDC, SAML",
+      "site": "",
+      "color": "#61dafb",
+      "proficiency": 15
+    },
+    {
       "skill": "Imposter Syndrome",
       "site": "https://en.wikipedia.org/wiki/Impostor_syndrome",
       "color": "#005236",

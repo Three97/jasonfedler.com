@@ -7,10 +7,13 @@ const Skill: FC<ISkill> = function({ skill, site, proficiency, color }) {
     width: proficiency.toString() + "%",
     backgroundColor: color
   }
+  const styleForSkill = {
+    padding: "0.25em 1em"
+  }
   return (
     <div className="row mb-1">      
       <div className="col-md-4 text-end code">
-        <a href={site}>{skill}</a>
+        <a href={site} style={styleForSkill}>{skill}</a>
       </div>
       <div className="col-md-6">
         <div className="bg-light w-100">
