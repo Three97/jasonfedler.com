@@ -42,7 +42,7 @@
       "skill": "HTML",
       "site": "",
       "color": "#ff8d00",
-      "proficiency": 75
+      "proficiency": 85
     },
     {
       "skill": "CSS",
@@ -65,14 +65,14 @@
     {
       "skill": "Identity Server",
       "site": "",
-      "color": "#61dafb",
-      "proficiency": 20
+      "color": "#ff4136",
+      "proficiency": 30
     },
     {
       "skill": "OAuth, OIDC, SAML",
       "site": "",
-      "color": "#61dafb",
-      "proficiency": 15
+      "color": "#ff4136",
+      "proficiency": 35
     },
     {
       "skill": "Imposter Syndrome",
