@@ -15,28 +15,16 @@
       "proficiency": 70
     },
     {
-      "skill": "SQL Server",
-      "site": "",
-      "color": "#0078d4",
-      "proficiency": 65
-    },
-    {
       "skill": "EF",
       "site": "",
       "color": "#512bd4",
       "proficiency": 65
     },
     {
-      "skill": "Git",
+      "skill": "SQL Server",
       "site": "",
-      "color": "#512bd4",
-      "proficiency": 55
-    },
-    {
-      "skill": "JavaScript",
-      "site": "",
-      "color": "#ff8d00",
-      "proficiency": 50
+      "color": "#0078d4",
+      "proficiency": 65
     },
     {
       "skill": "HTML",
@@ -57,10 +45,22 @@
       "proficiency": 35
     },
     {
+      "skill": "JavaScript",
+      "site": "",
+      "color": "#ff8d00",
+      "proficiency": 50
+    },
+    {
       "skill": "React",
       "site": "",
       "color": "#61dafb",
       "proficiency": 25
+    },
+    {
+      "skill": "Git",
+      "site": "",
+      "color": "#512bd4",
+      "proficiency": 55
     },
     {
       "skill": "Identity Server",
@@ -75,13 +75,37 @@
       "proficiency": 35
     },
     {
+      "skill": "Octopus Deploy",
+      "site": "https://www.octopus.com",
+      "color": "#0D80D8",
+      "proficiency": 40
+    },
+    {
+      "skill": "AppVeyor",
+      "site": "https://www.appveyor.com",
+      "color": "#0D80D8",
+      "proficiency": 40
+    },
+    {
+      "skill": "AWS",
+      "site": "https://aws.amazon.com",
+      "color": "#FF9900",
+      "proficiency": 10
+    },
+    {
+      "skill": "Azure",
+      "site": "",
+      "color": "#512bd4",
+      "proficiency": 45
+    },
+    {
       "skill": "Imposter Syndrome",
       "site": "https://en.wikipedia.org/wiki/Impostor_syndrome",
       "color": "#005236",
       "proficiency": 99
     }
   ],
-  "footer": "",
+  "footer": "“The only true wisdom is in knowing you know nothing.” ― Socrates",
   "cards": [
     {
       "title": "Ramblings",
@@ -89,12 +113,12 @@
       "links": [
         {
           "name": "Nerd Blog",
-          "url": "https://blog.jasonfedler.com",
+          "url": "https://blog.jasonfedler.net",
           "tooltip": "Nerd blog"
         },
         {
           "name": "Cycling Blog",
-          "url": "https://cycling.jasonfedler.com",
+          "url": "https://cycling.jasonfedler.net",
           "tooltip": "Cycling blog"
         }
       ]
