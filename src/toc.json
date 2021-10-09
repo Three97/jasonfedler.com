@@ -3,102 +3,119 @@
   "subtitle": "Senior Software Engineer",
   "skills": [
     {
+      "topic": "Backend",
       "skill": "C#",
       "site": "",
       "color": "#512bd4",
       "proficiency": 75
     },
     {
+      "topic": "Backend",
       "skill": ".NET",
       "site": "",
       "color": "#512bd4",
       "proficiency": 70
     },
     {
+      "topic": "Backend",
       "skill": "EF",
       "site": "",
       "color": "#512bd4",
       "proficiency": 55
     },
     {
+      "topic": "Backend",
       "skill": "SQL Server",
       "site": "",
       "color": "#0078d4",
       "proficiency": 65
     },
     {
+      "topic": "Frontend",
       "skill": "HTML",
       "site": "",
       "color": "#ff8d00",
       "proficiency": 85
     },
     {
+      "topic": "Frontend",
       "skill": "CSS",
       "site": "",
       "color": "#ff8d00",
       "proficiency": 65
     },
     {
+      "topic": "Frontend",
       "skill": "Sass",
       "site": "",
       "color": "#bf4080",
       "proficiency": 35
     },
     {
+      "topic": "Frontend",
       "skill": "JavaScript",
       "site": "",
       "color": "#ff8d00",
       "proficiency": 50
     },
     {
+      "topic": "Frontend",
       "skill": "React",
       "site": "",
       "color": "#61dafb",
       "proficiency": 25
     },
     {
+      "topic": "",
       "skill": "Git",
       "site": "",
       "color": "#512bd4",
       "proficiency": 55
     },
     {
+      "topic": "Security",
       "skill": "Identity Server",
       "site": "",
       "color": "#ff4136",
       "proficiency": 30
     },
     {
+      "topic": "Security",
       "skill": "OAuth, OIDC, SAML",
       "site": "",
       "color": "#ff4136",
       "proficiency": 35
     },
     {
+      "topic": "DevOps",
       "skill": "Octopus Deploy",
       "site": "https://www.octopus.com",
       "color": "#0D80D8",
       "proficiency": 40
     },
     {
+      "topic": "DevOps",
       "skill": "AppVeyor",
       "site": "https://www.appveyor.com",
       "color": "#0D80D8",
       "proficiency": 40
     },
     {
+      "topic": "Cloud",
       "skill": "AWS",
       "site": "https://aws.amazon.com",
       "color": "#FF9900",
       "proficiency": 10
     },
     {
+      "topic": "Cloud",
       "skill": "Azure",
       "site": "",
       "color": "#512bd4",
       "proficiency": 35
     },
     {
+      "topic": "Other",
       "skill": "Imposter Syndrome",
       "site": "https://en.wikipedia.org/wiki/Impostor_syndrome",
       "color": "#005236",
