@@ -1,0 +1,3 @@
+@mixin proficiency-gradient($r, $g, $b) {
+  background: linear-gradient(rgb($r, $g, $b), rgba($r, $g, $b, 0.8), rgb($r, $g, $b));
+}

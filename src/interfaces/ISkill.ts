@@ -1,7 +1,7 @@
 import TopicType from '../enums/TopicType';
 
 interface ISkill {
-  topic?: TopicType,
+  topic: TopicType,
   skill: string,
   site: string,
   proficiency: number,
