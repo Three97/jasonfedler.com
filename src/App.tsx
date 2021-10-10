@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Banner title={toc.title} subtitle={toc.subtitle} />
+      <Banner title={toc.title} subtitle={toc.subtitle} tagline={toc.tagline} />
       <Skills props={toc.skills} />
       <Cards props={toc.cards} />
       <Footer />

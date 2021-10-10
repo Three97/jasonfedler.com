@@ -1,0 +1,40 @@
+// Backend = 0
+.proficiency-0 {
+  //@include proficiency-gradient(81, 43, 212);
+  @include proficiency-gradient(146, 23, 30);
+}
+
+// FrontEnd = 1
+.proficiency-1 {
+  // @include proficiency-gradient(255, 141, 0);
+  @include proficiency-gradient(7, 157, 178);
+}
+
+// DevOps = 2
+.proficiency-2 {
+  // @include proficiency-gradient(0, 120, 212);
+  @include proficiency-gradient(2, 86, 155);
+}
+
+// Cloud = 3
+.proficiency-3 {
+  // @include proficiency-gradient(188, 79, 7);
+  @include proficiency-gradient(95, 10, 135);
+}
+
+// Security = 4
+.proficiency-4 {
+  // @include proficiency-gradient(255, 65, 54);
+  @include proficiency-gradient(211, 92, 120);
+}
+
+// Architecture = 5
+.proficiency-5 {
+  // @include proficiency-gradient(107, 196, 166);
+  @include proficiency-gradient(99, 130, 103);
+}
+
+// Other = 6
+.proficiency-6 {
+  @include proficiency-gradient(0, 82, 54);
+}
