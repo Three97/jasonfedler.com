@@ -29,7 +29,7 @@
       "skill": "HTML",
       "site": "",
       "color": "#ff8d00",
-      "proficiency": 85
+      "proficiency": 90
     },
     {
       "topic": 1,
@@ -68,7 +68,7 @@
     },
     {
       "topic": 4,
-      "skill": "OAuth, OIDC, SAML",
+      "skill": "OAuth, OIDC, SAML, JWT",
       "site": "",
       "color": "#ff4136",
       "proficiency": 35
@@ -99,21 +99,21 @@
       "skill": "Azure",
       "site": "",
       "color": "#512bd4",
-      "proficiency": 35
+      "proficiency": 30
     },
     {
       "topic": 5,
       "skill": "API Design",
       "site": "",
       "color": "#005236",
-      "proficiency": 75
+      "proficiency": 70
     },
     {
       "topic": 5,
       "skill": "Software Architecture",
       "site": "",
       "color": "#005236",
-      "proficiency": 65
+      "proficiency": 55
     },
     {
       "topic": 6,
