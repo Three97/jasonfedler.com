@@ -1,6 +1,6 @@
 {
   "title": "JasonFedler.com",
-  "subtitle": "Senior Software Engineer",
+  "subtitle": "Software Engineer",
   "tagline": "“The only true wisdom is in knowing you know nothing.” ― Socrates",
   "skills": [
     {
@@ -15,14 +15,14 @@
       "skill": "Entity Framework",
       "site": "",
       "color": "#512bd4",
-      "proficiency": 55
+      "proficiency": 50
     },
     {
       "topic": 0,
       "skill": "SQL Server",
       "site": "",
       "color": "#0078d4",
-      "proficiency": 65
+      "proficiency": 60
     },
     {
       "topic": 1,
@@ -60,14 +60,14 @@
       "proficiency": 25
     },
     {
-      "topic": 4,
+      "topic": 2,
       "skill": "Identity Server",
       "site": "",
       "color": "#ff4136",
       "proficiency": 30
     },
     {
-      "topic": 4,
+      "topic": 2,
       "skill": "OAuth, OIDC, SAML, JWT",
       "site": "",
       "color": "#ff4136",
@@ -88,28 +88,28 @@
       "proficiency": 40
     },
     {
-      "topic": 3,
+      "topic": 2,
       "skill": "AWS",
       "site": "https://aws.amazon.com",
       "color": "#FF9900",
       "proficiency": 10
     },
     {
-      "topic": 3,
+      "topic": 2,
       "skill": "Azure",
       "site": "",
       "color": "#512bd4",
       "proficiency": 30
     },
     {
-      "topic": 5,
+      "topic": 6,
       "skill": "API Design",
       "site": "",
       "color": "#005236",
       "proficiency": 70
     },
     {
-      "topic": 5,
+      "topic": 6,
       "skill": "Software Architecture",
       "site": "",
       "color": "#005236",
