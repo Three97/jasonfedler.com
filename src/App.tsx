@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Banner title={toc.title} subtitle={toc.subtitle} tagline={toc.tagline} />
-      <Skills props={toc.skills} />
+      <Skills items={toc.skills} />
       <Cards props={toc.cards} />
       <Footer />
     </>
