@@ -60,14 +60,14 @@
       "proficiency": 25
     },
     {
-      "topic": 2,
+      "topic": 0,
       "skill": "Identity Server",
       "site": "",
       "color": "#ff4136",
       "proficiency": 30
     },
     {
-      "topic": 2,
+      "topic": 0,
       "skill": "OAuth, OIDC, SAML, JWT",
       "site": "",
       "color": "#ff4136",
@@ -102,28 +102,28 @@
       "proficiency": 30
     },
     {
-      "topic": 6,
+      "topic": 2,
       "skill": "API Design",
       "site": "",
       "color": "#005236",
       "proficiency": 70
     },
     {
-      "topic": 6,
+      "topic": 2,
       "skill": "Software Architecture",
       "site": "",
       "color": "#005236",
       "proficiency": 55
     },
     {
-      "topic": 6,
+      "topic": 2,
       "skill": "Git",
       "site": "",
       "color": "#512bd4",
       "proficiency": 55
     },
     {
-      "topic": 6,
+      "topic": 2,
       "skill": "Imposter Syndrome",
       "site": "https://en.wikipedia.org/wiki/Impostor_syndrome",
       "color": "#005236",

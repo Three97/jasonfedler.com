@@ -1,11 +1,10 @@
 enum TopicType {
   Backend = 0,
   Frontend,
-  DevOps,
+  Process,
   Cloud,
   Security,
-  Architecture,
-  Other
+  Architecture
 }
 
 export default TopicType;

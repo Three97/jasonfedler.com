@@ -1,40 +1,52 @@
 // Backend = 0
-.proficiency-0 {
+.topic-0 {
   //@include proficiency-gradient(81, 43, 212);
-  @include proficiency-gradient(146, 23, 30);
+  @include gradient(146, 23, 30);
 }
 
 // FrontEnd = 1
-.proficiency-1 {
+.topic-1 {
   // @include proficiency-gradient(255, 141, 0);
-  @include proficiency-gradient(7, 157, 178);
+  @include gradient(7, 157, 178);
 }
 
 // DevOps = 2
-.proficiency-2 {
+.topic-2 {
   // @include proficiency-gradient(0, 120, 212);
-  @include proficiency-gradient(2, 86, 155);
+  @include gradient(2, 86, 155);
 }
 
 // Cloud = 3
-.proficiency-3 {
+.topic-3 {
   // @include proficiency-gradient(188, 79, 7);
-  @include proficiency-gradient(95, 10, 135);
+  @include gradient(95, 10, 135);
 }
 
 // Security = 4
-.proficiency-4 {
+.topic-4 {
   // @include proficiency-gradient(255, 65, 54);
-  @include proficiency-gradient(211, 92, 120);
+  @include gradient(211, 92, 120);
 }
 
 // Architecture = 5
-.proficiency-5 {
+.topic-5 {
   // @include proficiency-gradient(107, 196, 166);
-  @include proficiency-gradient(99, 130, 103);
+  @include gradient(99, 130, 103);
 }
 
 // Other = 6
-.proficiency-6 {
-  @include proficiency-gradient(0, 82, 54);
+.topic-6 {
+  @include gradient(0, 82, 54);
+}
+
+.basic {
+  @include gradient(107, 196, 166);
+}
+
+.working {
+  @include gradient(32, 104, 108);
+}
+
+.extensive {
+  @include gradient(0, 82, 54);
 }
