@@ -63,39 +63,19 @@ a:hover {
   border-top: 15px rgba(0, 0, 0, 0.1) dashed;
 }
 
-.topic-0 {
+.discipline-0 {
   background: -webkit-gradient(linear, left top, left bottom, from(#92171e), color-stop(rgba(146, 23, 30, 0.8)), to(#92171e));
   background: linear-gradient(#92171e, rgba(146, 23, 30, 0.8), #92171e);
 }
 
-.topic-1 {
+.discipline-1 {
   background: -webkit-gradient(linear, left top, left bottom, from(#079db2), color-stop(rgba(7, 157, 178, 0.8)), to(#079db2));
   background: linear-gradient(#079db2, rgba(7, 157, 178, 0.8), #079db2);
 }
 
-.topic-2 {
+.discipline-2 {
   background: -webkit-gradient(linear, left top, left bottom, from(#02569b), color-stop(rgba(2, 86, 155, 0.8)), to(#02569b));
   background: linear-gradient(#02569b, rgba(2, 86, 155, 0.8), #02569b);
-}
-
-.topic-3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#5f0a87), color-stop(rgba(95, 10, 135, 0.8)), to(#5f0a87));
-  background: linear-gradient(#5f0a87, rgba(95, 10, 135, 0.8), #5f0a87);
-}
-
-.topic-4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#d35c78), color-stop(rgba(211, 92, 120, 0.8)), to(#d35c78));
-  background: linear-gradient(#d35c78, rgba(211, 92, 120, 0.8), #d35c78);
-}
-
-.topic-5 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#638267), color-stop(rgba(99, 130, 103, 0.8)), to(#638267));
-  background: linear-gradient(#638267, rgba(99, 130, 103, 0.8), #638267);
-}
-
-.topic-6 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#005236), color-stop(rgba(0, 82, 54, 0.8)), to(#005236));
-  background: linear-gradient(#005236, rgba(0, 82, 54, 0.8), #005236);
 }
 
 .basic {
