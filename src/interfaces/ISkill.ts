@@ -1,7 +1,7 @@
-import TopicType from '../enums/TopicType';
+import DisciplineType from '../enums/DisciplineType';
 
 interface ISkill {
-  topic: TopicType,
+  discipline: DisciplineType,
   skill: string,
   site: string,
   proficiency: number,
