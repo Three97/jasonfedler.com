@@ -13,13 +13,13 @@ const Skill: FC<ISkill> = function({ discipline, skill, site, proficiency, color
   const disciplineClass = "col-lg-1 text-white text-center d-none d-lg-block discipline-" + discipline;
   return (
     <div className="row mb-1">      
-      <div className="col-lg-3 col-md-4 text-end code">
+      <div className="col-lg-3 col-md-4 col text-end code">
         <a href={site} style={styleForSkill}>{skill}</a>
       </div>
       <div className={disciplineClass}>
         {disciplineName}
       </div>
-      <div className="col-md-8">
+      <div className="col-md-8 col">
         <div className="bg-light w-100">
           <div className={classNameForProficiency}>
             <div className="ms-1 text-white">{profLevel}</div>
