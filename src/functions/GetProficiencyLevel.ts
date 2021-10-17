@@ -1,11 +1,14 @@
 const GetProficiencyLevel = (percentage: number): string => {
-  if (percentage <= 33) {
+  if (percentage <= 25) {
     return "Basic";
   }
-  if (percentage <= 66) {
+  if (percentage <= 50) {
     return "Working";
   }
-  return "Extensive";
+  if (percentage <= 75) {
+    return "Extensive";
+  }
+  return "Expert";
 }
 
 export default GetProficiencyLevel;

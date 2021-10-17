@@ -1,26 +1,58 @@
 // Backend = 0
 .discipline-0 {
-  @include gradient(146, 23, 30);
+  @include gradient(61, 15, 59);
 }
 
 // FrontEnd = 1
 .discipline-1 {
-  @include gradient(7, 157, 178);
+  @include gradient(0, 82, 54);
 }
 
 // Process = 2
 .discipline-2 {
-  @include gradient(2, 86, 155);
+  @include gradient(13, 49, 133);
 }
 
-.basic {
-  @include gradient(107, 196, 166);
+
+//
+// Proficiencies
+//
+.basic-0 {
+  @include gradient(201, 50, 194);
+}
+.basic-1 {
+  @include gradient(0, 182, 148);
+}
+.basic-2 {
+  @include gradient(84, 121, 209);
 }
 
-.working {
-  @include gradient(32, 104, 108);
+.working-0 {
+  @include gradient(138, 34, 133);
+}
+.working-1 {
+  @include gradient(0, 158, 105);
+}
+.working-2 {
+  @include gradient(61, 89, 153);
 }
 
-.extensive {
+.extensive-0 {
+  @include gradient(74, 18, 71);
+}
+.extensive-1 {
+  @include gradient(0, 94, 63);
+}
+.extensive-2 {
+  @include gradient(21, 77, 209);
+}
+
+.expert-0 {
+  @include gradient(61, 15, 59);
+}
+.expert-1 {
   @include gradient(0, 82, 54);
+}
+.expert-2 {
+  @include gradient(13, 49, 133);
 }
