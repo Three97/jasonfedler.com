@@ -22,7 +22,7 @@
       "skill": "SQL Server",
       "site": "",
       "color": "#0078d4",
-      "proficiency": 60
+      "proficiency": 50
     },
     {
       "discipline": 1,
@@ -64,14 +64,14 @@
       "skill": "Identity Server",
       "site": "",
       "color": "#ff4136",
-      "proficiency": 30
+      "proficiency": 25
     },
     {
       "discipline": 0,
       "skill": "OAuth, OIDC, SAML, JWT",
       "site": "",
       "color": "#ff4136",
-      "proficiency": 35
+      "proficiency": 25
     },
     {
       "discipline": 2,
