@@ -9,8 +9,10 @@ function App() {
   return (
     <>
       <Banner title={toc.title} subtitle={toc.subtitle} tagline={toc.tagline} />
-      <Skills items={toc.skills} />
-      <Cards props={toc.cards} />
+      <main role="main">
+        <Skills items={toc.skills} />
+        <Cards props={toc.cards} />
+      </main>
       <Footer />
     </>
   );
