@@ -8,7 +8,7 @@ const Skill: FC<ISkill> = function({ discipline, skill, site, proficiency, color
     padding: "0.25em 1em"
   }
   const profLevel = GetProficiencyLevel(proficiency);
-  const classNameForProficiency = "text-start " + profLevel.toLowerCase();
+  const classNameForProficiency = "text-start " + profLevel.toLowerCase() + "-" + discipline;
   const disciplineName = GetDisciplineByDisciplineType(discipline);
   const disciplineClass = "col-lg-1 text-white text-center d-none d-lg-block discipline-" + discipline;
   return (

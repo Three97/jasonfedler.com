@@ -64,33 +64,78 @@ a:hover {
 }
 
 .discipline-0 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#92171e), color-stop(rgba(146, 23, 30, 0.8)), to(#92171e));
-  background: linear-gradient(#92171e, rgba(146, 23, 30, 0.8), #92171e);
+  background: -webkit-gradient(linear, left top, left bottom, from(#3d0f3b), color-stop(rgba(61, 15, 59, 0.8)), to(#3d0f3b));
+  background: linear-gradient(#3d0f3b, rgba(61, 15, 59, 0.8), #3d0f3b);
 }
 
 .discipline-1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#079db2), color-stop(rgba(7, 157, 178, 0.8)), to(#079db2));
-  background: linear-gradient(#079db2, rgba(7, 157, 178, 0.8), #079db2);
+  background: -webkit-gradient(linear, left top, left bottom, from(#005236), color-stop(rgba(0, 82, 54, 0.8)), to(#005236));
+  background: linear-gradient(#005236, rgba(0, 82, 54, 0.8), #005236);
 }
 
 .discipline-2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#02569b), color-stop(rgba(2, 86, 155, 0.8)), to(#02569b));
-  background: linear-gradient(#02569b, rgba(2, 86, 155, 0.8), #02569b);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0d3185), color-stop(rgba(13, 49, 133, 0.8)), to(#0d3185));
+  background: linear-gradient(#0d3185, rgba(13, 49, 133, 0.8), #0d3185);
 }
 
-.basic {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6bc4a6), color-stop(rgba(107, 196, 166, 0.8)), to(#6bc4a6));
-  background: linear-gradient(#6bc4a6, rgba(107, 196, 166, 0.8), #6bc4a6);
+.basic-0 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c932c2), color-stop(rgba(201, 50, 194, 0.8)), to(#c932c2));
+  background: linear-gradient(#c932c2, rgba(201, 50, 194, 0.8), #c932c2);
 }
 
-.working {
-  background: -webkit-gradient(linear, left top, left bottom, from(#20686c), color-stop(rgba(32, 104, 108, 0.8)), to(#20686c));
-  background: linear-gradient(#20686c, rgba(32, 104, 108, 0.8), #20686c);
+.basic-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00b694), color-stop(rgba(0, 182, 148, 0.8)), to(#00b694));
+  background: linear-gradient(#00b694, rgba(0, 182, 148, 0.8), #00b694);
 }
 
-.extensive {
+.basic-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5479d1), color-stop(rgba(84, 121, 209, 0.8)), to(#5479d1));
+  background: linear-gradient(#5479d1, rgba(84, 121, 209, 0.8), #5479d1);
+}
+
+.working-0 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#8a2285), color-stop(rgba(138, 34, 133, 0.8)), to(#8a2285));
+  background: linear-gradient(#8a2285, rgba(138, 34, 133, 0.8), #8a2285);
+}
+
+.working-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#009e69), color-stop(rgba(0, 158, 105, 0.8)), to(#009e69));
+  background: linear-gradient(#009e69, rgba(0, 158, 105, 0.8), #009e69);
+}
+
+.working-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3d5999), color-stop(rgba(61, 89, 153, 0.8)), to(#3d5999));
+  background: linear-gradient(#3d5999, rgba(61, 89, 153, 0.8), #3d5999);
+}
+
+.extensive-0 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4a1247), color-stop(rgba(74, 18, 71, 0.8)), to(#4a1247));
+  background: linear-gradient(#4a1247, rgba(74, 18, 71, 0.8), #4a1247);
+}
+
+.extensive-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#005e3f), color-stop(rgba(0, 94, 63, 0.8)), to(#005e3f));
+  background: linear-gradient(#005e3f, rgba(0, 94, 63, 0.8), #005e3f);
+}
+
+.extensive-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#154dd1), color-stop(rgba(21, 77, 209, 0.8)), to(#154dd1));
+  background: linear-gradient(#154dd1, rgba(21, 77, 209, 0.8), #154dd1);
+}
+
+.expert-0 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3d0f3b), color-stop(rgba(61, 15, 59, 0.8)), to(#3d0f3b));
+  background: linear-gradient(#3d0f3b, rgba(61, 15, 59, 0.8), #3d0f3b);
+}
+
+.expert-1 {
   background: -webkit-gradient(linear, left top, left bottom, from(#005236), color-stop(rgba(0, 82, 54, 0.8)), to(#005236));
   background: linear-gradient(#005236, rgba(0, 82, 54, 0.8), #005236);
+}
+
+.expert-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0d3185), color-stop(rgba(13, 49, 133, 0.8)), to(#0d3185));
+  background: linear-gradient(#0d3185, rgba(13, 49, 133, 0.8), #0d3185);
 }
 
 .text-muted {
