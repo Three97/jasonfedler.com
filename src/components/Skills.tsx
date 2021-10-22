@@ -9,7 +9,7 @@ const Skills: FC<any> = function({ items }) {
       <div className="row mb-1">
         <div className="col-lg-3 col-md-4 col text-end fw-bold pe-4">Skill</div>
         <div className="col-lg-1 d-none d-lg-block text-center fw-bold">Discipline</div>
-        <div className="col-md-8 col text-start fw-bold">Proficiency</div>
+        <div className="col-md-8 col text-start fw-bold">Proficiency <small className="fw-normal">(as defined <a href="https://hr.uiowa.edu/careers/competencies/proficiency-levels">here</a>)</small></div>
       </div>
       {sortedSkills.map((item: ISkill, i: number) => {
         return (
