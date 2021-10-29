@@ -45,12 +45,32 @@ a:hover {
   font-family: 'Roboto Mono', monospace;
 }
 
-.bg-highlight-muted {
-  background-color: rgba(107, 196, 166, 0.25);
+.bg-primary-muted {
+  background-color: rgba(0, 82, 54, 0.35);
+}
+
+.bg-secondary-muted {
+  background-color: rgba(32, 104, 108, 0.25);
+}
+
+.bg-highlight1-muted {
+  background-color: rgba(107, 196, 166, 0.45);
+}
+
+.bg-highlight2-muted {
+  background-color: #fe982a;
+}
+
+.bg-highlight3-muted {
+  background-color: rgba(188, 79, 7, 0.45);
 }
 
 .card-equal-height {
   height: 100%;
+}
+
+hr.dashed {
+  border-top: 8px solid #fe982a;
 }
 
 .jumbotron {

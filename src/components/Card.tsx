@@ -5,14 +5,17 @@ import Link from "./Link";
 
 const Card: FC<ICardProps> = function({ title, subtitle, links }) {
   return (
-    <div className="card card-equal-height p-5 bg-highlight-muted">
+    <div className="card card-equal-height p-5 bg-primary-muted">
       <h2>{title}</h2>
       <div className="mb-3">
         <em>{subtitle}</em>
       </div>
       {links.map((item: ILink, i: number) => {
         return (
-          <Link key={++i} name={item.name} url={item.url} tooltip={item.tooltip} />
+          <Link key={++i} 
+                name={item.name} 
+                url={item.url} 
+                tooltip={item.tooltip} />
         );
       })}
     </div>
