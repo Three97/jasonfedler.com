@@ -1,0 +1,144 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  -webkit-transition: background-color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
+  -webkit-transition: padding 300ms ease-in-out;
+  transition: padding 300ms ease-in-out;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+  color: rgba(0, 0, 139, 0.8);
+}
+
+a:hover {
+  background-color: #fe982a;
+  padding: 0.25em 1em;
+  color: white;
+  border-radius: 0.25rem;
+}
+
+.fg-primary {
+  color: #005236;
+}
+
+.fg-secondary {
+  color: #20686c;
+}
+
+.fg-highlight1 {
+  color: #6bc4a6;
+}
+
+.fg-highlight2 {
+  color: #fe982a;
+}
+
+.fg-highlight3 {
+  color: #bc4f07;
+}
+
+.text-monospace {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.bg-highlight-muted {
+  background-color: rgba(107, 196, 166, 0.25);
+}
+
+.card-equal-height {
+  height: 100%;
+}
+
+.jumbotron {
+  padding: 2em 1em;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: white;
+  background-color: #005236;
+  border-bottom: 15px rgba(0, 0, 0, 0.15) dashed;
+  border-top: 15px rgba(0, 0, 0, 0.1) dashed;
+}
+
+.discipline-0 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3d0f3b), color-stop(rgba(61, 15, 59, 0.8)), to(#3d0f3b));
+  background: linear-gradient(#3d0f3b, rgba(61, 15, 59, 0.8), #3d0f3b);
+}
+
+.discipline-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#005236), color-stop(rgba(0, 82, 54, 0.8)), to(#005236));
+  background: linear-gradient(#005236, rgba(0, 82, 54, 0.8), #005236);
+}
+
+.discipline-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0d3185), color-stop(rgba(13, 49, 133, 0.8)), to(#0d3185));
+  background: linear-gradient(#0d3185, rgba(13, 49, 133, 0.8), #0d3185);
+}
+
+.basic-0 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c932c2), color-stop(rgba(201, 50, 194, 0.8)), to(#c932c2));
+  background: linear-gradient(#c932c2, rgba(201, 50, 194, 0.8), #c932c2);
+}
+
+.basic-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00b694), color-stop(rgba(0, 182, 148, 0.8)), to(#00b694));
+  background: linear-gradient(#00b694, rgba(0, 182, 148, 0.8), #00b694);
+}
+
+.basic-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5479d1), color-stop(rgba(84, 121, 209, 0.8)), to(#5479d1));
+  background: linear-gradient(#5479d1, rgba(84, 121, 209, 0.8), #5479d1);
+}
+
+.working-0 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#8a2285), color-stop(rgba(138, 34, 133, 0.8)), to(#8a2285));
+  background: linear-gradient(#8a2285, rgba(138, 34, 133, 0.8), #8a2285);
+}
+
+.working-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#009e69), color-stop(rgba(0, 158, 105, 0.8)), to(#009e69));
+  background: linear-gradient(#009e69, rgba(0, 158, 105, 0.8), #009e69);
+}
+
+.working-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3d5999), color-stop(rgba(61, 89, 153, 0.8)), to(#3d5999));
+  background: linear-gradient(#3d5999, rgba(61, 89, 153, 0.8), #3d5999);
+}
+
+.extensive-0 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4a1247), color-stop(rgba(74, 18, 71, 0.8)), to(#4a1247));
+  background: linear-gradient(#4a1247, rgba(74, 18, 71, 0.8), #4a1247);
+}
+
+.extensive-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#005e3f), color-stop(rgba(0, 94, 63, 0.8)), to(#005e3f));
+  background: linear-gradient(#005e3f, rgba(0, 94, 63, 0.8), #005e3f);
+}
+
+.extensive-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#154dd1), color-stop(rgba(21, 77, 209, 0.8)), to(#154dd1));
+  background: linear-gradient(#154dd1, rgba(21, 77, 209, 0.8), #154dd1);
+}
+
+.expert-0 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3d0f3b), color-stop(rgba(61, 15, 59, 0.8)), to(#3d0f3b));
+  background: linear-gradient(#3d0f3b, rgba(61, 15, 59, 0.8), #3d0f3b);
+}
+
+.expert-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#005236), color-stop(rgba(0, 82, 54, 0.8)), to(#005236));
+  background: linear-gradient(#005236, rgba(0, 82, 54, 0.8), #005236);
+}
+
+.expert-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0d3185), color-stop(rgba(13, 49, 133, 0.8)), to(#0d3185));
+  background: linear-gradient(#0d3185, rgba(13, 49, 133, 0.8), #0d3185);
+}
+
+.text-muted {
+  color: gray !important;
+}
+/*# sourceMappingURL=styles.css.map */

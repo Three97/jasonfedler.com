@@ -1,0 +1,183 @@
+{
+  "title": "JasonFedler.com",
+  "subtitle": "Software Engineer",
+  "tagline": "“The only true wisdom is in knowing you know nothing.” ― Socrates",
+  "skills": [
+    {
+      "discipline": 0,
+      "skill": "C#.NET",
+      "site": "",
+      "color": "#512bd4",
+      "proficiency": 75
+    },
+    {
+      "discipline": 0,
+      "skill": "Entity Framework",
+      "site": "",
+      "color": "#512bd4",
+      "proficiency": 50
+    },
+    {
+      "discipline": 0,
+      "skill": "SQL Server",
+      "site": "",
+      "color": "#0078d4",
+      "proficiency": 50
+    },
+    {
+      "discipline": 1,
+      "skill": "HTML",
+      "site": "",
+      "color": "#ff8d00",
+      "proficiency": 90
+    },
+    {
+      "discipline": 1,
+      "skill": "CSS",
+      "site": "",
+      "color": "#ff8d00",
+      "proficiency": 65
+    },
+    {
+      "discipline": 1,
+      "skill": "Sass",
+      "site": "",
+      "color": "#bf4080",
+      "proficiency": 35
+    },
+    {
+      "discipline": 1,
+      "skill": "JavaScript",
+      "site": "",
+      "color": "#ff8d00",
+      "proficiency": 50
+    },
+    {
+      "discipline": 1,
+      "skill": "React",
+      "site": "",
+      "color": "#61dafb",
+      "proficiency": 25
+    },
+    {
+      "discipline": 0,
+      "skill": "Identity Server",
+      "site": "",
+      "color": "#ff4136",
+      "proficiency": 25
+    },
+    {
+      "discipline": 0,
+      "skill": "OAuth, OIDC, SAML, JWT",
+      "site": "",
+      "color": "#ff4136",
+      "proficiency": 25
+    },
+    {
+      "discipline": 2,
+      "skill": "Octopus Deploy",
+      "site": "https://www.octopus.com",
+      "color": "#0D80D8",
+      "proficiency": 40
+    },
+    {
+      "discipline": 2,
+      "skill": "AppVeyor",
+      "site": "https://www.appveyor.com",
+      "color": "#0D80D8",
+      "proficiency": 40
+    },
+    {
+      "discipline": 2,
+      "skill": "AWS",
+      "site": "https://aws.amazon.com",
+      "color": "#FF9900",
+      "proficiency": 10
+    },
+    {
+      "discipline": 2,
+      "skill": "Azure",
+      "site": "",
+      "color": "#512bd4",
+      "proficiency": 30
+    },
+    {
+      "discipline": 2,
+      "skill": "API Design",
+      "site": "",
+      "color": "#005236",
+      "proficiency": 70
+    },
+    {
+      "discipline": 2,
+      "skill": "Software Architecture",
+      "site": "",
+      "color": "#005236",
+      "proficiency": 55
+    },
+    {
+      "discipline": 2,
+      "skill": "Git",
+      "site": "",
+      "color": "#512bd4",
+      "proficiency": 55
+    },
+    {
+      "discipline": 2,
+      "skill": "Imposter Syndrome",
+      "site": "https://en.wikipedia.org/wiki/Impostor_syndrome",
+      "color": "#005236",
+      "proficiency": 99
+    }
+  ],
+  "cards": [
+    {
+      "title": "Ramblings",
+      "subtitle": "I write about stuff occasionally",
+      "links": [
+        {
+          "name": "Nerd Blog",
+          "url": "https://blog.jasonfedler.net",
+          "tooltip": "Nerd blog"
+        },
+        {
+          "name": "Cycling Blog",
+          "url": "https://cycling.jasonfedler.net",
+          "tooltip": "Cycling blog"
+        }
+      ]
+    },
+    {
+      "title": "Professional Socials",
+      "subtitle": "My presence on the interwebs",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/Three97",
+          "tooltip": "All my sh*t is online"
+        },
+        {
+          "name": "Linked In",
+          "url": "https://www.linkedin.com/in/jason-fedler-35b33a8/",
+          "tooltip": "21st century resume that I don't keep up with near as much as I should"
+        }
+      ]
+    },
+    {
+      "title": "Personal Socials",
+      "subtitle": "I do other stuff, too",
+      "links": [
+        {
+          "name": "Strava",
+          "url": "https://www.strava.com/athletes/16406695",
+          "tooltip": "Strava is a service that keeps up with athletic activities"
+        },
+        {
+          "name": "Instragram",
+          "url": "https://instagram.com/threeninet7",
+          "tooltip": "I share photos occasionally"
+        }
+      ]
+    }
+  ]
+}
