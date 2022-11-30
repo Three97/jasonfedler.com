@@ -6,63 +6,63 @@
     {
       "discipline": 0,
       "skill": "C#.NET",
-      "site": "",
+      "site": "https://learn.microsoft.com/en-us/dotnet/csharp/",
       "color": "#512bd4",
       "proficiency": 75
     },
     {
       "discipline": 0,
       "skill": "Entity Framework",
-      "site": "",
+      "site": "https://learn.microsoft.com/en-us/ef/core/",
       "color": "#512bd4",
       "proficiency": 50
     },
     {
       "discipline": 0,
       "skill": "SQL Server",
-      "site": "",
+      "site": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
       "color": "#0078d4",
       "proficiency": 50
     },
     {
       "discipline": 1,
       "skill": "HTML",
-      "site": "",
+      "site": "https://www.w3schools.com/html/",
       "color": "#ff8d00",
       "proficiency": 90
     },
     {
       "discipline": 1,
       "skill": "CSS",
-      "site": "",
+      "site": "https://www.w3schools.com/css/",
       "color": "#ff8d00",
       "proficiency": 65
     },
     {
       "discipline": 1,
       "skill": "Sass",
-      "site": "",
+      "site": "https://www.w3schools.com/sass/",
       "color": "#bf4080",
       "proficiency": 35
     },
     {
       "discipline": 1,
       "skill": "JavaScript",
-      "site": "",
+      "site": "https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript",
       "color": "#ff8d00",
       "proficiency": 50
     },
     {
       "discipline": 1,
       "skill": "React",
-      "site": "",
+      "site": "https://reactjs.org/",
       "color": "#61dafb",
       "proficiency": 25
     },
     {
       "discipline": 0,
       "skill": "Identity Server",
-      "site": "",
+      "site": "https://www.identityserver.com/",
       "color": "#ff4136",
       "proficiency": 25
     },
@@ -104,21 +104,21 @@
     {
       "discipline": 2,
       "skill": "API Design",
-      "site": "",
+      "site": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
       "color": "#005236",
       "proficiency": 45
     },
     {
       "discipline": 2,
       "skill": "Software Architecture",
-      "site": "",
+      "site": "https://www.martinfowler.com/architecture/",
       "color": "#005236",
       "proficiency": 45
     },
     {
       "discipline": 2,
       "skill": "Git",
-      "site": "",
+      "site": "https://git-scm.com/",
       "color": "#512bd4",
       "proficiency": 45
     },
