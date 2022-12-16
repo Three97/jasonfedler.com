@@ -139,23 +139,7 @@
   ],
   "cards": [
     {
-      "title": "Ramblings",
-      "subtitle": "I write about stuff occasionally",
-      "links": [
-        {
-          "name": "Nerd Blog",
-          "url": "https://blog.jasonfedler.net",
-          "tooltip": "Nerd blog"
-        },
-        {
-          "name": "Cycling Blog",
-          "url": "https://cycling.jasonfedler.net",
-          "tooltip": "Cycling blog"
-        }
-      ]
-    },
-    {
-      "title": "Professional Socials",
+      "title": "Socials.Professional",
       "subtitle": "My presence on the interwebs",
       "links": [
         {
@@ -171,7 +155,23 @@
       ]
     },
     {
-      "title": "Personal Socials",
+      "title": "Ramblings.Personal",
+      "subtitle": "I write about stuff occasionally",
+      "links": [
+        {
+          "name": "Nerd Blog",
+          "url": "https://blog.jasonfedler.net",
+          "tooltip": "Nerd blog"
+        },
+        {
+          "name": "Cycling Blog",
+          "url": "https://cycling.jasonfedler.net",
+          "tooltip": "Cycling blog"
+        }
+      ]
+    },
+    {
+      "title": "Socials.Personal",
       "subtitle": "I do other stuff, too",
       "links": [
         {
