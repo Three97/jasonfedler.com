@@ -155,22 +155,6 @@
       ]
     },
     {
-      "title": "Ramblings.Personal",
-      "subtitle": "I write about stuff occasionally",
-      "links": [
-        {
-          "name": "Nerd Blog",
-          "url": "https://blog.jasonfedler.net",
-          "tooltip": "Nerd blog"
-        },
-        {
-          "name": "Cycling Blog",
-          "url": "https://cycling.jasonfedler.net",
-          "tooltip": "Cycling blog"
-        }
-      ]
-    },
-    {
       "title": "Socials.Personal",
       "subtitle": "I do other stuff, too",
       "links": [
@@ -183,6 +167,22 @@
           "name": "Instragram",
           "url": "https://instagram.com/threeninet7",
           "tooltip": "I share photos occasionally"
+        }
+      ]
+    },
+    {
+      "title": "Ramblings.Personal",
+      "subtitle": "I write about stuff occasionally",
+      "links": [
+        {
+          "name": "Nerd Blog",
+          "url": "https://blog.jasonfedler.net",
+          "tooltip": "Nerd blog"
+        },
+        {
+          "name": "Cycling Blog",
+          "url": "https://cycling.jasonfedler.net",
+          "tooltip": "Cycling blog"
         }
       ]
     }
