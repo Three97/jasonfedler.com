@@ -60,6 +60,13 @@
       "proficiency": 25
     },
     {
+      "discipline": 1,
+      "skill": "Blazor",
+      "site": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor",
+      "color": "#61dafb",
+      "proficiency": 25
+    },
+    {
       "discipline": 0,
       "skill": "Identity Server",
       "site": "https://www.identityserver.com/",

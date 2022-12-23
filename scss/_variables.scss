@@ -1,7 +1,7 @@
 $primary-color: rgb(17, 75, 95);
-$secondary-color:  rgb(203, 118, 158);
-$highlight1-color: rgb(172, 216, 170);
-$highlight1-muted-color: rgba(172, 216, 170, 0.25);
+$secondary-color:  rgb(172, 216, 170);
+$highlight1-color: rgb(17, 75, 95);
+$highlight1-muted-color: rgba(17, 75, 95, 0.25);
 $highlight2-color: rgb(255, 140, 66);
 $highlight3-color: rgb(203, 118, 158);
 
@@ -19,6 +19,6 @@ $banner-padding: 2em 1em;
 $banner-font-weight: 700;
 $banner-margin-bottom: 2rem;
 
-$backend-base-color: #3D0F3B;
-$frontend-base-color: #005236;
-$process-base-color: #0D3185;
+$backend-base-color: #140D4F; // #3D0F3B;
+$frontend-base-color: #688E26; // #005236;
+$process-base-color: #F44708; // #0D3185;

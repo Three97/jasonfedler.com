@@ -14,35 +14,35 @@
           background-color: $background-color;
           
           &:hover {
-            background-color: mix(white, $background-color, $i * 10);
+            background-color: mix(white, $background-color, $i * 5);
           }
       }
       .expert-#{$disciplinetype} {
+          background-color: mix(white, $background-color, $i * 10);
+          
+          &:hover {
+            background-color: mix(white, $background-color, $i * 10 + 10);
+          }
+      }
+      .extensive-#{$disciplinetype} {
           background-color: mix(white, $background-color, $i * 15);
           
           &:hover {
             background-color: mix(white, $background-color, $i * 15 + 10);
           }
       }
-      .extensive-#{$disciplinetype} {
+      .working-#{$disciplinetype} {
           background-color: mix(white, $background-color, $i * 20);
           
           &:hover {
             background-color: mix(white, $background-color, $i * 20 + 10);
           }
       }
-      .working-#{$disciplinetype} {
+      .basic-#{$disciplinetype} {
           background-color: mix(white, $background-color, $i * 25);
           
           &:hover {
             background-color: mix(white, $background-color, $i * 25 + 10);
-          }
-      }
-      .basic-#{$disciplinetype} {
-          background-color: mix(white, $background-color, $i * 30);
-          
-          &:hover {
-            background-color: mix(white, $background-color, $i * 30 + 10);
           }
       }
   }
