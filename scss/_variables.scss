@@ -1,9 +1,9 @@
-$primary-color: rgb(0, 82, 54);
-$secondary-color:  rgb(32, 104, 108);
-$highlight1-color: rgb(107, 196, 166);
-$highlight1-muted-color: rgba(107, 196, 166, 0.25);
-$highlight2-color: rgb(254, 152, 42);
-$highlight3-color: rgb(188, 79, 7);
+$primary-color: rgb(17, 75, 95);
+$secondary-color:  rgb(203, 118, 158);
+$highlight1-color: rgb(172, 216, 170);
+$highlight1-muted-color: rgba(172, 216, 170, 0.25);
+$highlight2-color: rgb(255, 140, 66);
+$highlight3-color: rgb(203, 118, 158);
 
 $link-color: rgba(0, 0, 139, 0.8);
 $link-hover-color: white;
@@ -18,3 +18,7 @@ $banner-bottom-border: 15px rgba(0, 0, 0, 0.15) dashed;
 $banner-padding: 2em 1em;
 $banner-font-weight: 700;
 $banner-margin-bottom: 2rem;
+
+$backend-base-color: #3D0F3B;
+$frontend-base-color: #005236;
+$process-base-color: #0D3185;
