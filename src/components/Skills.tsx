@@ -11,7 +11,7 @@ const Skills: FC<any> = function({ items }) {
         <div className="col-lg-1 d-none d-lg-block text-center fw-bold">Discipline</div>
         <div className="col-md-8 col text-start fw-bold">Proficiency 
           <small className="fw-normal"> (as defined
-            &nbsp;<a href="https://hr.uiowa.edu/careers/competencies/proficiency-levels" target="_blank">here</a>)
+            &nbsp;<a href="https://hr.uiowa.edu/careers/competencies/proficiency-levels" target="_blank" rel="noreferrer">here</a>)
           </small>
           </div>
       </div>
