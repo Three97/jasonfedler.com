@@ -1,7 +1,7 @@
 {
   "homepage": "https://three97.github.io/",
   "name": "jfcom",
-  "version": "0.2.0",
+  "version": "2023.1.0",
   "private": true,
   "dependencies": {
     "@types/node": "^18.11.9",
@@ -15,6 +15,7 @@
     "web-vitals": "^3.1.0"
   },
   "scripts": {
+    "init": "sass --watch /scss:public/css",
     "start": "react-scripts start",
     "build": "react-scripts build && cp ./public/css/* ./build/css/",
     "deploy": "gh-pages -d build",
