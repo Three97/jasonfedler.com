@@ -58,8 +58,8 @@ a:hover {
   margin-bottom: 2rem;
   color: white;
   background-color: rgb(17, 75, 95);
-  border-bottom: 15px rgba(0, 0, 0, 0.15) dashed;
-  border-top: 15px rgba(0, 0, 0, 0.1) dashed;
+  border-bottom: 1em rgba(0, 0, 0, 0.2) dashed;
+  border-top: 1em rgba(0, 0, 0, 0.15) dashed;
 }
 
 .discipline-0 {

@@ -13,8 +13,8 @@ $linear-horizontal-reverse-gradient: linear-gradient(to right, $primary-color 0 
 $linear-vertical-gradient: linear-gradient(to bottom, $primary-color, $secondary-color);
 
 $banner-text-color: white;
-$banner-top-border: 15px rgba(0, 0, 0, 0.1) dashed;
-$banner-bottom-border: 15px rgba(0, 0, 0, 0.15) dashed;
+$banner-top-border: 1em rgba(0, 0, 0, 0.15) dashed;
+$banner-bottom-border: 1em rgba(0, 0, 0, 0.20) dashed;
 $banner-padding: 2em 1em;
 $banner-font-weight: 700;
 $banner-margin-bottom: 2rem;
