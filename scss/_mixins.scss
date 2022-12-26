@@ -2,48 +2,58 @@
   background: linear-gradient(rgb($r, $g, $b), rgba($r, $g, $b, 0.8), rgb($r, $g, $b));
 }
 
-// $disciplinetypes
-// Backend = 0
-// FrontEnd = 1
-// Process = 2
-@mixin shades-per-discipline-proficiency ( $count, $startcolor, $disciplinetype ) {
+// Discipline  darkest
+// Expert      dark
+// Extensive   medium
+// Working     light
+// Basic       lightest
+@mixin shades-per-discipline-proficiency ($count, $startcolor, $disciplinetype ) {
   @for $i from 0 through $count {
-      $background-color: mix(black, $startcolor, $i + $i);
-      
-      .discipline-#{$disciplinetype} {
-          background-color: $background-color;
-          
-          &:hover {
-            background-color: mix(white, $background-color, $i * 5);
-          }
+    $background-color: $startcolor;
+
+    $multiplier: 8;
+    $hover-incrementer: 10;
+
+    .discipline-#{$disciplinetype} {
+      background-color: $background-color;
+
+      &:hover {
+        background-color: mix(white, $background-color, $i * $multiplier + $hover-incrementer);
       }
-      .expert-#{$disciplinetype} {
-          background-color: mix(white, $background-color, $i * 10);
-          
-          &:hover {
-            background-color: mix(white, $background-color, $i * 10 + 10);
-          }
+    }
+
+    .expert-#{$disciplinetype} {
+      background-color: mix(white, $background-color, $i * $multiplier);
+
+      &:hover {
+        background-color: mix(white, $background-color, $i * $multiplier + $hover-incrementer);
       }
-      .extensive-#{$disciplinetype} {
-          background-color: mix(white, $background-color, $i * 15);
-          
-          &:hover {
-            background-color: mix(white, $background-color, $i * 15 + 10);
-          }
+    }
+
+    .extensive-#{$disciplinetype} {
+      background-color: mix(white, $background-color, $i * (1 * $multiplier));
+
+      &:hover {
+        background-color: mix(white, $background-color, $i * (1 * $multiplier) + $hover-incrementer);
       }
-      .working-#{$disciplinetype} {
-          background-color: mix(white, $background-color, $i * 20);
-          
-          &:hover {
-            background-color: mix(white, $background-color, $i * 20 + 10);
-          }
+    }
+
+    .working-#{$disciplinetype} {
+      background-color: mix(white, $background-color, $i * (2 * $multiplier));
+
+      &:hover {
+        background-color: mix(white, $background-color, $i * (2 * $multiplier) + $hover-incrementer);
       }
-      .basic-#{$disciplinetype} {
-          background-color: mix(white, $background-color, $i * 25);
-          
-          &:hover {
-            background-color: mix(white, $background-color, $i * 25 + 10);
-          }
+    }
+
+    .basic-#{$disciplinetype} {
+      background-color: mix(white, $background-color, $i * (3 * $multiplier));
+
+      &:hover {
+        background-color: mix(white, $background-color, $i * (3 * $multiplier) + $hover-incrementer);
       }
+    }
   }
 }
+
+@include shades-per-discipline-proficiency(2, #2d89ef, 0);
