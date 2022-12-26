@@ -7,6 +7,9 @@
 // Extensive   medium
 // Working     light
 // Basic       lightest
+// $count = number of shades
+// $startcolor = starting color for producing other shades
+// $disciplinetype = maps to DisciplineType enumeration
 @mixin shades-per-discipline-proficiency ($count, $startcolor, $disciplinetype ) {
   @for $i from 0 through $count {
     $background-color: $startcolor;
