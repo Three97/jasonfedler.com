@@ -3,7 +3,7 @@ import ISkill from "../interfaces/ISkill";
 import Skill from "./Skill";
 
 const Skills: FC<any> = function({ items }) {
-  const sortedSkills = items.sort((a: ISkill, b: ISkill) => a.discipline - b.discipline);
+  const sortedSkills = items.sort((a: ISkill, b: ISkill) => a.discipline - b.discipline || a.skill.localeCompare(b.skill));
   return (
     <div className="container mb-5">
       <div className="row mb-1">
