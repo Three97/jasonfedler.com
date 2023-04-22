@@ -82,13 +82,6 @@
     },
     {
       "discipline": 2,
-      "skill": "Octopus Deploy",
-      "site": "https://www.octopus.com",
-      "color": "#0D80D8",
-      "proficiency": 40
-    },
-    {
-      "discipline": 2,
       "skill": "AppVeyor",
       "site": "https://www.appveyor.com",
       "color": "#0D80D8",
@@ -96,10 +89,10 @@
     },
     {
       "discipline": 2,
-      "skill": "PowerShell Core",
-      "site": "https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3",
-      "color": "#0D80D8",
-      "proficiency": 25
+      "skill": "API Design",
+      "site": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+      "color": "#005236",
+      "proficiency": 45
     },
     {
       "discipline": 2,
@@ -117,10 +110,24 @@
     },
     {
       "discipline": 2,
-      "skill": "API Design",
-      "site": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
-      "color": "#005236",
+      "skill": "Git",
+      "site": "https://git-scm.com/",
+      "color": "#512bd4",
       "proficiency": 45
+    },
+    {
+      "discipline": 2,
+      "skill": "Octopus Deploy",
+      "site": "https://www.octopus.com",
+      "color": "#0D80D8",
+      "proficiency": 40
+    },
+    {
+      "discipline": 2,
+      "skill": "PowerShell Core",
+      "site": "https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3",
+      "color": "#0D80D8",
+      "proficiency": 25
     },
     {
       "discipline": 2,
@@ -131,10 +138,10 @@
     },
     {
       "discipline": 2,
-      "skill": "Git",
-      "site": "https://git-scm.com/",
+      "skill": "TeamCity",
+      "site": "https://www.jetbrains.com/teamcity/",
       "color": "#512bd4",
-      "proficiency": 45
+      "proficiency": 30
     },
     {
       "discipline": 2,
