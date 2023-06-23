@@ -1,108 +1,3 @@
-.discipline-0 {
-  background-color: #2d89ef;
-}
-.discipline-0:hover {
-  background-color: #4295f1;
-}
-
-.expert-0 {
-  background-color: #2d89ef;
-}
-.expert-0:hover {
-  background-color: #4295f1;
-}
-
-.extensive-0 {
-  background-color: #2d89ef;
-}
-.extensive-0:hover {
-  background-color: #4295f1;
-}
-
-.working-0 {
-  background-color: #2d89ef;
-}
-.working-0:hover {
-  background-color: #4295f1;
-}
-
-.basic-0 {
-  background-color: #2d89ef;
-}
-.basic-0:hover {
-  background-color: #4295f1;
-}
-
-.discipline-0 {
-  background-color: #2d89ef;
-}
-.discipline-0:hover {
-  background-color: #539ef2;
-}
-
-.expert-0 {
-  background-color: #3e92f0;
-}
-.expert-0:hover {
-  background-color: #539ef2;
-}
-
-.extensive-0 {
-  background-color: #3e92f0;
-}
-.extensive-0:hover {
-  background-color: #539ef2;
-}
-
-.working-0 {
-  background-color: #4f9cf2;
-}
-.working-0:hover {
-  background-color: #64a8f3;
-}
-
-.basic-0 {
-  background-color: #5fa5f3;
-}
-.basic-0:hover {
-  background-color: #74b1f4;
-}
-
-.discipline-0 {
-  background-color: #2d89ef;
-}
-.discipline-0:hover {
-  background-color: #64a8f3;
-}
-
-.expert-0 {
-  background-color: #4f9cf2;
-}
-.expert-0:hover {
-  background-color: #64a8f3;
-}
-
-.extensive-0 {
-  background-color: #4f9cf2;
-}
-.extensive-0:hover {
-  background-color: #64a8f3;
-}
-
-.working-0 {
-  background-color: #70aff4;
-}
-.working-0:hover {
-  background-color: #85bbf6;
-}
-
-.basic-0 {
-  background-color: #92c2f7;
-}
-.basic-0:hover {
-  background-color: #a7cdf8;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -110,11 +5,8 @@ body {
 a {
   text-decoration: none;
   font-family: "Roboto Mono", monospace;
-  -webkit-transition: background-color 300ms ease-in-out;
   transition: background-color 300ms ease-in-out;
-  -webkit-transition: padding 300ms ease-in-out;
   transition: padding 300ms ease-in-out;
-  -webkit-transition: color 150ms ease-in-out;
   transition: color 150ms ease-in-out;
   color: rgba(0, 0, 139, 0.8);
 }
@@ -482,6 +374,113 @@ a:hover {
   background-color: #f7cea5;
 }
 
+.discipline-3 {
+  background-color: #880000;
+}
+.discipline-3:hover {
+  background-color: #941a1a;
+}
+
+.expert-3 {
+  background-color: #880000;
+}
+.expert-3:hover {
+  background-color: #941a1a;
+}
+
+.extensive-3 {
+  background-color: #880000;
+}
+.extensive-3:hover {
+  background-color: #941a1a;
+}
+
+.working-3 {
+  background-color: #880000;
+}
+.working-3:hover {
+  background-color: #941a1a;
+}
+
+.basic-3 {
+  background-color: #880000;
+}
+.basic-3:hover {
+  background-color: #941a1a;
+}
+
+.discipline-3 {
+  background-color: #880000;
+}
+.discipline-3:hover {
+  background-color: #9d2e2e;
+}
+
+.expert-3 {
+  background-color: #921414;
+}
+.expert-3:hover {
+  background-color: #9d2e2e;
+}
+
+.extensive-3 {
+  background-color: #921414;
+}
+.extensive-3:hover {
+  background-color: #9d2e2e;
+}
+
+.working-3 {
+  background-color: #9b2929;
+}
+.working-3:hover {
+  background-color: #a74242;
+}
+
+.basic-3 {
+  background-color: #a53d3d;
+}
+.basic-3:hover {
+  background-color: #b05757;
+}
+
+.discipline-3 {
+  background-color: #880000;
+}
+.discipline-3:hover {
+  background-color: #a74242;
+}
+
+.expert-3 {
+  background-color: #9b2929;
+}
+.expert-3:hover {
+  background-color: #a74242;
+}
+
+.extensive-3 {
+  background-color: #9b2929;
+}
+.extensive-3:hover {
+  background-color: #a74242;
+}
+
+.working-3 {
+  background-color: #ae5252;
+}
+.working-3:hover {
+  background-color: #ba6b6b;
+}
+
+.basic-3 {
+  background-color: #c17a7a;
+}
+.basic-3:hover {
+  background-color: #cd9494;
+}
+
 .text-muted {
   color: gray !important;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
