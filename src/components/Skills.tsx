@@ -17,7 +17,7 @@ const Skills: FC<any> = function({ items }) {
       </div>
       {sortedSkills.map((item: ISkill, i: number) => {
         return (
-          <Skill key={++i} site={item.site} skill={item.skill} proficiency={item.proficiency} color={item.color} discipline={item.discipline} />
+          <Skill key={++i} site={item.site} skill={item.skill} proficiency={item.proficiency} discipline={item.discipline} />
         );
       })}
     </div>

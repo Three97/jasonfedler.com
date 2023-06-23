@@ -4,8 +4,7 @@ interface ISkill {
   discipline: DisciplineType,
   skill: string,
   site: string,
-  proficiency: number,
-  color: string
+  proficiency: number
 }
 
 export default ISkill;

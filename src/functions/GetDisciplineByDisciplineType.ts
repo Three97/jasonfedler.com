@@ -6,6 +6,7 @@ const GetDisciplineByDisciplineType = (disciplineType: DisciplineType): string =
     case DisciplineType.Backend: { discipline = "Backend"; break; }
     case DisciplineType.Frontend: { discipline = "Frontend"; break; }
     case DisciplineType.Process: { discipline = "Process"; break; }
+    case DisciplineType.Infrastructure: { discipline = "Infrastructure"; break; }
   }
   return discipline;
 }

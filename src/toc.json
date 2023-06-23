@@ -7,148 +7,145 @@
       "discipline": 0,
       "skill": "C#.NET",
       "site": "https://learn.microsoft.com/en-us/dotnet/csharp/",
-      "color": "#512bd4",
       "proficiency": 75
     },
     {
       "discipline": 0,
       "skill": "Entity Framework",
       "site": "https://learn.microsoft.com/en-us/ef/core/",
-      "color": "#512bd4",
       "proficiency": 50
     },
     {
       "discipline": 0,
       "skill": "SQL Server",
       "site": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
-      "color": "#0078d4",
       "proficiency": 50
     },
     {
       "discipline": 1,
       "skill": "HTML",
       "site": "https://www.w3schools.com/html/",
-      "color": "#ff8d00",
       "proficiency": 90
     },
     {
       "discipline": 1,
       "skill": "CSS",
       "site": "https://www.w3schools.com/css/",
-      "color": "#ff8d00",
       "proficiency": 65
     },
     {
       "discipline": 1,
       "skill": "Sass",
       "site": "https://www.w3schools.com/sass/",
-      "color": "#bf4080",
       "proficiency": 35
     },
     {
       "discipline": 1,
       "skill": "JavaScript",
       "site": "https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript",
-      "color": "#ff8d00",
       "proficiency": 50
     },
     {
       "discipline": 1,
       "skill": "React",
       "site": "https://reactjs.org/",
-      "color": "#61dafb",
       "proficiency": 25
     },
     {
       "discipline": 1,
       "skill": "Blazor",
       "site": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor",
-      "color": "#61dafb",
       "proficiency": 25
     },
     {
       "discipline": 0,
       "skill": "Identity Server",
       "site": "https://www.identityserver.com/",
-      "color": "#ff4136",
       "proficiency": 25
     },
     {
       "discipline": 0,
       "skill": "OAuth, OIDC, SAML, JWT",
       "site": "",
-      "color": "#ff4136",
       "proficiency": 25
     },
     {
       "discipline": 2,
       "skill": "AppVeyor",
       "site": "https://www.appveyor.com",
-      "color": "#0D80D8",
       "proficiency": 40
     },
     {
       "discipline": 2,
       "skill": "API Design",
       "site": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
-      "color": "#005236",
       "proficiency": 45
     },
     {
       "discipline": 2,
       "skill": "AWS",
       "site": "https://aws.amazon.com",
-      "color": "#FF9900",
       "proficiency": 10
     },
     {
       "discipline": 2,
       "skill": "Azure",
       "site": "https://www.azure.com",
-      "color": "#512bd4",
       "proficiency": 30
     },
     {
       "discipline": 2,
       "skill": "Git",
       "site": "https://git-scm.com/",
-      "color": "#512bd4",
       "proficiency": 45
     },
     {
       "discipline": 2,
       "skill": "Octopus Deploy",
       "site": "https://www.octopus.com",
-      "color": "#0D80D8",
       "proficiency": 40
     },
     {
       "discipline": 2,
       "skill": "PowerShell Core",
       "site": "https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3",
-      "color": "#0D80D8",
       "proficiency": 25
     },
     {
       "discipline": 2,
       "skill": "Software Architecture",
       "site": "https://www.martinfowler.com/architecture/",
-      "color": "#005236",
       "proficiency": 45
     },
     {
       "discipline": 2,
       "skill": "TeamCity",
       "site": "https://www.jetbrains.com/teamcity/",
-      "color": "#512bd4",
       "proficiency": 30
     },
     {
       "discipline": 2,
       "skill": "Imposter Syndrome",
       "site": "https://en.wikipedia.org/wiki/Impostor_syndrome",
-      "color": "#005236",
       "proficiency": 99
+    },
+    {
+      "discipline": 3,
+      "skill": "Red Hat OpenShift",
+      "site": "https://www.redhat.com/en/openshift-4",
+      "proficiency": 15
+    },
+    {
+      "discipline": 3,
+      "skill": "Docker",
+      "site": "https://www.docker.com/",
+      "proficiency": 15
+    },
+    {
+      "discipline": 3,
+      "skill": "Kubernetes",
+      "site": "https://kubernetes.io/",
+      "proficiency": 15
     }
   ],
   "cards": [
