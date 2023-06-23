@@ -70,7 +70,7 @@
       "proficiency": 25
     },
     {
-      "discipline": 2,
+      "discipline": 3,
       "skill": "AppVeyor",
       "site": "https://www.appveyor.com",
       "proficiency": 40
@@ -100,7 +100,7 @@
       "proficiency": 45
     },
     {
-      "discipline": 2,
+      "discipline": 3,
       "skill": "Octopus Deploy",
       "site": "https://www.octopus.com",
       "proficiency": 40
@@ -118,7 +118,7 @@
       "proficiency": 45
     },
     {
-      "discipline": 2,
+      "discipline": 3,
       "skill": "TeamCity",
       "site": "https://www.jetbrains.com/teamcity/",
       "proficiency": 30
@@ -145,6 +145,12 @@
       "discipline": 3,
       "skill": "Kubernetes",
       "site": "https://kubernetes.io/",
+      "proficiency": 15
+    },
+    {
+      "discipline": 3,
+      "skill": "Terraform",
+      "site": "https://www.terraform.io/",
       "proficiency": 15
     }
   ],

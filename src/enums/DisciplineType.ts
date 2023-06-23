@@ -1,8 +1,8 @@
 enum DisciplineType {
   Backend = 0,
   Frontend,
-  Process,
-  Infrastructure
+  Platform,
+  Build
 }
 
 export default DisciplineType;
