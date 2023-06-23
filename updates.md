@@ -16,6 +16,10 @@ There are a couple color palettes for season changes or whatever. Creating a new
 
 ### Examples of colors
 
+#### Spring
+
+![spring color palette](./img/spring-colors.png)
+
 #### Summer
 
 ![summer color palette](./img/summer-colors.png)
@@ -23,3 +27,7 @@ There are a couple color palettes for season changes or whatever. Creating a new
 #### Fall
 
 ![fall color palette](./img/fall-colors.png)
+
+#### Winter
+
+![winter color palette](./img/winter-colors.png)

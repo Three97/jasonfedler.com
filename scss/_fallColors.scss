@@ -1,14 +1,12 @@
 // FALL Colors
 // general page colors - cards, etc.
-$primary-color: #A63C06; // rgb(21, 95, 95);
-$secondary-color: #6106a6; // #add8ab; // rgb(172, 216, 170);
-$highlight1-color: #8109dd; // rgb(17, 75, 95);
+$primary-color: #A63C06;
+$secondary-color: #6106a6;
+$highlight1-color: #8109dd;
 $highlight1-muted-color: #a77b64;
-$highlight2-color: #ff8c42; // rgb(255, 140, 66)
-$highlight3-color: #cb769e; // rgb(203, 118, 158)
 
 // used for disciplines - consumed in _proficiency.scss
 $backend-base-color: #EEBA0B;
-$frontend-base-color: #C36F09; // #005236; #B0228C
-$platform-base-color: #A63C06; // #0D3185;
+$frontend-base-color: #C36F09;
+$platform-base-color: #A63C06;
 $build-base-color: #710000;
