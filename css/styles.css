@@ -18,15 +18,15 @@ a:hover {
 }
 
 .fg-primary {
-  color: #476a26;
+  color: #e3b10c;
 }
 
 .fg-secondary {
-  color: #76b041;
+  color: #e2d095;
 }
 
 .fg-highlight1 {
-  color: #104b5e;
+  color: #e4e2da;
 }
 
 .fg-highlight2 {
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .bg-highlight-muted {
-  background-color: #a3b791;
+  background-color: #e4e2da;
 }
 
 .card-equal-height {
@@ -54,7 +54,7 @@ a:hover {
   font-weight: 700;
   margin-bottom: 2rem;
   color: white;
-  background-color: #476a26;
+  background-color: #e3b10c;
   border-bottom: 1em rgba(0, 0, 0, 0.2) dashed;
   border-top: 1em rgba(0, 0, 0, 0.15) dashed;
 }
