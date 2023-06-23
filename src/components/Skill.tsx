@@ -3,7 +3,7 @@ import ISkill from "../interfaces/ISkill";
 import GetProficiencyLevel from '../functions/GetProficiencyLevel';
 import GetDisciplineByDisciplineType from '../functions/GetDisciplineByDisciplineType';
 
-const Skill: FC<ISkill> = function({ discipline, skill, site, proficiency, color }) {
+const Skill: FC<ISkill> = function({ discipline, skill, site, proficiency }) {
   const styleForSkill = {
     padding: "0.25em 1em"
   }
