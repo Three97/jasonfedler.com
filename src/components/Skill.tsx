@@ -21,7 +21,7 @@ const Skill: FC<ISkill> = function({ discipline, skill, site, proficiency }) {
       </div>
       <div className="col-md-8 col">
         <div className="bg-light w-100">
-          <div className={classNameForProficiency}>
+          <div className={classNameForProficiency} title={{profLevel} + " knowledge of " + {skill} + " with a rating of " + {proficiency}}>
             <div className="ms-1 text-white">{profLevel}</div>
           </div>
         </div>
