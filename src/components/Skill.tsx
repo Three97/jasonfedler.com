@@ -14,7 +14,7 @@ const Skill: FC<ISkill> = function({ discipline, skill, site, proficiency }) {
   return (
     <div className="row mb-1">      
       <div className="col-lg-3 col-md-4 col text-end code">
-        <a href={site} style={styleForSkill} title={site !== null ? "Click to find out more" : ""}>{skill}</a>
+        <a href={site} style={styleForSkill} title={(site !== "") ? "Click to find out more" : ""}>{skill}</a>
       </div>
       <div className={disciplineClass} title={skill}>
         {disciplineName}
