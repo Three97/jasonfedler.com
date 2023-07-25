@@ -12,6 +12,12 @@
     },
     {
       "discipline": 0,
+      "skill": "Kotlin",
+      "site": "https://kotlinlang.org/",
+      "proficiency": 25
+    },
+    {
+      "discipline": 0,
       "skill": "Entity Framework",
       "site": "https://learn.microsoft.com/en-us/ef/core/",
       "proficiency": 50
