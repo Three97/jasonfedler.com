@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.synopsis-statement {
+  background-color: whitesmoke;
+  color: #333;
+  text-align: justify;
+}
