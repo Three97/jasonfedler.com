@@ -1,0 +1,30 @@
+* {
+  font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  margin: 1rem;
+  padding: 1rem;
+  outline: 1px solid gray;
+  max-width: 12rem;
+}
+
+.outline {
+  outline: 1px dotted blue;
+  border-radius: 0.5rem;
+}
+
+.discipline {
+  text-orientation: sideways;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  position: sticky;
+  /* text-orientation: upright; */
+}

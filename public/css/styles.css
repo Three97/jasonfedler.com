@@ -478,6 +478,34 @@ a:hover {
   background-color: #c5deaf;
 }
 
+.discipline-container {
+  outline: 1px dotted grey;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: whitesmoke;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-weight: bold;
+  /* text-orientation: upright; */
+}
+
+.certification-container {
+  outline: 1px dotted grey;
+  padding: 0.75rem;
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: whitesmoke;
+}
+
+.certification-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .text-muted {
   color: lightgray !important;
 }

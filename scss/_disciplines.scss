@@ -1,0 +1,14 @@
+.discipline-container {
+  outline: 1px dotted grey;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: whitesmoke;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-weight: bold;
+  /* text-orientation: upright; */
+}

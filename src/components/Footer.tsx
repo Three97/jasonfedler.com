@@ -11,6 +11,9 @@ const Footer: FC = function() {
       <div className="mt-3">
         <em>(c) {yearRange} Copyright JasonFedler.com</em>
       </div>
+      <div>
+        icons by <a target="_blank" href="https://icons8.com" rel="noreferrer">Icons8</a>
+      </div>
     </footer>
   );
 }
