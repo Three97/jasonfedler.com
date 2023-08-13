@@ -1,5 +1,4 @@
 import { FC } from "react";
-import ISkill from "../interfaces/ISkill";
 import GetProficiencyLevel from '../functions/GetProficiencyLevel';
 
 const SimpleSkill: FC<any> = function({ site, skill, discipline, proficiency, isFullWidth }) {
