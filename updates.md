@@ -34,7 +34,9 @@ There are a couple color palettes for season changes or whatever. Creating a new
 
 ## Future Updates
 
+
 - Add Pluralsight Courses segregated by Discipline (Backend, Frontend, etc.)
+- http://www.kerrydew.com/blog/2015/5/2/listing-pluralsight-or-other-on-line-training
     - FE  - Styling Applications with Angular Material | ???
     - FE https://app.pluralsight.com/achievements/share/deee26f4-a683-4850-90c8-bb4628087f30 - TypeScript: The Big Picture | August 2, 2023
     - FE https://app.pluralsight.com/achievements/share/8555ae23-d1d5-4aad-8770-05b649f8ddbf - Angular 14: The Big Picture | August 1, 2023
