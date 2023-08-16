@@ -24,7 +24,7 @@ function App() {
             </div>
           }
           <div className="row">
-            <Disciplines skills={toc.skills} isFullWidth={false} courses={toc.courses} />
+            <Disciplines skills={toc.skills} courses={toc.courses} />
           </div>
           {/* <Courses items={toc.courses} /> */}
           <Podcasts items={toc.podcasts} />

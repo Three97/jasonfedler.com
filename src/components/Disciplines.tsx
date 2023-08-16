@@ -6,7 +6,7 @@ import GetDisciplineByDisciplineType from "../functions/GetDisciplineByDisciplin
 import Courses from "./Courses";
 import ICourse from "../interfaces/ICourse";
 
-const Disciplines: FC<{ skills: ISkill[]; isFullWidth: Boolean; courses: ICourse[];}> = function ({ skills, isFullWidth, courses }) {
+const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ skills, courses }) {
   const distinctDisciplines = Array.from(new Set(skills.map((a) => a.discipline)));
   let d = 0;
   return (
@@ -32,8 +32,7 @@ const Disciplines: FC<{ skills: ISkill[]; isFullWidth: Boolean; courses: ICourse
             {skillsPerDiscipline.map((item: ISkill, j: number) => {
               return (
                 <SimpleSkill key={`${i}${++j}`} site={item.site} skill={item.skill} 
-                  discipline={item.discipline} proficiency={item.proficiency}
-                  isFullWidth={isFullWidth}/>
+                  discipline={item.discipline} proficiency={item.proficiency} />
               );
             })}
             <div className="text-center mt-4">
