@@ -13,7 +13,7 @@ const Courses: FC<{ items: ICourse[] }> = function({ items }) {
           .map((c: ICourse) => {
             const tooltipForCourse = `${c.provider} course completed on ${new Date(c.completionDate).toDateString()}`;
             return (
-              <div className="text-bold mt-1 ms-4" key={++cIdx}>
+              <div className="text-bold mt-1" key={++cIdx}>
                 <a href={c.completionUrl} target="_blank" rel="noreferrer" title={tooltipForCourse}>
                   {c.name}
                 </a>
