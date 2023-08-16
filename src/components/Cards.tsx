@@ -12,7 +12,7 @@ const Cards: FC<any> = function({ props }) {
     cardClass = "col-lg-4 col-md-6 col-sm-12 mb-2 text-center";
   }
   return (
-    <div className="container">
+    <div className="container mt-3">
       <div className="row">
         {props.map((item: ICardProps, i: number) => {
           return (

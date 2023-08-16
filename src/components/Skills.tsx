@@ -1,7 +1,6 @@
 import { FC } from "react";
 import ISkill from "../interfaces/ISkill";
 import Skill from "./Skill";
-import GetDisciplineByDisciplineType from "../functions/GetDisciplineByDisciplineType";
 
 const Skills: FC<{ items: ISkill[] }> = function({  items }) {
   const sortedSkills = items.sort((a: ISkill, b: ISkill) => a.discipline - b.discipline || a.skill.localeCompare(b.skill));
@@ -15,7 +14,7 @@ const Skills: FC<{ items: ISkill[] }> = function({  items }) {
           <small className="fw-normal"> (as defined
             &nbsp;<a href="https://hr.uiowa.edu/careers/competencies/proficiency-levels" target="_blank" rel="noreferrer">here</a>)
           </small>
-          </div>
+        </div>
       </div>
       {sortedSkills.map((item: ISkill, i: number) => {
         return (
