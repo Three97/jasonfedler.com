@@ -18,23 +18,13 @@ function App() {
         <Synopsis synopsis={toc.synopsis} />
         {/* <Skills items={toc.skills} /> */}
         <div className="container">
+          {toc.certifications.length > 0 && 
+            <div className="row">
+              <Certification certs={toc.certifications} />
+            </div>
+          }
           <div className="row">
-            {toc.certifications.length > 0 ?
-              (
-                <>
-                  <div className="col-lg-7 col-12">
-                    <Disciplines skills={toc.skills} isFullWidth={false} courses={toc.courses} />
-                  </div>
-                  <div className="col-lg-5 col-12">
-                    <Certification certs={toc.certifications} />
-                  </div> 
-                </>
-              ) : (
-                <div className="col">
-                  <Disciplines skills={toc.skills} isFullWidth={true} courses={toc.courses} />
-                </div>
-              )
-            }
+            <Disciplines skills={toc.skills} isFullWidth={false} courses={toc.courses} />
           </div>
           {/* <Courses items={toc.courses} /> */}
           <Podcasts items={toc.podcasts} />
