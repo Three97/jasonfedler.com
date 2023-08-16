@@ -7,7 +7,8 @@ import Cards from "./components/Cards"
 import Footer from "./components/Footer";
 import Disciplines from './components/Disciplines';
 import Certification from './components/Certifications';
-// import { Certificate } from 'crypto';
+// import Courses from './components/Courses';
+import Podcasts from './components/Podcasts';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
               (
                 <>
                   <div className="col-lg-7 col-12">
-                    <Disciplines skills={toc.skills} isFullWidth={false} />
+                    <Disciplines skills={toc.skills} isFullWidth={false} courses={toc.courses} />
                   </div>
                   <div className="col-lg-5 col-12">
                     <Certification certs={toc.certifications} />
@@ -30,11 +31,13 @@ function App() {
                 </>
               ) : (
                 <div className="col">
-                  <Disciplines skills={toc.skills} isFullWidth={true} />
+                  <Disciplines skills={toc.skills} isFullWidth={true} courses={toc.courses} />
                 </div>
               )
             }
           </div>
+          {/* <Courses items={toc.courses} /> */}
+          <Podcasts items={toc.podcasts} />
           <Cards props={toc.cards} />
         </div>
       </main>
