@@ -3,7 +3,7 @@ import ILink from "../interfaces/ILink";
 
 const Link: FC<ILink> = function({ name, url, tooltip }) { 
   return (
-    <div className="mb-2 d-inline">
+    <>
       <a href={url} rel="noreferrer" target="_blank" title={tooltip}>{name}
         <span role="img" aria-label="follow">
           {/* <svg width="24" height="24" viewBox="0 0 24 24" focusable="false" role="presentation">
@@ -14,7 +14,7 @@ const Link: FC<ILink> = function({ name, url, tooltip }) {
           </svg> */}
         </span>
       </a>
-    </div>
+    </>
   );
 }
 
