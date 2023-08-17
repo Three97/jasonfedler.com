@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-const Synopsis: FC<any> = function({ synopsis }) {
+const Synopsis: FC<{ synopsis: string }> = function({ synopsis }) {
   return (
     <div className="synopsis-statement py-4 mb-3">
       <div className="container">

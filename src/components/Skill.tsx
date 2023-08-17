@@ -4,9 +4,6 @@ import GetProficiencyLevel from '../functions/GetProficiencyLevel';
 import GetDisciplineByDisciplineType from '../functions/GetDisciplineByDisciplineType';
 
 const Skill: FC<ISkill> = function({ discipline, skill, site, proficiency }) {
-  const styleForSkill = {
-    padding: "0.25em 1em"
-  }
   const profLevel = GetProficiencyLevel(proficiency);
   //const classNameForProficiency = "text-start " + profLevel.toLowerCase() + "-" + discipline;
   const classNameForProficiency = `text-start ${profLevel.toLowerCase()}-${discipline}`;
@@ -15,7 +12,7 @@ const Skill: FC<ISkill> = function({ discipline, skill, site, proficiency }) {
   return (
     <div className="row mb-1">      
       <div className="col-lg-3 col-md-4 col text-end code">
-        <a href={site} style={styleForSkill} title={(site !== "") ? "Click to find out more" : ""}>{skill}</a>
+        <a href={site} title={(site !== "") ? "Click to find out more" : ""}>{skill}</a>
       </div>
       <div className={disciplineClass} title={skill}>
         {disciplineName}

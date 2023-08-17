@@ -1,8 +1,9 @@
 import { FC } from "react";
 import ISkill from "../interfaces/ISkill";
 import Skill from "./Skill";
+import DisciplineType from "../enums/DisciplineType";
 
-const Proficiency: FC<any> = function({ discipline, items }) {
+const Proficiency: FC<{ discipline: DisciplineType, items: ISkill[] }> = function({ discipline, items }) {
   const sortedSkills = items.sort((a: ISkill, b: ISkill) => a.discipline - b.discipline || a.skill.localeCompare(b.skill));
   return (
     <div className="container mb-5">

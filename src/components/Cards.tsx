@@ -2,7 +2,7 @@ import { FC } from 'react';
 import Card from "./Card";
 import ICardProps from '../interfaces/ICardProps';
 
-const Cards: FC<any> = function({ props }) {
+const Cards: FC<{ props: ICardProps[] }> = function({ props }) {
   let cardClass = "";
   if (props.length === 1) {
     cardClass = "col-sm-12 mb-2 text-center";

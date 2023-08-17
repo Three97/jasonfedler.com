@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import IPodcast from '../interfaces/IPodcast';
+import Link from './Link';
 
 const Podcasts: FC<{ items: IPodcast[] }> = function({ items }) {
   let pIdx = 0;
@@ -13,9 +14,7 @@ const Podcasts: FC<{ items: IPodcast[] }> = function({ items }) {
       {items.map((p: IPodcast) => {
         return (
           <div className="mt-1 ms-3" key={pIdx++}>
-            <a href={p.url} target="_blank" rel="noreferrer">
-              {p.name}
-            </a> - <i>{p.comments}</i>
+            <Link name={p.name} url={p.url} tooltip={p.comments} /> - <i>{p.comments}</i>
           </div>
         )
       })}
