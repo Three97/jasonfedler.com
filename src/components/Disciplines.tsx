@@ -24,11 +24,12 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
         underestimate my abilities while overdelivering results.
       </p>
       {distinctDisciplines.map((disc: DisciplineType, i: number) => {
-        const skillsPerDiscipline = skills.filter((s) => { return String(s.discipline) === String(disc); });
-        const disciplineName = GetDisciplineByDisciplineType(disc);
+        const skillsPerDiscipline = skills
+          .filter((s) => { return String(s.discipline) === String(disc); })
+          .sort((s1, s2) => (s1.skill > s2.skill) ? 1 : -1);
         return (
           <div className="discipline-container mt-3" key={++i}>
-            <div className="vertical">{disciplineName}</div>
+            <div className="vertical">{GetDisciplineByDisciplineType(disc)}</div>
             {skillsPerDiscipline.map((item: ISkill, j: number) => {
               return (
                 <SimpleSkill key={`${i}${++j}`} site={item.site} skill={item.skill} 

@@ -18,7 +18,7 @@
     },
     {
       "discipline": 0,
-      "skill": "Entity Framework",
+      "skill": "EF / EF Core",
       "site": "https://learn.microsoft.com/en-us/ef/core/",
       "proficiency": 50
     },
@@ -126,7 +126,7 @@
     },
     {
       "discipline": 3,
-      "skill": "Octopus Deploy",
+      "skill": "Octopus",
       "site": "https://www.octopus.com",
       "proficiency": 40
     },
