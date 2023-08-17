@@ -13,10 +13,9 @@ const Courses: FC<{ items: ICourse[] }> = function({ items }) {
         {items.sort((a: ICourse, b: ICourse) => a.discipline - b.discipline || (new Date(a.completionDate).getTime() - new Date(b.completionDate).getTime()))
           .map((c: ICourse) => {
             const tooltipForCourse = `${c.provider} course completed on ${new Date(c.completionDate).toDateString()}`;
-            const logoUrl = `./assets/${c.provider.toLowerCase()}.png`;
             return (
               <div className="text-bold mt-1" key={++cIdx}>
-                <img src={logoUrl} alt="" height="24px" title={c.provider} />&nbsp;
+                {/* <img src={`./assets/${c.provider.toLowerCase()}.png`} alt="" height="24px" title={c.provider} />&nbsp; */}
                 <Link name={c.name} url={c.completionUrl} tooltip={tooltipForCourse} />
               </div>
           );
