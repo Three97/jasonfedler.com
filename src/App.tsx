@@ -9,7 +9,6 @@ import Disciplines from './components/Disciplines';
 import Certification from './components/Certifications';
 // import Courses from './components/Courses';
 import Podcasts from './components/Podcasts';
-import DisciplinesOnly from './components/DisciplinesOnly';
 import CoursesOnly from './components/CoursesOnly';
 
 function App() {
