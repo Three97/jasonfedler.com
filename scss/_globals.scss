@@ -9,33 +9,14 @@ a {
   transition: padding 300ms ease-in-out;
   transition: color 150ms ease-in-out;
   color: $link-color;
+  padding: 0.25rem;
 
   &:hover {
     background-color: $highlight2-color;
-    padding: 0.25em 1em;
     color: $link-hover-color;
+    padding: 0.25rem;
     border-radius: 0.25rem;
   }
-}
-
-.fg-primary {
-  color: $primary-color;
-}
-
-.fg-secondary {
-  color: $secondary-color;
-}
-
-.fg-highlight1 {
-  color: $highlight1-color;
-}
-
-.fg-highlight2 {
-  color: $highlight2-color;
-}
-
-.fg-highlight3 {
-  color: $highlight3-color;
 }
 
 .text-monospace {

@@ -9,32 +9,13 @@ a {
   transition: padding 300ms ease-in-out;
   transition: color 150ms ease-in-out;
   color: rgba(0, 0, 139, 0.8);
+  padding: 0.25rem;
 }
 a:hover {
-  background-color: #ff8c42;
-  padding: 0.25em 1em;
+  background-color: #ff8800;
   color: white;
+  padding: 0.25rem;
   border-radius: 0.25rem;
-}
-
-.fg-primary {
-  color: #e3b10c;
-}
-
-.fg-secondary {
-  color: #e2d095;
-}
-
-.fg-highlight1 {
-  color: #e4e2da;
-}
-
-.fg-highlight2 {
-  color: #ff8c42;
-}
-
-.fg-highlight3 {
-  color: #cb769e;
 }
 
 .text-monospace {
