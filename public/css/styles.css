@@ -22,10 +22,6 @@ a:hover {
   font-family: "Roboto Mono", monospace;
 }
 
-.bg-highlight-muted {
-  background-color: #e4e2da;
-}
-
 .card-equal-height {
   height: 100%;
 }
@@ -464,7 +460,9 @@ a:hover {
 }
 
 .discipline-inner-container {
-  border: 1px dotted grey;
+  border-top: 1px dotted grey;
+  border-right: 1px dotted grey;
+  border-bottom: 1px dotted grey;
   padding: 1rem;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
@@ -490,6 +488,22 @@ a:hover {
   flex-flow: wrap;
 }
 
+.vertical-tab-0 {
+  background: linear-gradient(#e4572e, #f4bcab);
+}
+
+.vertical-tab-1 {
+  background: linear-gradient(#17bebb, #a2e5e4);
+}
+
+.vertical-tab-2 {
+  background: linear-gradient(#e3b10c, #f4e09e);
+}
+
+.vertical-tab-3 {
+  background: linear-gradient(#76b041, #c8dfb3);
+}
+
 .certification-container {
   outline: 1px dotted grey;
   padding: 0.75rem;
@@ -501,6 +515,12 @@ a:hover {
 .certification-name {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.card-container {
+  background-color: #e4e2da;
+  border: 1px dotted grey;
+  border-radius: 0.5rem;
 }
 
 .text-muted {

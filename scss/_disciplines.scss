@@ -3,7 +3,9 @@
 }
 
 .discipline-inner-container {
-  border: 1px dotted grey;
+  border-top: 1px dotted grey;
+  border-right: 1px dotted grey;
+  border-bottom: 1px dotted grey;
   padding: 1rem;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
@@ -27,4 +29,19 @@
 
 .courses-container {
   flex-flow: wrap;
+}
+
+$percentage: 60%;
+
+.vertical-tab-0 {
+  background: linear-gradient($backend-base-color, mix(#FFF, $backend-base-color, $percentage));
+}
+.vertical-tab-1 {
+  background: linear-gradient($frontend-base-color, mix(#FFF, $frontend-base-color, $percentage))
+}
+.vertical-tab-2 {
+  background: linear-gradient($platform-base-color, mix(#FFF, $platform-base-color, $percentage))
+}
+.vertical-tab-3 {
+  background: linear-gradient($build-base-color, mix(#FFF, $build-base-color, $percentage))
 }
