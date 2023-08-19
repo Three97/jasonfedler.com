@@ -213,9 +213,7 @@
       ]
     }
   ],
-  "certifications": [
-    
-  ],
+  "certifications": [],
   "courses": [
     {
       "discipline": 1,
@@ -230,6 +228,13 @@
       "completionUrl": "https://app.pluralsight.com/achievements/share/8555ae23-d1d5-4aad-8770-05b649f8ddbf",
       "name": "Angular 14: The Big Picture",
       "completionDate": "August 1, 2023"
+    },
+    {
+      "discipline": 1,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/e9236726-888e-4f8d-88e9-39c73e215ae1",
+      "name": "Styling Applications with Angular Material",
+      "completionDate": "August 19, 2023"
     },
     {
       "discipline": 3,

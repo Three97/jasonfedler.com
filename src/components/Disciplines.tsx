@@ -27,17 +27,24 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
         const skillsPerDiscipline = skills
           .filter((s) => { return String(s.discipline) === String(disc); })
           .sort((s1, s2) => (s1.skill > s2.skill) ? 1 : -1);
+        const classNameForDiscipline = `vertical working-${i} text-white`;
         return (
           <div className="discipline-container mt-3" key={++i}>
-            <div className="vertical">&nbsp;{GetDisciplineByDisciplineType(disc)}</div>
-            {skillsPerDiscipline.map((item: ISkill, j: number) => {
-              return (
-                <SimpleSkill key={`${i}${++j}`} site={item.site} skill={item.skill} 
-                  discipline={item.discipline} proficiency={item.proficiency} />
-              );
-            })}
-            <div className="text-center mt-4">
-              <Courses items={courses.filter((c) => c.discipline === disc)} />
+            <div className={classNameForDiscipline}>&nbsp;{GetDisciplineByDisciplineType(disc)}</div>
+            <div className="discipline-inner-container">
+              <div className="container-fluid">
+                <div className="skills-container">
+                  {skillsPerDiscipline.map((item: ISkill, j: number) => {
+                    return (
+                      <SimpleSkill key={`${i}${++j}`} site={item.site} skill={item.skill} 
+                        discipline={item.discipline} proficiency={item.proficiency} />
+                    );
+                  })}
+                </div>
+              </div>
+              <div className="courses-container text-center mt-4">
+                <Courses items={courses.filter((c) => c.discipline === disc)} />
+              </div>
             </div>
           </div>
         );
