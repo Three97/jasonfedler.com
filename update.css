@@ -28,3 +28,22 @@
   position: sticky;
   /* text-orientation: upright; */
 }
+
+.vertical-tab {
+  writing-mode: vertical-rl;
+  background-color: purple;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.25rem;
+  width: 2.5rem;
+
+}
+
+.main-set {
+  border: 1px solid red;
+}
+
+.skill-container {
+  display: flex;
+}
