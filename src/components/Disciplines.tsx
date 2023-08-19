@@ -12,22 +12,24 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
   let d = 0;
   return (
     <div className="mt-4" key={d++}>
-      <h1>Skills</h1>
-      <p>
-        Software development is a vast and never-ending landscape of learning
-        and is one of the main reasons I gravitated to this career. It seems
-        like the more we know, the more we know we don't know. The proficiency 
-        values below align to the knowledge scale defined&nbsp;
-        <Link name="here" url="https://hr.uiowa.edu/careers/competencies/proficiency-levels" tooltip="" />.
-        I have a personal Pluralsight license that I use to keep up with any
-        new technology I am exposed to. I'm my worst critic and tend to 
-        underestimate my abilities while overdelivering results.
-      </p>
+      <div className="text-center">
+        <h1>Skills</h1>
+        <p>
+          Software development is a vast and never-ending landscape of learning
+          and is one of the main reasons I gravitated to this career. It seems
+          like the more we know, the more we know we don't know. The proficiency 
+          values below align to the knowledge scale defined&nbsp;
+          <Link name="here" url="https://hr.uiowa.edu/careers/competencies/proficiency-levels" tooltip="" />.
+          I have a personal Pluralsight license that I use to keep up with any
+          new technology I am exposed to. I'm my worst critic and tend to 
+          underestimate my abilities while overdelivering results.
+        </p>
+      </div>
       {distinctDisciplines.map((disc: DisciplineType, i: number) => {
         const skillsPerDiscipline = skills
           .filter((s) => { return String(s.discipline) === String(disc); })
           .sort((s1, s2) => (s1.skill > s2.skill) ? 1 : -1);
-        const classNameForDiscipline = `vertical working-${i} text-white`;
+        const classNameForDiscipline = `vertical vertical-tab-${i} text-white`;
         return (
           <div className="discipline-container mt-3" key={++i}>
             <div className={classNameForDiscipline}>&nbsp;{GetDisciplineByDisciplineType(disc)}</div>

@@ -8,7 +8,6 @@ import Disciplines from './components/Disciplines';
 import Certification from './components/Certifications';
 import Podcasts from './components/Podcasts';
 
-
 function App() {
   return (
     <>
