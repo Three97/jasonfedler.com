@@ -40,5 +40,5 @@
 .synopsis-statement {
   background-color: whitesmoke;
   color: #333;
-  text-align: justify;
+  border-bottom: 3px dashed lightgray;
 }

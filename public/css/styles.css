@@ -455,6 +455,111 @@ a:hover {
   background-color: #c5deaf;
 }
 
+.discipline-4 {
+  background-color: #666666;
+}
+.discipline-4:hover {
+  background-color: #757575;
+}
+
+.expert-4 {
+  background-color: #666666;
+}
+.expert-4:hover {
+  background-color: #757575;
+}
+
+.extensive-4 {
+  background-color: #666666;
+}
+.extensive-4:hover {
+  background-color: #757575;
+}
+
+.working-4 {
+  background-color: #666666;
+}
+.working-4:hover {
+  background-color: #757575;
+}
+
+.basic-4 {
+  background-color: #666666;
+}
+.basic-4:hover {
+  background-color: #757575;
+}
+
+.discipline-4 {
+  background-color: #666666;
+}
+.discipline-4:hover {
+  background-color: #828282;
+}
+
+.expert-4 {
+  background-color: #727272;
+}
+.expert-4:hover {
+  background-color: #828282;
+}
+
+.extensive-4 {
+  background-color: #727272;
+}
+.extensive-4:hover {
+  background-color: #828282;
+}
+
+.working-4 {
+  background-color: #7e7e7e;
+}
+.working-4:hover {
+  background-color: #8e8e8e;
+}
+
+.basic-4 {
+  background-color: #8b8b8b;
+}
+.basic-4:hover {
+  background-color: #9a9a9a;
+}
+
+.discipline-4 {
+  background-color: #666666;
+}
+.discipline-4:hover {
+  background-color: #8e8e8e;
+}
+
+.expert-4 {
+  background-color: #7e7e7e;
+}
+.expert-4:hover {
+  background-color: #8e8e8e;
+}
+
+.extensive-4 {
+  background-color: #7e7e7e;
+}
+.extensive-4:hover {
+  background-color: #8e8e8e;
+}
+
+.working-4 {
+  background-color: #979797;
+}
+.working-4:hover {
+  background-color: #a6a6a6;
+}
+
+.basic-4 {
+  background-color: #afafaf;
+}
+.basic-4:hover {
+  background-color: #bfbfbf;
+}
+
 .discipline-container {
   display: flex;
 }
@@ -467,6 +572,7 @@ a:hover {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   background-color: whitesmoke;
+  width: 100%;
 }
 
 .vertical {
@@ -478,14 +584,6 @@ a:hover {
   width: 3rem;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
-}
-
-.skills-container {
-  flex-flow: wrap;
-}
-
-.courses-container {
-  flex-flow: wrap;
 }
 
 .vertical-tab-0 {
@@ -502,6 +600,10 @@ a:hover {
 
 .vertical-tab-3 {
   background: linear-gradient(#76b041, #c8dfb3);
+}
+
+.vertical-tab-4 {
+  background: linear-gradient(#666666, #c2c2c2);
 }
 
 .certification-container {

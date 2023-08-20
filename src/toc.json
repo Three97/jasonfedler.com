@@ -2,13 +2,49 @@
   "title": "JasonFedler.com",
   "subtitle": "Software Engineer",
   "tagline": "“The only true wisdom is in knowing you know nothing.” ― Socrates",
-  "synopsis": "Team-oriented full-stack-capable .NET web developer focused on creating maintainable, testable and user-friendly software. Passionate about working smarter by pragmatically improving day-to-day processes and learning new technologies and approaches. Firm believer that software systems should make our lives easier.",
+  "synopsis": "Team-oriented full-stack-capable .NET web developer focused on creating maintainable, testable and user-friendly software. Passionate about working smarter by pragmatically improving day-to-day processes and learning new technologies and approaches. Firm believer that software systems should make our lives easier and that onus falls squarely on the software developer.",
   "skills": [
     {
       "discipline": 0,
       "skill": "C#.NET",
       "site": "https://learn.microsoft.com/en-us/dotnet/csharp/",
       "proficiency": 75
+    },
+    {
+      "discipline": 0,
+      "skill": "ASP.NET",
+      "site": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+      "proficiency": 35
+    },
+    {
+      "discipline": 0,
+      "skill": "LINQ",
+      "site": "https://learn.microsoft.com/en-us/dotnet/csharp/linq/",
+      "proficiency": 55
+    },
+    {
+      "discipline": 0,
+      "skill": "NUnit",
+      "site": "https://nunit.org/",
+      "proficiency": 55
+    },
+    {
+      "discipline": 2,
+      "skill": "Unit / Integration Testing",
+      "site": "https://www.geeksforgeeks.org/unit-testing-software-testing/",
+      "proficiency": 55
+    },
+    {
+      "discipline": 0,
+      "skill": "ASP.NET MVC",
+      "site": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+      "proficiency": 35
+    },
+    {
+      "discipline": 0,
+      "skill": "Java",
+      "site": "https://www.java.com/en/download/help/whatis_java.html",
+      "proficiency": 25
     },
     {
       "discipline": 0,
@@ -108,6 +144,30 @@
     },
     {
       "discipline": 2,
+      "skill": "Design Patterns",
+      "site": "https://en.wikipedia.org/wiki/Design_Patterns",
+      "proficiency": 45
+    },
+    {
+      "discipline": 2,
+      "skill": "Object Oriented Programming (OOP)",
+      "site": "https://en.wikipedia.org/wiki/Object-oriented_programming",
+      "proficiency": 55
+    },
+    {
+      "discipline": 2,
+      "skill": "Object Oriented Design (OOD)",
+      "site": "https://en.wikipedia.org/wiki/Object-oriented_design",
+      "proficiency": 55
+    },
+    {
+      "discipline": 2,
+      "skill": "SOLID Principles",
+      "site": "https://en.wikipedia.org/wiki/SOLID",
+      "proficiency": 55
+    },
+    {
+      "discipline": 2,
       "skill": "AWS",
       "site": "https://aws.amazon.com",
       "proficiency": 10
@@ -119,7 +179,7 @@
       "proficiency": 30
     },
     {
-      "discipline": 2,
+      "discipline": 4,
       "skill": "Git",
       "site": "https://git-scm.com/",
       "proficiency": 45
@@ -131,7 +191,7 @@
       "proficiency": 40
     },
     {
-      "discipline": 2,
+      "discipline": 4,
       "skill": "PowerShell Core",
       "site": "https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3",
       "proficiency": 25
@@ -155,28 +215,118 @@
       "proficiency": 99
     },
     {
-      "discipline": 3,
+      "discipline": 0,
       "skill": "Red Hat OpenShift",
       "site": "https://www.redhat.com/en/openshift-4",
       "proficiency": 15
     },
     {
-      "discipline": 3,
+      "discipline": 0,
       "skill": "Docker",
       "site": "https://www.docker.com/",
       "proficiency": 15
     },
     {
-      "discipline": 3,
+      "discipline": 0,
       "skill": "Kubernetes",
       "site": "https://kubernetes.io/",
       "proficiency": 15
     },
     {
-      "discipline": 3,
+      "discipline": 0,
       "skill": "Terraform",
       "site": "https://www.terraform.io/",
       "proficiency": 15
+    },
+    {
+      "discipline": 4,
+      "skill": "Visual Studio",
+      "site": "https://visualstudio.microsoft.com",
+      "proficiency": 55
+    },
+    {
+      "discipline": 4,
+      "skill": "Visual Studio for Mac",
+      "site": "https://visualstudio.microsoft.com",
+      "proficiency": 30
+    },
+    {
+      "discipline": 4,
+      "skill": "Visual Studio Code",
+      "site": "https://visualstudio.microsoft.com/",
+      "proficiency": 35
+    },
+    {
+      "discipline": 4,
+      "skill": "Postman",
+      "site": "https://www.postman.com",
+      "proficiency": 40
+    },
+    {
+      "discipline": 4,
+      "skill": "JetBrains Rider",
+      "site": "https://www.jetbrains.com/rider",
+      "proficiency": 35
+    },
+    {
+      "discipline": 4,
+      "skill": "JetBrains Datagrip",
+      "site": "https://www.jetbrains.com/datagrip",
+      "proficiency": 35
+    },
+    {
+      "discipline": 4,
+      "skill": "JetBrains IntelliJ",
+      "site": "https://www.jetbrains.com/intellij",
+      "proficiency": 35
+    },
+    {
+      "discipline": 4,
+      "skill": "macOS",
+      "site": "https://www.apple.com/macosx",
+      "proficiency": 35
+    },
+    {
+      "discipline": 4,
+      "skill": "Windows",
+      "site": "https://www.microsoft.com/en-us/windows?r=1",
+      "proficiency": 35
+    },
+    {
+      "discipline": 4,
+      "skill": "Microsoft Office",
+      "site": "https://www.microsoft.com/en-us/office",
+      "proficiency": 55
+    },
+    {
+      "discipline": 4,
+      "skill": "Microsoft Excel",
+      "site": "https://www.microsoft.com/en-us/office",
+      "proficiency": 75
+    },
+    {
+      "discipline": 4,
+      "skill": "Microsoft Word",
+      "site": "https://www.microsoft.com/en-us/office",
+      "proficiency": 75
+    },
+    {
+      "discipline": 4,
+      "skill": "Azure CLI",
+      "site": "https://learn.microsoft.com/en-us/cli/azure/",
+      "proficiency": 45
+    },
+    {
+      "discipline": 4,
+      "skill": "Angular CLI",
+      "site": "https://angular.io/cli",
+      "proficiency": 45
+    },
+    {
+      "discipline": 3,
+      "skill": "GitHub Actions",
+      "site": "https://github.com/features/actions",
+      "proficiency": 35
     }
   ],
   "cards": [
@@ -218,6 +368,13 @@
     {
       "discipline": 1,
       "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/e9236726-888e-4f8d-88e9-39c73e215ae1",
+      "name": "Styling Applications with Angular Material",
+      "completionDate": "August 19, 2023"
+    },
+    {
+      "discipline": 1,
+      "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/deee26f4-a683-4850-90c8-bb4628087f30",
       "name": "TypeScript: The Big Picture",
       "completionDate": "August 2, 2023"
@@ -230,56 +387,49 @@
       "completionDate": "August 1, 2023"
     },
     {
-      "discipline": 1,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/e9236726-888e-4f8d-88e9-39c73e215ae1",
-      "name": "Styling Applications with Angular Material",
-      "completionDate": "August 19, 2023"
-    },
-    {
-      "discipline": 3,
+      "discipline": 0,
       "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/b8b33ecc-aa93-49f9-b31b-b4c692e98bc9",
       "name": "Docker Deep Dive",
       "completionDate": "July 31, 2023"
     },
     {
-      "discipline": 3,
+      "discipline": 0,
       "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/397df48d-b070-4a33-af41-2e3b947c6237",
       "name": "Getting Started with Docker",
       "completionDate": "July 7, 2023"
     },
     {
-      "discipline": 3,
+      "discipline": 0,
       "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/b79c279d-08c6-4e81-a961-4c234f8a1a85",
       "name": "Docker and Kubernetes: The Big Picture",
       "completionDate": "July 6, 2023"
     },
     {
-      "discipline": 3,
+      "discipline": 0,
       "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/e4ce9008-5c18-4a04-8a43-3a6a76663989",
       "name": "Configuring Application Builds in Red Hat OpenShift Container Platform",
       "completionDate": "June 22, 2023"
     },
     {
-      "discipline": 3,
+      "discipline": 0,
       "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/b4d830ae-2179-4e79-8d52-6b451f219bad",
       "name": "Troubleshooting Applications in Red Hat OpenShift Container Platform",
       "completionDate": "June 22, 2023"
     },
     {
-      "discipline": 3,
+      "discipline": 0,
       "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/7dd18ad4-6507-43b3-8da8-e89aa2a276c8",
       "name": "Scaling Applications in Red Hat OpenShift Container Platform",
       "completionDate": "June 22, 2023"
     },
     {
-      "discipline": 3,
+      "discipline": 0,
       "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/9fc390fa-3dc5-4698-b6cb-b8e5b5223d95",
       "name": "Deploying Applications to Red Hat OpenShift Container Platform",
@@ -356,14 +506,14 @@
       "completionDate": "January 5, 2023"
     },
     {
-      "discipline": 2,
+      "discipline": 4,
       "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/dcd7b911-1027-4046-9369-61e28ad0a8d1",
       "name": "Learning the PowerShell Language",
       "completionDate": "December 31, 2022"
     },
     {
-      "discipline": 2,
+      "discipline": 4,
       "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/120e2b02-7951-412b-867c-db055b942aa3",
       "name": "Installing and Running PowerShell",
@@ -447,11 +597,6 @@
       "comments": "Joe, Allen and Michael share some great content"
     },
     {
-      "name": "Azure DevOps",
-      "url": "http://azuredevopspodcast.clear-measure.com/",
-      "comments": "It's a little weird their website isn't HTTPS, but the content is pretty good"
-    },
-    {
       "name": "Darknet Diaries",
       "url": "https://darknetdiaries.com/",
       "comments": "I enjoy hearing Jack Rhysider's stories from the darkside of the Internet"
@@ -460,6 +605,11 @@
       "name": "Malicious Life",
       "url": "https://malicious.life/",
       "comments": "Great stories about how things in our industry can go sideways"
+    },
+    {
+      "name": "Azure DevOps",
+      "url": "http://azuredevopspodcast.clear-measure.com/",
+      "comments": "It's a little weird their website isn't HTTPS, but the content is pretty good"
     }
   ]
 }
