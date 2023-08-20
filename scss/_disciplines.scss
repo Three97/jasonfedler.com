@@ -10,6 +10,7 @@
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   background-color: whitesmoke;
+  width: 100%;
 }
 
 .vertical {
@@ -23,16 +24,7 @@
   border-bottom-left-radius: 0.5rem;
 }
 
-.skills-container {
-  flex-flow: wrap;
-}
-
-.courses-container {
-  flex-flow: wrap;
-}
-
 $percentage: 60%;
-
 .vertical-tab-0 {
   background: linear-gradient($backend-base-color, mix(#FFF, $backend-base-color, $percentage));
 }
@@ -44,4 +36,7 @@ $percentage: 60%;
 }
 .vertical-tab-3 {
   background: linear-gradient($build-base-color, mix(#FFF, $build-base-color, $percentage))
+}
+.vertical-tab-4 {
+  background: linear-gradient($tools-base-color, mix(#FFF, $tools-base-color, $percentage))
 }

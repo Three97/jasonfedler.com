@@ -10,7 +10,7 @@ const Banner: FC<{ title: string, subtitle: string, tagline: string}> = function
         <h2 className="text-center fs-5 text-monospace">{subtitle}</h2>
         <SocialLinks />
         <div className="container">
-          <div className="text-center text-muted mt-4">
+          <div className="text-center mt-4">
             <small><em>{tagline}</em></small>
           </div>
         </div>
