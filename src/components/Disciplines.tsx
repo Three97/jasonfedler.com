@@ -50,9 +50,12 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
                 </div>
               </div>
               {courses.filter((c) => c.discipline === disc).length > 0 &&
-                <div className="courses-container text-center mt-4">
-                  <Courses items={courses.filter((c) => c.discipline === disc)} />
-                </div>
+                <details>
+                  <summary>Courses</summary>
+                  <div className="courses-container text-center mt-4">
+                    <Courses items={courses.filter((c) => c.discipline === disc)} />
+                  </div>
+                </details>
               }
             </div>
           </div>
