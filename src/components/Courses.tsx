@@ -11,7 +11,8 @@ const Courses: FC<{ items: ICourse[] }> = function({ items }) {
       <div className="container mt-3">
         <div className="row">
           <h5>{disciplineType}-Focused Completed Courses</h5>
-          {items.sort((a: ICourse, b: ICourse) => a.discipline - b.discipline || (new Date(b.completionDate).getTime() - new Date(a.completionDate).getTime()))
+          {/* filter, then sort then map */}
+          {items.sort((a: ICourse, b: ICourse) => (new Date(b.completionDate).getTime() - new Date(a.completionDate).getTime()))
             .map((c: ICourse) => {
               const tooltipForCourse = `${c.provider} course completed on ${new Date(c.completionDate).toDateString()}`;
               return (
