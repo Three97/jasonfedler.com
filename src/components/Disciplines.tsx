@@ -25,7 +25,7 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
           to new technologies. Since {earliestYear} I have spent {totalTime} on the courses itemized 
           below. I am my worst critic and tend to underestimate my abilities while overdelivering results. 
           <br />
-          The proficiency values below align to the knowledge scale defined&nbsp;
+          The self-assigned proficiency values below align to the levels defined&nbsp;
           <Link name="here" url="https://hr.uiowa.edu/careers/competencies/proficiency-levels" tooltip="" />.
         </p>
       </div>

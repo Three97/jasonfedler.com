@@ -11,9 +11,14 @@ const SocialLinks: FC<any> = function() {
             <img src="./assets/github.png" alt="GitHub logo" width={imgSize} />
           </a>
         </div>
-        <div className="ms-4" title="21st century resume that I don't keep up with near as much as I should">
+        <div className="mx-2" title="21st century resume that I don't keep up with near as much as I should">
           <a target="_blank" href="https://www.linkedin.com/in/jason-fedler-35b33a8/" rel="noreferrer" style={anchorStyle}>
             <img src="./assets/linkedin.png" alt="LinkedIn logo" width={imgSize} />
+          </a>
+        </div>
+        <div className="ms-4" title="Actual resume as of August 2023">
+          <a target="_blank" href="./assets/JasonPFedler_ResumeAug2023.pdf" rel="noreferrer" style={anchorStyle}>
+            <img src="./assets/resume.png" alt="Resume logo" width={imgSize} />
           </a>
         </div>
       </div>
