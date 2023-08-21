@@ -18,11 +18,11 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
     <div className="mt-4" key={d++}>
       <div className="text-center">
         <h1>Skills</h1>
-        <p className="ps-4 pe-4">
+        <p className="ps-5 pe-5">
           Software development is a vast and never-ending landscape of learning and is one of the main 
           reasons I gravitated to this career. It seems like the more we know, the more we know we do 
           not know. I have a personal Pluralsight license that I use to educate myself when exposed
-          to new technologies, and enjoy learning new skills. Since since {earliestYear} I 
+          to new technologies, and enjoy learning new skills. Since {earliestYear} I 
           have spent {totalTime} on the courses itemized below. I am my worst critic and 
           tend to underestimate my abilities while overdelivering results. 
           <br />
