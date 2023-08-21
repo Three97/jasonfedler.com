@@ -375,6 +375,13 @@
     {
       "discipline": 1,
       "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/4efd91e7-47ae-4bed-a6e6-d154b04f711c",
+      "name": "Modern Web Layout with Flexbox and CSS Grid",
+      "completionDate": "August 20, 2023"
+    }, 
+    {
+      "discipline": 1,
+      "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/deee26f4-a683-4850-90c8-bb4628087f30",
       "name": "TypeScript: The Big Picture",
       "completionDate": "August 2, 2023"
