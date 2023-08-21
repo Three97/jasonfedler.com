@@ -22,9 +22,8 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
           Software development is a vast and never-ending landscape of learning and is one of the main 
           reasons I gravitated to this career. It seems like the more we know, the more we know we do 
           not know. I have a personal Pluralsight license that I use to educate myself when exposed
-          to new technologies, and enjoy learning new skills. Since {earliestYear} I 
-          have spent {totalTime} on the courses itemized below. I am my worst critic and 
-          tend to underestimate my abilities while overdelivering results. 
+          to new technologies. Since {earliestYear} I have spent {totalTime} on the courses itemized 
+          below. I am my worst critic and tend to underestimate my abilities while overdelivering results. 
           <br />
           The proficiency values below align to the knowledge scale defined&nbsp;
           <Link name="here" url="https://hr.uiowa.edu/careers/competencies/proficiency-levels" tooltip="" />.
