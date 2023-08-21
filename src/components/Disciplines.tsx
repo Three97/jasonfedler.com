@@ -18,16 +18,16 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
     <div className="mt-4" key={d++}>
       <div className="text-center">
         <h1>Skills</h1>
-        <p>
-          Software development is a vast and never-ending landscape of learning
-          and is one of the main reasons I gravitated to this career. It seems
-          like the more we know, the more we know we don't know. The proficiency 
-          values below align to the knowledge scale defined&nbsp;
+        <p className="ps-4 pe-4">
+          Software development is a vast and never-ending landscape of learning and is one of the main 
+          reasons I gravitated to this career. It seems like the more we know, the more we know we do 
+          not know. I have a personal Pluralsight license that I use to educate myself when exposed
+          to new technologies, and enjoy learning new skills. Since since {earliestYear} I 
+          have spent {totalTime} on the courses itemized below. I am my worst critic and 
+          tend to underestimate my abilities while overdelivering results. 
+          <br />
+          The proficiency values below align to the knowledge scale defined&nbsp;
           <Link name="here" url="https://hr.uiowa.edu/careers/competencies/proficiency-levels" tooltip="" />.
-          I have a personal Pluralsight license that I use to educate myself when exposed
-          to new technologies. I'm my worst critic and tend to underestimate my abilities 
-          while overdelivering results. I still enjoy learning new skills and 
-          since {earliestYear} I have spent {totalTime} on the courses itemized below.
         </p>
       </div>
       {distinctDisciplines.map((disc: DisciplineType, i: number) => {
