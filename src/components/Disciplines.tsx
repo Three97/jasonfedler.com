@@ -23,9 +23,8 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
           reasons I gravitated to this career. It seems like the more we know, the more we know we do 
           not know. I have a personal Pluralsight license that I use to educate myself when exposed
           to new technologies. Since {earliestYear} I have spent {totalTime} on the courses itemized 
-          below. I am my worst critic and tend to underestimate my abilities while overdelivering results. 
-          <br />
-          The self-assigned proficiency values below align to the levels defined&nbsp;
+          below. Given I am my own worst critic and tend to underestimate my abilities, I have attempted
+          to assign proficiency values to align with the levels defined&nbsp;
           <Link name="here" url="https://hr.uiowa.edu/careers/competencies/proficiency-levels" tooltip="" />.
         </p>
       </div>

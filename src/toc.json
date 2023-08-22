@@ -610,6 +610,11 @@
       "name": "Azure DevOps",
       "url": "http://azuredevopspodcast.clear-measure.com/",
       "comments": "It's a little weird their website isn't HTTPS, but the content is pretty good"
+    },
+    {
+      "name": "Huberman Lab",
+      "url": "https://hubermanlab.com/",
+      "comments": "Great science-based knowledge tidbits. Working through the backlog of episodes."
     }
   ]
 }
