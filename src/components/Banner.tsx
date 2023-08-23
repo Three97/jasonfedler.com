@@ -6,8 +6,12 @@ const Banner: FC<{ title: string, subtitle: string, tagline: string}> = function
   return (
     <header role="banner">
       <div className="jumbotron">
-        <h1 className="text-center fs-1 text-monospace">{title}</h1>
-        <h2 className="text-center fs-5 text-monospace">{subtitle}</h2>
+        <h1 className="text-center fs-1 text-monospace">
+          {title}
+        </h1>
+        <h2 className="text-center fs-5 text-monospace">
+          {subtitle}
+        </h2>
         <SocialLinks />
         <div className="container">
           <div className="text-center mt-4">

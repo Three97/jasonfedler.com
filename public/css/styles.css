@@ -29,10 +29,13 @@ a:hover {
 .jumbotron {
   padding: 2em 1em;
   font-weight: 700;
-  color: white;
-  background-color: #e3b10c;
-  border-bottom: 1em rgba(0, 0, 0, 0.2) dashed;
-  border-top: 1em rgba(0, 0, 0, 0.15) dashed;
+  color: #333;
+  background: linear-gradient(#e3b10c, #eed06d);
+}
+
+.synopsis-statement {
+  background: linear-gradient(lightgrey, white);
+  color: #333;
 }
 
 .discipline-0 {

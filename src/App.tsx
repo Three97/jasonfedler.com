@@ -1,4 +1,3 @@
-import './App.css';
 import toc from "./toc.json";
 import Banner from "./components/Banner";
 import Synopsis from "./components/Synopsis";
