@@ -7,7 +7,7 @@ const Footer: FC = function() {
     : `2021 - ${currentYear}`;
 
   return (
-    <footer className="mt-5 p-3 text-center fg-highlight3" role="contentinfo">
+    <footer className="mt-4 p-5 text-center fg-highlight3" role="contentinfo">
       <div className="mt-3">
         <em>(c) {yearRange} Copyright JasonFedler.com</em>
       </div>
