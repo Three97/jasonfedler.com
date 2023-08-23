@@ -26,6 +26,10 @@ a:hover {
   height: 100%;
 }
 
+footer {
+  background: linear-gradient(white, lightgray);
+}
+
 .jumbotron {
   padding: 2em 1em;
   font-weight: 700;
