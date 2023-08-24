@@ -23,6 +23,12 @@
       "proficiency": 55
     },
     {
+      "discipline": 2,
+      "skill": "Clean Code",
+      "site": "https://www.oreilly.com/library/view/clean-code-a/9780136083238/",
+      "proficiency": 75
+    },
+    {
       "discipline": 0,
       "skill": "NUnit",
       "site": "https://nunit.org/",
