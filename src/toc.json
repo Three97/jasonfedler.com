@@ -594,6 +594,14 @@
       "name": "AWS Fundamentals by Amazon Web Services",
       "completionDate": "February 23, 2022",
       "duration": { "hours": 23, "minutes": 0 }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/library/courses/csharp-clean-coding-principles/table-of-contents",
+      "name": "Clean Coding Principles in C#",
+      "completionDate": "August 24, 2022",
+      "duration": { "hours": 3, "minutes": 10 }
     }
   ],
   "podcasts": [
