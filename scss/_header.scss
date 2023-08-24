@@ -2,7 +2,7 @@
   padding: $banner-padding;
   font-weight: $banner-font-weight;
   color: $banner-text-color;
-  background: linear-gradient($primary-color, mix(#FFF, $primary-color, 40%));
+  background: radial-gradient(circle at center, $primary-color 0, mix(#FFF, $primary-color, 40%) 100%);
 }
 
 .synopsis-statement {
