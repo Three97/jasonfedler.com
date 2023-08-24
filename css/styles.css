@@ -34,7 +34,7 @@ footer {
   padding: 2em 1em;
   font-weight: 700;
   color: #333;
-  background: linear-gradient(#e3b10c, #eed06d);
+  background: radial-gradient(circle at center, #e3b10c 0, #eed06d 100%);
 }
 
 .synopsis-statement {
