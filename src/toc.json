@@ -602,6 +602,14 @@
       "name": "Clean Coding Principles in C#",
       "completionDate": "August 24, 2022",
       "duration": { "hours": 3, "minutes": 10 }
+    },
+    {
+      "discipline": 2,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/library/courses/csharp-clean-coding-principles/table-of-contents",
+      "name": "AZ-900 Microsoft Azure Fundamentals",
+      "completionDate": "August 25, 2023",
+      "duration": { "hours": 6, "minutes": 59 }
     }
   ],
   "podcasts": [
