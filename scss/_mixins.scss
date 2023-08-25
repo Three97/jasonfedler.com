@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @mixin gradient($r, $g, $b) {
   background: linear-gradient(rgb($r, $g, $b), rgba($r, $g, $b, 0.8), rgb($r, $g, $b));
 }
@@ -21,39 +23,39 @@
       background-color: $background-color;
 
       &:hover {
-        background-color: mix(white, $background-color, $i * $multiplier + $hover-incrementer);
+        background-color: mix(white, $background-color, math.percentage(math.div($i * $multiplier + $hover-incrementer,100)));
       }
     }
 
     .expert-#{$disciplinetype} {
-      background-color: mix(white, $background-color, $i * $multiplier);
+      background-color: mix(white, $background-color, math.percentage(math.div($i * $multiplier, 100)));
 
       &:hover {
-        background-color: mix(white, $background-color, $i * $multiplier + $hover-incrementer);
+        background-color: mix(white, $background-color, math.percentage(math.div($i * $multiplier + $hover-incrementer, 100)));
       }
     }
 
     .extensive-#{$disciplinetype} {
-      background-color: mix(white, $background-color, $i * (1 * $multiplier));
+      background-color: mix(white, $background-color, math.percentage(math.div($i * (1 * $multiplier), 100)));
 
       &:hover {
-        background-color: mix(white, $background-color, $i * (1 * $multiplier) + $hover-incrementer);
+        background-color: mix(white, $background-color, math.percentage(math.div($i * (1 * $multiplier) + $hover-incrementer, 100)));
       }
     }
 
     .working-#{$disciplinetype} {
-      background-color: mix(white, $background-color, $i * (2 * $multiplier));
+      background-color: mix(white, $background-color, math.percentage(math.div($i * (2 * $multiplier), 100)));
 
       &:hover {
-        background-color: mix(white, $background-color, $i * (2 * $multiplier) + $hover-incrementer);
+        background-color: mix(white, $background-color, math.percentage(math.div($i * (2 * $multiplier) + $hover-incrementer, 100)));
       }
     }
 
     .basic-#{$disciplinetype} {
-      background-color: mix(white, $background-color, $i * (3 * $multiplier));
+      background-color: mix(white, $background-color, math.percentage(math.div($i * (3 * $multiplier), 100)));
 
       &:hover {
-        background-color: mix(white, $background-color, $i * (3 * $multiplier) + $hover-incrementer);
+        background-color: mix(white, $background-color, math.percentage(math.div($i * (3 * $multiplier) + $hover-incrementer, 100)));
       }
     }
   }
