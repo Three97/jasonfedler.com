@@ -15,8 +15,8 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
   const earliestYear = new Date(earliestCourse[0].completionDate).getFullYear();
   let d = 0;
   return (
-    <div className="mt-4" key={d++}>
-      <div className="text-center">
+    <>
+      <div className="text-center" key={d++}>
         <h1>Skills</h1>
         <p className="ps-5 pe-5">
           Software development is a vast and never-ending landscape of learning and is one of the main 
@@ -60,7 +60,7 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
           </div>
         );
       })}
-    </div>
+    </>
   );
 };
 
