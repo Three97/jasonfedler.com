@@ -2,8 +2,8 @@ import DisciplineType from '../enums/DisciplineType';
 
 interface ISkill {
   discipline: DisciplineType,
-  skill: string,
-  site: string,
+  name: string,
+  helpUrl: string,
   proficiency: number
 }
 

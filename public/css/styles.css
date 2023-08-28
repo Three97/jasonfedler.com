@@ -615,8 +615,6 @@ footer {
 
 .certification-container {
   outline: 1px dotted grey;
-  padding: 0.75rem;
-  margin: 0.5rem;
   border-radius: 0.25rem;
   background-color: whitesmoke;
 }
@@ -628,7 +626,7 @@ footer {
 
 .card-container {
   background-color: #e4e2da;
-  border: 1px dotted red;
+  border: 1px dotted grey;
   border-radius: 0.5rem;
 }
 

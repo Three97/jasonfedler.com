@@ -4,23 +4,25 @@ import GetIconPathFromServiceName from "../functions/GetIconPathFromServiceName"
 
 const Certifications: FC<{ certs: ICertification[] }> = function({ certs }) {
   return (
-    <div className="mt-4">
+    <div className="mt-4 text-center">
       <h1>Certifications</h1>
       {certs.map((cert: ICertification, c: number) => {
         const iconPath = GetIconPathFromServiceName(cert.service);
         return (
-          <div className="certification-container mb-4" key={++c}>
-            <div className="container">
-              <div className="row">
-                <div className="col-2 justify-content-end mt-3 align-middle">
-                  <img src={iconPath} alt="an icon representing the certificate issuer" height="48px"></img>
+          <div className="certification-container my-4" key={++c}>
+            <div className="d-inline-flex py-4 px-5">
+              <div className="mt-3 text-end">
+                <img src={iconPath} alt="an icon representing the certificate issuer" height="48px"></img>
+              </div>
+              <div className="ms-3 text-start">
+                <a href={cert.sourceUrl}>
+                  <span className="certification-name">{cert.name}</span>
+                </a>
+                <div>
+                  <a href={cert.completionUrl} target="_blank" rel="noreferrer">Actual certificate</a>
                 </div>
-                <div className="col ms-3">
-                  <a href={cert.helpUrl}>
-                    <span className="certification-name">{cert.name}</span>
-                  </a>
-                  <div><a href={cert.url}>Actual certificate</a></div>
-                  <div>Completed on {new Date(cert.completedOn).toLocaleDateString()}</div>
+                <div className="ms-1">
+                  Completed on {new Date(cert.completionDate).toLocaleDateString('en-us', { year:"numeric", month:"long", day:"numeric"})}
                 </div>
               </div>
             </div>

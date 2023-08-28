@@ -32,7 +32,7 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
         const skillsPerDiscipline = skills
           .sort((d1, d2) => (d1.discipline > d2.discipline) ? 1 : -1)
           .filter((s) => { return String(s.discipline) === String(disc); })
-          .sort((s1, s2) => (s1.skill > s2.skill) ? 1 : -1);
+          .sort((s1, s2) => (s1.name > s2.name) ? 1 : -1);
         const classNameForDiscipline = `vertical vertical-tab-${disc} text-white`;
         return (
           <div className="discipline-container mt-3" key={++i}>
@@ -42,7 +42,7 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
                 <div className="skills-container">
                   {skillsPerDiscipline.map((item: ISkill, j: number) => {
                     return (
-                      <SimpleSkill key={`${i}${++j}`} site={item.site} skill={item.skill} 
+                      <SimpleSkill key={`${i}${++j}`} helpUrl={item.helpUrl} name={item.name} 
                         discipline={item.discipline} proficiency={item.proficiency} />
                     );
                   })}

@@ -14,7 +14,9 @@ const GetTotalDuration = (durations: IDuration[]): string => {
   const minutes = durations.map(m => m.minutes).reduce((partialSum, a) => partialSum + a, 0);
   const hoursFromMinutes = Math.floor(minutes / 60);
   const remainingMinutes = minutes % 60;
-  //return `${hours + hoursFromMinutes} hours and ${remainingMinutes} minutes`;
+
+  // write to console so I can get a more specific number
+  console.log("total course duration", `${hours + hoursFromMinutes} hours and ${remainingMinutes} minutes`);
 
   const totalHours = hours + hoursFromMinutes + (remainingMinutes / 60);
   const nextMultipleOfTen = Math.floor((totalHours + 5) / 10) * 10;

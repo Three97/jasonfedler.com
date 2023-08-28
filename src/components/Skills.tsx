@@ -3,7 +3,7 @@ import ISkill from "../interfaces/ISkill";
 import Skill from "./Skill";
 
 const Skills: FC<{ items: ISkill[] }> = function({  items }) {
-  const sortedSkills = items.sort((a: ISkill, b: ISkill) => a.discipline - b.discipline || a.skill.localeCompare(b.skill));
+  const sortedSkills = items.sort((a: ISkill, b: ISkill) => a.discipline - b.discipline || a.name.localeCompare(b.name));
   
   return (
     <div className="container mb-5">
@@ -18,7 +18,7 @@ const Skills: FC<{ items: ISkill[] }> = function({  items }) {
       </div>
       {sortedSkills.map((item: ISkill, i: number) => {
         return (
-          <Skill key={++i} site={item.site} skill={item.skill} proficiency={item.proficiency} discipline={item.discipline} />
+          <Skill key={++i} helpUrl={item.helpUrl} name={item.name} proficiency={item.proficiency} discipline={item.discipline} />
         );
       })}
     </div>

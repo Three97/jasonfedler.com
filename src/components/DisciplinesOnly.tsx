@@ -29,7 +29,7 @@ const DisciplinesOnly: FC<{ skills: ISkill[] }> = function ({ skills }) {
             <div className="vertical">{disciplineName}</div>
             {skillsPerDiscipline.map((item: ISkill, j: number) => {
               return (
-                <SimpleSkill key={`${i}${++j}`} site={item.site} skill={item.skill} 
+                <SimpleSkill key={`${i}${++j}`} helpUrl={item.helpUrl} name={item.name} 
                   discipline={item.discipline} proficiency={item.proficiency} />
               );
             })}

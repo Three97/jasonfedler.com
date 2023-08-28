@@ -6,332 +6,332 @@
   "skills": [
     {
       "discipline": 0,
-      "skill": "C#.NET",
-      "site": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+      "name": "C#.NET",
+      "helpUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/",
       "proficiency": 75
     },
     {
       "discipline": 0,
-      "skill": "ASP.NET",
-      "site": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+      "name": "ASP.NET",
+      "helpUrl": "https://dotnet.microsoft.com/en-us/apps/aspnet",
       "proficiency": 35
     },
     {
       "discipline": 0,
-      "skill": "LINQ",
-      "site": "https://learn.microsoft.com/en-us/dotnet/csharp/linq/",
+      "name": "LINQ",
+      "helpUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/linq/",
       "proficiency": 55
     },
     {
       "discipline": 2,
-      "skill": "Clean Code",
-      "site": "https://www.oreilly.com/library/view/clean-code-a/9780136083238/",
+      "name": "Clean Code",
+      "helpUrl": "https://www.oreilly.com/library/view/clean-code-a/9780136083238/",
       "proficiency": 75
     },
     {
       "discipline": 0,
-      "skill": "NUnit",
-      "site": "https://nunit.org/",
+      "name": "NUnit",
+      "helpUrl": "https://nunit.org/",
       "proficiency": 55
     },
     {
       "discipline": 2,
-      "skill": "Unit / Integration Testing",
-      "site": "https://www.geeksforgeeks.org/unit-testing-software-testing/",
+      "name": "Unit / Integration Testing",
+      "helpUrl": "https://www.geeksforgeeks.org/unit-testing-software-testing/",
       "proficiency": 55
     },
     {
       "discipline": 0,
-      "skill": "ASP.NET MVC",
-      "site": "https://dotnet.microsoft.com/en-us/apps/aspnet",
+      "name": "ASP.NET MVC",
+      "helpUrl": "https://dotnet.microsoft.com/en-us/apps/aspnet",
       "proficiency": 35
     },
     {
       "discipline": 0,
-      "skill": "Java",
-      "site": "https://www.java.com/en/download/help/whatis_java.html",
+      "name": "Java",
+      "helpUrl": "https://www.java.com/en/download/help/whatis_java.html",
       "proficiency": 25
     },
     {
       "discipline": 0,
-      "skill": "Kotlin",
-      "site": "https://kotlinlang.org/",
+      "name": "Kotlin",
+      "helpUrl": "https://kotlinlang.org/",
       "proficiency": 25
     },
     {
       "discipline": 0,
-      "skill": "EF / EF Core",
-      "site": "https://learn.microsoft.com/en-us/ef/core/",
+      "name": "EF / EF Core",
+      "helpUrl": "https://learn.microsoft.com/en-us/ef/core/",
       "proficiency": 50
     },
     {
       "discipline": 0,
-      "skill": "SQL Server",
-      "site": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+      "name": "SQL Server",
+      "helpUrl": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
       "proficiency": 50
     },
     {
       "discipline": 1,
-      "skill": "HTML",
-      "site": "https://www.w3schools.com/html/",
+      "name": "HTML",
+      "helpUrl": "https://www.w3schools.com/html/",
       "proficiency": 65
     },
     {
       "discipline": 1,
-      "skill": "Angular 2+",
-      "site": "https://angular.io/",
+      "name": "Angular 2+",
+      "helpUrl": "https://angular.io/",
       "proficiency": 15
     },
     {
       "discipline": 1,
-      "skill": "TypeScript",
-      "site": "https://www.typescriptlang.org/",
+      "name": "TypeScript",
+      "helpUrl": "https://www.typescriptlang.org/",
       "proficiency": 15
     },
     {
       "discipline": 1,
-      "skill": "Webpack",
-      "site": "https://webpack.js.org/",
+      "name": "Webpack",
+      "helpUrl": "https://webpack.js.org/",
       "proficiency": 15
     },
     {
       "discipline": 1,
-      "skill": "CSS",
-      "site": "https://www.w3schools.com/css/",
+      "name": "CSS",
+      "helpUrl": "https://www.w3schools.com/css/",
       "proficiency": 50
     },
     {
       "discipline": 1,
-      "skill": "Sass",
-      "site": "https://www.w3schools.com/sass/",
+      "name": "Sass",
+      "helpUrl": "https://www.w3schools.com/sass/",
       "proficiency": 35
     },
     {
       "discipline": 1,
-      "skill": "JavaScript",
-      "site": "https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript",
+      "name": "JavaScript",
+      "helpUrl": "https://developer.mozilla.org/en-US/docs/Glossary/ECMAScript",
       "proficiency": 50
     },
     {
       "discipline": 1,
-      "skill": "React",
-      "site": "https://reactjs.org/",
+      "name": "React",
+      "helpUrl": "https://reactjs.org/",
       "proficiency": 25
     },
     {
       "discipline": 1,
-      "skill": "Blazor",
-      "site": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor",
+      "name": "Blazor",
+      "helpUrl": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor",
       "proficiency": 25
     },
     {
       "discipline": 0,
-      "skill": "Identity Server",
-      "site": "https://www.identityserver.com/",
+      "name": "Identity Server",
+      "helpUrl": "https://www.identityserver.com/",
       "proficiency": 25
     },
     {
       "discipline": 2,
-      "skill": "OAuth, OIDC, SAML, JWT",
-      "site": "",
+      "name": "OAuth, OIDC, SAML, JWT",
+      "helpUrl": "",
       "proficiency": 25
     },
     {
       "discipline": 3,
-      "skill": "AppVeyor",
-      "site": "https://www.appveyor.com",
+      "name": "AppVeyor",
+      "helpUrl": "https://www.appveyor.com",
       "proficiency": 40
     },
     {
       "discipline": 2,
-      "skill": "API Design",
-      "site": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+      "name": "API Design",
+      "helpUrl": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
       "proficiency": 45
     },
     {
       "discipline": 2,
-      "skill": "Design Patterns",
-      "site": "https://en.wikipedia.org/wiki/Design_Patterns",
+      "name": "Design Patterns",
+      "helpUrl": "https://en.wikipedia.org/wiki/Design_Patterns",
       "proficiency": 45
     },
     {
       "discipline": 2,
-      "skill": "Object Oriented Programming (OOP)",
-      "site": "https://en.wikipedia.org/wiki/Object-oriented_programming",
+      "name": "Object Oriented Programming (OOP)",
+      "helpUrl": "https://en.wikipedia.org/wiki/Object-oriented_programming",
       "proficiency": 55
     },
     {
       "discipline": 2,
-      "skill": "Object Oriented Design (OOD)",
-      "site": "https://en.wikipedia.org/wiki/Object-oriented_design",
+      "name": "Object Oriented Design (OOD)",
+      "helpUrl": "https://en.wikipedia.org/wiki/Object-oriented_design",
       "proficiency": 55
     },
     {
       "discipline": 2,
-      "skill": "SOLID Principles",
-      "site": "https://en.wikipedia.org/wiki/SOLID",
+      "name": "SOLID Principles",
+      "helpUrl": "https://en.wikipedia.org/wiki/SOLID",
       "proficiency": 55
     },
     {
       "discipline": 2,
-      "skill": "AWS",
-      "site": "https://aws.amazon.com",
+      "name": "AWS",
+      "helpUrl": "https://aws.amazon.com",
       "proficiency": 10
     },
     {
       "discipline": 2,
-      "skill": "Azure",
-      "site": "https://www.azure.com",
+      "name": "Azure",
+      "helpUrl": "https://www.azure.com",
       "proficiency": 30
     },
     {
       "discipline": 4,
-      "skill": "Git",
-      "site": "https://git-scm.com/",
+      "name": "Git",
+      "helpUrl": "https://git-scm.com/",
       "proficiency": 45
     },
     {
       "discipline": 3,
-      "skill": "Octopus",
-      "site": "https://www.octopus.com",
+      "name": "Octopus",
+      "helpUrl": "https://www.octopus.com",
       "proficiency": 40
     },
     {
       "discipline": 4,
-      "skill": "PowerShell Core",
-      "site": "https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3",
+      "name": "PowerShell Core",
+      "helpUrl": "https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3",
       "proficiency": 25
     },
     {
       "discipline": 2,
-      "skill": "Software Architecture",
-      "site": "https://www.martinfowler.com/architecture/",
+      "name": "Software Architecture",
+      "helpUrl": "https://www.martinfowler.com/architecture/",
       "proficiency": 35
     },
     {
       "discipline": 3,
-      "skill": "TeamCity",
-      "site": "https://www.jetbrains.com/teamcity/",
+      "name": "TeamCity",
+      "helpUrl": "https://www.jetbrains.com/teamcity/",
       "proficiency": 30
     },
     {
       "discipline": 2,
-      "skill": "Imposter Syndrome",
-      "site": "https://en.wikipedia.org/wiki/Impostor_syndrome",
+      "name": "Imposter Syndrome",
+      "helpUrl": "https://en.wikipedia.org/wiki/Impostor_syndrome",
       "proficiency": 99
     },
     {
       "discipline": 0,
-      "skill": "Red Hat OpenShift",
-      "site": "https://www.redhat.com/en/openshift-4",
+      "name": "Red Hat OpenShift",
+      "helpUrl": "https://www.redhat.com/en/openshift-4",
       "proficiency": 15
     },
     {
       "discipline": 0,
-      "skill": "Docker",
-      "site": "https://www.docker.com/",
+      "name": "Docker",
+      "helpUrl": "https://www.docker.com/",
       "proficiency": 15
     },
     {
       "discipline": 0,
-      "skill": "Kubernetes",
-      "site": "https://kubernetes.io/",
+      "name": "Kubernetes",
+      "helpUrl": "https://kubernetes.io/",
       "proficiency": 15
     },
     {
       "discipline": 0,
-      "skill": "Terraform",
-      "site": "https://www.terraform.io/",
+      "name": "Terraform",
+      "helpUrl": "https://www.terraform.io/",
       "proficiency": 15
     },
     {
       "discipline": 4,
-      "skill": "Visual Studio",
-      "site": "https://visualstudio.microsoft.com",
+      "name": "Visual Studio",
+      "helpUrl": "https://visualstudio.microsoft.com",
       "proficiency": 55
     },
     {
       "discipline": 4,
-      "skill": "Visual Studio for Mac",
-      "site": "https://visualstudio.microsoft.com",
+      "name": "Visual Studio for Mac",
+      "helpUrl": "https://visualstudio.microsoft.com",
       "proficiency": 30
     },
     {
       "discipline": 4,
-      "skill": "Visual Studio Code",
-      "site": "https://visualstudio.microsoft.com/",
+      "name": "Visual Studio Code",
+      "helpUrl": "https://visualstudio.microsoft.com/",
       "proficiency": 35
     },
     {
       "discipline": 4,
-      "skill": "Postman",
-      "site": "https://www.postman.com",
+      "name": "Postman",
+      "helpUrl": "https://www.postman.com",
       "proficiency": 40
     },
     {
       "discipline": 4,
-      "skill": "JetBrains Rider",
-      "site": "https://www.jetbrains.com/rider",
+      "name": "JetBrains Rider",
+      "helpUrl": "https://www.jetbrains.com/rider",
       "proficiency": 35
     },
     {
       "discipline": 4,
-      "skill": "JetBrains Datagrip",
-      "site": "https://www.jetbrains.com/datagrip",
+      "name": "JetBrains Datagrip",
+      "helpUrl": "https://www.jetbrains.com/datagrip",
       "proficiency": 35
     },
     {
       "discipline": 4,
-      "skill": "JetBrains IntelliJ",
-      "site": "https://www.jetbrains.com/intellij",
+      "name": "JetBrains IntelliJ",
+      "helpUrl": "https://www.jetbrains.com/intellij",
       "proficiency": 35
     },
     {
       "discipline": 4,
-      "skill": "macOS",
-      "site": "https://www.apple.com/macosx",
+      "name": "macOS",
+      "helpUrl": "https://www.apple.com/macosx",
       "proficiency": 35
     },
     {
       "discipline": 4,
-      "skill": "Windows",
-      "site": "https://www.microsoft.com/en-us/windows?r=1",
+      "name": "Windows",
+      "helpUrl": "https://www.microsoft.com/en-us/windows?r=1",
       "proficiency": 35
     },
     {
       "discipline": 4,
-      "skill": "Microsoft Office",
-      "site": "https://www.microsoft.com/en-us/office",
+      "name": "Microsoft Office",
+      "helpUrl": "https://www.microsoft.com/en-us/office",
       "proficiency": 55
     },
     {
       "discipline": 4,
-      "skill": "Microsoft Excel",
-      "site": "https://www.microsoft.com/en-us/office",
+      "name": "Microsoft Excel",
+      "helpUrl": "https://www.microsoft.com/en-us/office",
       "proficiency": 75
     },
     {
       "discipline": 4,
-      "skill": "Microsoft Word",
-      "site": "https://www.microsoft.com/en-us/office",
+      "name": "Microsoft Word",
+      "helpUrl": "https://www.microsoft.com/en-us/office",
       "proficiency": 75
     },
     {
       "discipline": 4,
-      "skill": "Azure CLI",
-      "site": "https://learn.microsoft.com/en-us/cli/azure/",
+      "name": "Azure CLI",
+      "helpUrl": "https://learn.microsoft.com/en-us/cli/azure/",
       "proficiency": 45
     },
     {
       "discipline": 4,
-      "skill": "Angular CLI",
-      "site": "https://angular.io/cli",
+      "name": "Angular CLI",
+      "helpUrl": "https://angular.io/cli",
       "proficiency": 45
     },
     {
       "discipline": 3,
-      "skill": "GitHub Actions",
-      "site": "https://github.com/features/actions",
+      "name": "GitHub Actions",
+      "helpUrl": "https://github.com/features/actions",
       "proficiency": 35
     }
   ],
@@ -369,7 +369,15 @@
       ]
     }
   ],
-  "certifications": [],
+  "certifications": [ 
+    {
+      "name": "AZ-900 Azure Fundamentals",
+      "service": "Azure",
+      "sourceUrl": "https://learn.microsoft.com/en-us/certifications/exams/az-900/",
+      "completionUrl": "https://learn.microsoft.com/api/credentials/share/en-us/jfedler/85481A73B767141B?sharingId=A225CCE97BCA0FB7",
+      "completionDate": "08-28-2023"
+    }
+  ],
   "courses": [
     {
       "discipline": 1,
@@ -606,10 +614,18 @@
     {
       "discipline": 2,
       "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/library/courses/csharp-clean-coding-principles/table-of-contents",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/db810d1b-096a-4591-8cfa-05331a7a12ee",
       "name": "AZ-900 Microsoft Azure Fundamentals",
       "completionDate": "August 25, 2023",
       "duration": { "hours": 6, "minutes": 59 }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/330382ef-f78e-45f9-bb6a-780e4659e6aa",
+      "name": "C# Design Patterns: Rules Engine Pattern",
+      "completionDate": "August 28, 2023",
+      "duration": { "hours": 0, "minutes": 43 }
     }
   ],
   "podcasts": [

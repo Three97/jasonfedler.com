@@ -4,7 +4,7 @@ import Skill from "./Skill";
 import DisciplineType from "../enums/DisciplineType";
 
 const Proficiency: FC<{ discipline: DisciplineType, items: ISkill[] }> = function({ discipline, items }) {
-  const sortedSkills = items.sort((a: ISkill, b: ISkill) => a.discipline - b.discipline || a.skill.localeCompare(b.skill));
+  const sortedSkills = items.sort((a: ISkill, b: ISkill) => a.discipline - b.discipline || a.name.localeCompare(b.name));
   return (
     <div className="container mb-5">
       <div className="row mb-1">
@@ -21,7 +21,7 @@ const Proficiency: FC<{ discipline: DisciplineType, items: ISkill[] }> = functio
       </div>
       {sortedSkills.map((item: ISkill, i: number) => {
         return (
-          <Skill key={++i} site={item.site} skill={item.skill} proficiency={item.proficiency} discipline={item.discipline} />
+          <Skill key={++i} helpUrl={item.helpUrl} name={item.name} proficiency={item.proficiency} discipline={item.discipline} />
         );
       })}
     </div>

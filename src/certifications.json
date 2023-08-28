@@ -2,29 +2,29 @@
   {
     "name": "AZ-900 Azure Fundamentals",
     "service": "Azure",
-    "helpUrl": "https://learn.microsoft.com/en-us/certifications/exams/az-900/",
-    "url": "",
-    "completedOn": "2023-08-12"
+    "sourceUrl": "https://learn.microsoft.com/en-us/certifications/exams/az-900/",
+    "completionUrl": "",
+    "completionDate": "2023-08-12"
   },
   {
     "name": "AZ-204 Azure Developer Associate",
     "service": "Azure",
-    "helpUrl": "https://learn.microsoft.com/en-us/certifications/azure-developer/",
-    "url": "",
-    "completedOn": "2023-08-12"
+    "sourceUrl": "https://learn.microsoft.com/en-us/certifications/azure-developer/",
+    "completionUrl": "",
+    "completionDate": "2023-08-12"
   },
   {
     "name": "AWS Cloud Practictioner Essentials",
     "service": "AWS",
-    "helpUrl": "https://www.aws.training/SessionSearch?pageNumber=1&courseId=17675",
-    "url": "",
-    "completedOn": "2023-08-12"
+    "sourceUrl": "https://www.aws.training/SessionSearch?pageNumber=1&courseId=17675",
+    "completionUrl": "",
+    "completionDate": "2023-08-12"
   },
   {
     "name": "C# Something something",
     "service": "ms",
-    "helpUrl": "",
-    "url": "",
-    "completedOn": "2023-08-12"
+    "sourceUrl": "",
+    "completionUrl": "",
+    "completionDate": "2023-08-12"
   }
 ]
