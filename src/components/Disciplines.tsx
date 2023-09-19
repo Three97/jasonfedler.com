@@ -9,7 +9,9 @@ import Link from "./Link";
 import GetTotalDuration from "../functions/GetTotalDuration";
 
 const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ skills, courses }) {
-  const distinctDisciplines = Array.from(new Set(skills.map((a) => a.discipline)));
+  const distinctDisciplines = 
+    Array.from(new Set(skills.map((a) => a.discipline)))
+    .sort(((d1, d2) => (d1 > d2) ? 1 : -1));
   const totalTime = GetTotalDuration(courses.map(i => i.duration));
   const earliestCourse = courses.sort((a:ICourse, b: ICourse) => (new Date(a.completionDate).getTime() - new Date(b.completionDate).getTime()));
   const earliestYear = new Date(earliestCourse[0].completionDate).getFullYear();
@@ -30,7 +32,6 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
       </div>
       {distinctDisciplines.map((disc: DisciplineType, i: number) => {
         const skillsPerDiscipline = skills
-          .sort((d1, d2) => (d1.discipline > d2.discipline) ? 1 : -1)
           .filter((s) => { return String(s.discipline) === String(disc); })
           .sort((s1, s2) => (s1.name > s2.name) ? 1 : -1);
         const classNameForDiscipline = `vertical vertical-tab-${disc} text-white`;
