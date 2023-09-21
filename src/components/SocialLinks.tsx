@@ -11,7 +11,7 @@ const SocialLinks: FC<any> = function() {
             <img src="./assets/github.png" alt="GitHub logo" width={imgSize} />
           </a>
         </div>
-        <div className="mx-2" title="21st century resume that I don't keep up with near as much as I should">
+        <div className="mx-2" title="21st century resume that keep up with less often than I should">
           <a target="_blank" href="https://www.linkedin.com/in/jason-fedler-35b33a8/" rel="noreferrer" style={anchorStyle}>
             <img src="./assets/linkedin.png" alt="LinkedIn logo" width={imgSize} />
           </a>
