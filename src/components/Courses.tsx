@@ -19,6 +19,10 @@ const Courses: FC<{ items: ICourse[] }> = function({ items }) {
                 <div className="text-bold mt-1" key={++cIdx}>
                   {/* <img src={`./assets/${c.provider.toLowerCase()}.png`} alt="" height="24px" title={c.provider} />&nbsp; */}
                   <Link name={c.name} url={c.completionUrl} tooltip={tooltipForCourse} />
+                  {c.repo && 
+                    <a href={c.repo.url} title={c.repo.name}>
+                      <img src="./assets/github.png" alt={c.repo.description} width="24px" />
+                    </a>}
                 </div>
             );
           })}
