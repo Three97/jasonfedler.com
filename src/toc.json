@@ -12,6 +12,12 @@
     },
     {
       "discipline": 0,
+      "name": "C++",
+      "helpUrl": "https://cplusplus.com/",
+      "proficiency": 15
+    },
+    {
+      "discipline": 0,
       "name": "ASP.NET",
       "helpUrl": "https://dotnet.microsoft.com/en-us/apps/aspnet",
       "proficiency": 35
@@ -465,6 +471,11 @@
       "duration": {
         "hours": 3,
         "minutes": 28
+      },
+      "repo": {
+        "name": "Pluralsight/ApplyingFunctionalPrinciplesInCSharp6",
+        "description": "Follow-along code repository",
+        "url": "https://github.com/Three97/PluralsightCourses/tree/main/ApplyingFunctionalPrinciplesInCSharp6"
       }
     },
     {
@@ -498,6 +509,11 @@
       "duration": {
         "hours": 1,
         "minutes": 25
+      },
+      "repo": {
+        "name": "Pluralsight/FSharp6Fundamentals",
+        "description": "F# Fundamentals",
+        "url": "https://github.com/Three97/PluralsightCourses/tree/main/FSharp6Fundamentals"
       }
     },
     {
@@ -553,6 +569,11 @@
       "duration": {
         "hours": 3,
         "minutes": 14
+      },
+      "repo": {
+        "name": "Pluralsight/AngularMaterial",
+        "description": "Styling Applications with Angular Material",
+        "url": "https://github.com/Three97/PluralsightCourses/tree/main/AngularMaterial"
       }
     },
     {
@@ -729,6 +750,11 @@
       "duration": {
         "hours": 3,
         "minutes": 51
+      },
+      "repo": {
+        "name": "Pluralsight/LearningThePowerShellLanguage",
+        "description": "Learning PowerShell",
+        "url": "https://github.com/Three97/PluralsightCourses/tree/main/LearningThePowerShellLanguage"
       }
     },
     {
@@ -740,6 +766,99 @@
       "duration": {
         "hours": 1,
         "minutes": 19
+      }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/4bc96e05-44fa-46b8-9fa2-defa0544a72c",
+      "name": "What's New in C# 9",
+      "completionDate": "October 4, 2023",
+      "duration": {
+        "hours": 0,
+        "minutes": 43
+      }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/5e60c138-4e02-4661-9b60-f0c4ec8e65f2",
+      "name": "What's New in C# 10",
+      "completionDate": "October 5, 2023",
+      "duration": {
+        "hours": 0,
+        "minutes": 49
+      }
+    },
+    {
+      "discipline": 1,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/34bbe76e-2b94-475e-b269-b1b57c1535da",
+      "name": "React: The Big Picture",
+      "completionDate": "October 5, 2023",
+      "duration": {
+        "hours": 1,
+        "minutes": 10
+      }
+    },
+    {
+      "discipline": 2,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/17e06ffc-3c14-481f-b9df-0edfde3d5c1e",
+      "name": "Microsoft Azure Network Engineer: Design and Implement Private Access to Azure Services",
+      "completionDate": "November 2, 2023",
+      "duration": {
+        "hours": 1,
+        "minutes": 26
+      }
+    },
+    {
+      "discipline": 4,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/39759642-8b71-4123-b7ed-c84ad26958bc",
+      "name": "Git: The Big Picture",
+      "completionDate": "November 22, 2023",
+      "duration": {
+        "hours": 1,
+        "minutes": 7
+      }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/e4ac980c-c0b7-4f23-9f64-d6e872ce0583",
+      "name": "Learn to Program with C++ 17",
+      "completionDate": "November 30, 2023",
+      "duration": {
+        "hours": 5,
+        "minutes": 19
+      }
+    },
+    {
+      "discipline": 1,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/f7e2aa16-3967-4f6c-b4da-3cf1cb4a0127",
+      "name": "What is Angular",
+      "completionDate": "December 1, 2023",
+      "duration": {
+        "hours": 0,
+        "minutes": 33
+      }
+    },
+    {
+      "discipline": 1,
+      "provider": "Pluralsight",
+      "completionUrl": "",
+      "name": "Angular: Getting Started",
+      "completionDate": "",
+      "duration": {
+        "hours": 5,
+        "minutes": 52
+      },
+      "repo": {
+        "name": "Pluralsight/AngularGettingStarted",
+        "description": "Angular: Getting Started",
+        "url": "https://github.com/Three97/PluralsightCourses/tree/main/AngularGettingStarted"
       }
     }
   ],
