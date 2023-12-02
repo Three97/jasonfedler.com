@@ -20,7 +20,7 @@ const Courses: FC<{ items: ICourse[] }> = function({ items }) {
                   {/* <img src={`./assets/${c.provider.toLowerCase()}.png`} alt="" height="24px" title={c.provider} />&nbsp; */}
                   <Link name={c.name} url={c.completionUrl} tooltip={tooltipForCourse} />
                   {c.repo && 
-                    <a href={c.repo.url} title={c.repo.name}>
+                    <a href={c.repo.url} title={c.repo.name} target="_blank" rel="noreferrer">
                       <img src="./assets/github.png" alt={c.repo.description} width="24px" />
                     </a>}
                 </div>
