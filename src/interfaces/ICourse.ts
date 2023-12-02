@@ -1,6 +1,6 @@
 import DisciplineType from "../enums/DisciplineType";
 import IDuration from "./IDuration";
-import { IGitHubRepo } from "./IGitHubRepos";
+import { IGitHubRepo } from "./IGitHubRepo";
 
 export default interface ICourse {
   name: string;

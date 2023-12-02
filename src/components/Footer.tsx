@@ -14,6 +14,12 @@ const Footer: FC = function() {
       <div>
         icons by <a target="_blank" href="https://icons8.com" rel="noreferrer">Icons8</a>
       </div>
+      <div className="mt-5 text-small text-center">
+        Code for this website can be found
+          <a href="https://github.com/Three97/jasonfedler.com" title="website code" target="_blank" rel="noreferrer">
+            here <img src="./assets/github.png" alt="Code repository for website" width="24px" />
+          </a>.
+      </div>
     </footer>
   );
 }
