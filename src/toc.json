@@ -848,9 +848,9 @@
     {
       "discipline": 1,
       "provider": "Pluralsight",
-      "completionUrl": "",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/3bf60161-1a75-45c7-954e-9f11dfc1af14",
       "name": "Angular: Getting Started",
-      "completionDate": "",
+      "completionDate": "December 11, 2023",
       "duration": {
         "hours": 5,
         "minutes": 52
