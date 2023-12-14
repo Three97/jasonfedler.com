@@ -860,7 +860,18 @@
         "description": "Angular: Getting Started",
         "url": "https://github.com/Three97/PluralsightCourses/tree/main/AngularGettingStarted"
       }
-    }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/32f21687-7f8d-412f-8847-13c755c5acd5",
+      "name": "Building and Running Your First Docker App",
+      "completionDate": "December 14, 2023",
+      "duration": {
+        "hours": 2,
+        "minutes": 9
+      }
+    },
   ],
   "podcasts": [
     {
