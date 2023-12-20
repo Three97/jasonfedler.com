@@ -258,12 +258,6 @@
     },
     {
       "discipline": 4,
-      "name": "Visual Studio for Mac",
-      "helpUrl": "https://visualstudio.microsoft.com",
-      "proficiency": 30
-    },
-    {
-      "discipline": 4,
       "name": "Visual Studio Code",
       "helpUrl": "https://visualstudio.microsoft.com/",
       "proficiency": 35
@@ -388,6 +382,50 @@
     {
       "discipline": 0,
       "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/b297b33b-ffbc-4b86-a2c7-4d130425b80e",
+      "name": "C# 10 Fundamentals",
+      "completionDate": "October 6, 2023",
+      "duration": {
+        "hours": 9,
+        "minutes": 3
+      }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/5e60c138-4e02-4661-9b60-f0c4ec8e65f2",
+      "name": "What is New in C# 10.0",
+      "completionDate": "October 5, 2023",
+      "duration": {
+        "hours": 0,
+        "minutes": 49
+      }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/4bc96e05-44fa-46b8-9fa2-defa0544a72c",
+      "name": "What is New in C# 9.0",
+      "completionDate": "October 4, 2023",
+      "duration": {
+        "hours": 0,
+        "minutes": 43
+      }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/e4ac980c-c0b7-4f23-9f64-d6e872ce0583",
+      "name": "Learn to Program with C++ 17",
+      "completionDate": "November 30, 2023",
+      "duration": {
+        "hours": 5,
+        "minutes": 19
+      }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/e4ce9008-5c18-4a04-8a43-3a6a76663989",
       "name": "Configuring Application Builds in Red Hat OpenShift Container Platform",
       "completionDate": "June 22, 2023",
@@ -399,12 +437,12 @@
     {
       "discipline": 0,
       "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/b4d830ae-2179-4e79-8d52-6b451f219bad",
-      "name": "Troubleshooting Applications in Red Hat OpenShift Container Platform",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/9fc390fa-3dc5-4698-b6cb-b8e5b5223d95",
+      "name": "Deploying Applications to Red Hat OpenShift Container Platform",
       "completionDate": "June 22, 2023",
       "duration": {
         "hours": 0,
-        "minutes": 14
+        "minutes": 18
       }
     },
     {
@@ -421,12 +459,12 @@
     {
       "discipline": 0,
       "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/9fc390fa-3dc5-4698-b6cb-b8e5b5223d95",
-      "name": "Deploying Applications to Red Hat OpenShift Container Platform",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/b4d830ae-2179-4e79-8d52-6b451f219bad",
+      "name": "Troubleshooting Applications in Red Hat OpenShift Container Platform",
       "completionDate": "June 22, 2023",
       "duration": {
         "hours": 0,
-        "minutes": 18
+        "minutes": 14
       }
     },
     {
@@ -481,6 +519,28 @@
     {
       "discipline": 0,
       "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/ef97a4ab-9eba-40c1-8fb4-25e60e9923f6",
+      "name": "Building and Orchestrating Containers with Docker Compose",
+      "completionDate": "December 18, 2023",
+      "duration": {
+        "hours": 1,
+        "minutes": 38
+      }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/32f21687-7f8d-412f-8847-13c755c5acd5",
+      "name": "Building and Running Your First Docker App",
+      "completionDate": "December 14, 2023",
+      "duration": {
+        "hours": 2,
+        "minutes": 9
+      }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/bed9d9bb-dcb7-41f7-93ae-d8845a18a40c",
       "name": "C# Design Patterns: Bridge",
       "completionDate": "December 10, 2022",
@@ -509,11 +569,6 @@
       "duration": {
         "hours": 1,
         "minutes": 25
-      },
-      "repo": {
-        "name": "Pluralsight/FSharp6Fundamentals",
-        "description": "F# Fundamentals",
-        "url": "https://github.com/Three97/PluralsightCourses/tree/main/FSharp6Fundamentals"
       }
     },
     {
@@ -536,6 +591,44 @@
       "duration": {
         "hours": 3,
         "minutes": 10
+      }
+    },
+    {
+      "discipline": 1,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/34bbe76e-2b94-475e-b269-b1b57c1535da",
+      "name": "React: The Big Picture",
+      "completionDate": "October 5, 2023",
+      "duration": {
+        "hours": 1,
+        "minutes": 10
+      }
+    },
+    {
+      "discipline": 1,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/3bf60161-1a75-45c7-954e-9f11dfc1af14",
+      "name": "Angular: Getting Started",
+      "completionDate": "December 11, 2023",
+      "duration": {
+        "hours": 5,
+        "minutes": 52
+      },
+      "repo": {
+        "name": "Pluralsight/AngularGettingStarted",
+        "description": "Angular: Getting Started",
+        "url": "https://github.com/Three97/PluralsightCourses/tree/main/AngularGettingStarted"
+      }
+    },
+    {
+      "discipline": 1,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/f7e2aa16-3967-4f6c-b4da-3cf1cb4a0127",
+      "name": "What is Angular?",
+      "completionDate": "December 1, 2023",
+      "duration": {
+        "hours": 0,
+        "minutes": 33
       }
     },
     {
@@ -572,7 +665,7 @@
       },
       "repo": {
         "name": "Pluralsight/AngularMaterial",
-        "description": "Styling Applications with Angular Material",
+        "description": "tyling Applications with Angular Material",
         "url": "https://github.com/Three97/PluralsightCourses/tree/main/AngularMaterial"
       }
     },
@@ -585,6 +678,17 @@
       "duration": {
         "hours": 1,
         "minutes": 17
+      }
+    },
+    {
+      "discipline": 2,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/17e06ffc-3c14-481f-b9df-0edfde3d5c1e",
+      "name": "Microsoft Azure Network Engineer: Design and Implement Private Access to Azure Services",
+      "completionDate": "November 2, 2023",
+      "duration": {
+        "hours": 1,
+        "minutes": 26
       }
     },
     {
@@ -744,6 +848,28 @@
     {
       "discipline": 4,
       "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/39759642-8b71-4123-b7ed-c84ad26958bc",
+      "name": "Git: The Big Picture",
+      "completionDate": "November 22, 2023",
+      "duration": {
+        "hours": 1,
+        "minutes": 7
+      }
+    },
+    {
+      "discipline": 4,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/45387424-4bed-4387-9cb4-90554377133d",
+      "name": "How Git Works",
+      "completionDate": "December 5, 2023",
+      "duration": {
+        "hours": 1,
+        "minutes": 56
+      }
+    },
+    {
+      "discipline": 4,
+      "provider": "Pluralsight",
       "completionUrl": "https://app.pluralsight.com/achievements/share/dcd7b911-1027-4046-9369-61e28ad0a8d1",
       "name": "Learning the PowerShell Language",
       "completionDate": "December 31, 2022",
@@ -766,110 +892,6 @@
       "duration": {
         "hours": 1,
         "minutes": 19
-      }
-    },
-    {
-      "discipline": 0,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/4bc96e05-44fa-46b8-9fa2-defa0544a72c",
-      "name": "What's New in C# 9",
-      "completionDate": "October 4, 2023",
-      "duration": {
-        "hours": 0,
-        "minutes": 43
-      }
-    },
-    {
-      "discipline": 0,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/5e60c138-4e02-4661-9b60-f0c4ec8e65f2",
-      "name": "What's New in C# 10",
-      "completionDate": "October 5, 2023",
-      "duration": {
-        "hours": 0,
-        "minutes": 49
-      }
-    },
-    {
-      "discipline": 1,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/34bbe76e-2b94-475e-b269-b1b57c1535da",
-      "name": "React: The Big Picture",
-      "completionDate": "October 5, 2023",
-      "duration": {
-        "hours": 1,
-        "minutes": 10
-      }
-    },
-    {
-      "discipline": 2,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/17e06ffc-3c14-481f-b9df-0edfde3d5c1e",
-      "name": "Microsoft Azure Network Engineer: Design and Implement Private Access to Azure Services",
-      "completionDate": "November 2, 2023",
-      "duration": {
-        "hours": 1,
-        "minutes": 26
-      }
-    },
-    {
-      "discipline": 4,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/39759642-8b71-4123-b7ed-c84ad26958bc",
-      "name": "Git: The Big Picture",
-      "completionDate": "November 22, 2023",
-      "duration": {
-        "hours": 1,
-        "minutes": 7
-      }
-    },
-    {
-      "discipline": 0,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/e4ac980c-c0b7-4f23-9f64-d6e872ce0583",
-      "name": "Learn to Program with C++ 17",
-      "completionDate": "November 30, 2023",
-      "duration": {
-        "hours": 5,
-        "minutes": 19
-      }
-    },
-    {
-      "discipline": 1,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/f7e2aa16-3967-4f6c-b4da-3cf1cb4a0127",
-      "name": "What is Angular",
-      "completionDate": "December 1, 2023",
-      "duration": {
-        "hours": 0,
-        "minutes": 33
-      }
-    },
-    {
-      "discipline": 1,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/3bf60161-1a75-45c7-954e-9f11dfc1af14",
-      "name": "Angular: Getting Started",
-      "completionDate": "December 11, 2023",
-      "duration": {
-        "hours": 5,
-        "minutes": 52
-      },
-      "repo": {
-        "name": "Pluralsight/AngularGettingStarted",
-        "description": "Angular: Getting Started",
-        "url": "https://github.com/Three97/PluralsightCourses/tree/main/AngularGettingStarted"
-      }
-    },
-    {
-      "discipline": 0,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/32f21687-7f8d-412f-8847-13c755c5acd5",
-      "name": "Building and Running Your First Docker App",
-      "completionDate": "December 14, 2023",
-      "duration": {
-        "hours": 2,
-        "minutes": 9
       }
     }
   ],
