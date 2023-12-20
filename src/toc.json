@@ -333,7 +333,14 @@
       "name": "GitHub Actions",
       "helpUrl": "https://github.com/features/actions",
       "proficiency": 35
+    },
+    {
+      "discipline": 4,
+      "name": "Linux",
+      "helpUrl": "https://www.linux.org/",
+      "proficiency": 15
     }
+
   ],
   "cards": [
     {
