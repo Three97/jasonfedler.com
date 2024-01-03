@@ -900,6 +900,17 @@
         "hours": 1,
         "minutes": 19
       }
+    },
+    {
+      "discipline": 4,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/27889ccc-f255-4f43-8b57-6f46b0f40b1f",
+      "name": "Getting Started With Linux",
+      "completionDate": "January 3, 2024",
+      "duration": {
+        "hours": 1,
+        "minutes": 44
+      }
     }
   ],
   "podcasts": [
