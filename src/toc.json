@@ -911,6 +911,17 @@
         "hours": 1,
         "minutes": 44
       }
+    },
+    {
+      "discipline": 0,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/80cd26eb-ac20-4100-a23e-c4684d7e59d9",
+      "name": "Developing Docker Apps: Core Principles",
+      "completionDate": "January 14, 2024",
+      "duration": {
+        "hours": 2,
+        "minutes": 48
+      }
     }
   ],
   "podcasts": [
