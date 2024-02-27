@@ -4,9 +4,9 @@
 
 To add a discipline
 
-- add to [DisciplineType.ts](./src/enums/DisciplineType.ts)
-- add to [_proficiency.scss](./scss/_proficiency.scss)
-- add to [JSON Table of Contents](./src/toc.json) in the `skills` array
+- [ ] add to [DisciplineType.ts](./src/enums/DisciplineType.ts)
+- [ ] add to [_proficiency.scss](./scss/_proficiency.scss)
+- [ ] add to [JSON Table of Contents](./src/toc.json) in the `skills` array
 
 ## Update colors
 
