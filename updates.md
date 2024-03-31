@@ -34,6 +34,6 @@ There are a couple color palettes for season changes or whatever. Creating a new
 
 ## Future Updates
 
-&check; Add Pluralsight Courses segregated by Discipline (Backend, Frontend, etc.)
-- Rewrite site using Angular to get a feel for how it works differently from React and Vue
-- Rewrite site using Vue to get a feel for how it works differently from Angular and React
+- [x] Add Pluralsight Courses segregated by Discipline (Backend, Frontend, etc.)
+- [ ] Rewrite site using Angular to get a feel for how it works differently from React and Vue
+- [ ] Rewrite site using Vue to get a feel for how it works differently from Angular and React
