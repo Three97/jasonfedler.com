@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Sites used to create this site
 
-* SASS Meister https://www.sassmeister.com/
-* Coolors https://coolors.co
+* [SASS Meister](https://www.sassmeister.com/)
+* [Coolors](https://coolors.co)
 
 ## Available Scripts
 

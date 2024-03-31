@@ -17,5 +17,9 @@
   ],
   "githubPullRequests.ignoredPullRequestBranches": [
     "dev"
+  ],
+  "cSpell.words": [
+    "Coolors",
+    "Meister"
   ]
 }
