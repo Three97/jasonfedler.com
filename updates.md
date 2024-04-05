@@ -10,7 +10,7 @@ To add a discipline
 
 ## Update colors
 
-Use the [Coolor.co](https://coolors.co/generate) site to help generate a color palette.
+Use the [Coolors.co](https://coolors.co/generate) site to help generate a color palette.
 
 There are a couple color palettes for season changes or whatever. Creating a new one just means including all the variables present in one of the existing `_{season}Colors.scss` files and updating the HEX values of the colors therein. If creating a new file, be sure to update [styles.scss](./scss/styles.scss) and make sure its _before_ the `_variables` import.
 
@@ -34,6 +34,6 @@ There are a couple color palettes for season changes or whatever. Creating a new
 
 ## Future Updates
 
-&check; Add Pluralsight Courses segregated by Discipline (Backend, Frontend, etc.)
-- Rewrite site using Angular to get a feel for how it works differently from React and Vue
-- Rewrite site using Vue to get a feel for how it works differently from Angular and React
+- [ ] Add Pluralsight Courses segregated by Discipline (Backend, Frontend, etc.)
+- [ ] Rewrite site using Angular to get a feel for how it works differently from React and Vue
+- [ ] Rewrite site using Vue to get a feel for how it works differently from Angular and React
