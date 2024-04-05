@@ -1,15 +1,15 @@
-// SPRING Colors
+// SUMMER Colors
 // general page colors - cards, etc.
-$primary-color: #7C7287;
-$secondary-color: #acd8aa;
-$highlight1-color: #7C7287;
-$highlight1-muted-color: #c0b9c7;
+$primary-color: #ed997d;
+$secondary-color: mix($primary-color, #fff, 20%);
+$highlight1-color: mix($primary-color, #fff, 40%);
+$highlight1-muted-color: mix($primary-color, #fff, 60%);
 
 // used for disciplines - consumed in _proficiency.scss
-$backend-base-color: #ed986a;
-$frontend-base-color: #B6D094;
-$platform-base-color: #9c8d3c;
-$build-base-color: #348e9f;
+$backend-base-color: #bc218e;
+$frontend-base-color: #83CC66;
+$platform-base-color: #D4C573;
+$build-base-color: #128FC5;
 $tools-base-color: #666666;
 
-$banner-text-color: white;
+$banner-text-color: #333;
