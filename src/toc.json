@@ -339,8 +339,25 @@
       "name": "Linux",
       "helpUrl": "https://www.linux.org/",
       "proficiency": 15
+    },
+    {
+      "discipline": 2,
+      "name": "Messaging Systems",
+      "helpUrl": "https://en.wikipedia.org/wiki/Enterprise_messaging_system",
+      "proficiency": 10
+    },
+    {
+      "discipline": 2,
+      "name": "Domain Driven Design (DDD)",
+      "helpUrl": "https://en.wikipedia.org/wiki/Domain-driven_design",
+      "proficiency": 10
+    },
+    {
+      "discipline": 0,
+      "name": "gRPC",
+      "helpUrl": "https://grpc.io/",
+      "proficiency": 10
     }
-
   ],
   "cards": [
     {
