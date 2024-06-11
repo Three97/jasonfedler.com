@@ -357,6 +357,12 @@
       "name": "gRPC",
       "helpUrl": "https://grpc.io/",
       "proficiency": 10
+    },
+    {
+      "discipline": 0,
+      "name": "Azure Service Bus",
+      "helpUrl": "https://azure.microsoft.com/en-us/products/service-bus/",
+      "proficiency": 10
     }
   ],
   "cards": [
@@ -968,7 +974,7 @@
       "comments": "Great science-based knowledge tidbits"
     },
     {
-      "name": "LeVar Burton Reads",
+      "name": "LeVar Burton Reads (retired)",
       "url": "https://www.levarburtonpodcast.com/",
       "comments": "LeVar Burton of The Reading Rainbow picks and reads interesting short stories"
     }
