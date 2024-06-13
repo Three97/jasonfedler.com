@@ -363,6 +363,12 @@
       "name": "Azure Service Bus",
       "helpUrl": "https://azure.microsoft.com/en-us/products/service-bus/",
       "proficiency": 10
+    },
+    {
+      "discipline": 0,
+      "name": "Kafka",
+      "helpUrl": "https://kafka.apache.org/",
+      "proficiency": 10
     }
   ],
   "cards": [
