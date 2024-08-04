@@ -30,6 +30,10 @@ footer {
   background: linear-gradient(white, lightgray);
 }
 
+.skill-outline {
+  outline: 1px solid lightgrey;
+}
+
 .jumbotron {
   padding: 2em 1em;
   font-weight: 700;
