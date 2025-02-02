@@ -1,8 +1,10 @@
+import ILink from "./ILink";
+
 interface ICertification {
   name: string,
   service: string,
-  sourceUrl: string,
-  completionUrl: string,
+  sourceLink: ILink,
+  completionLink: ILink,
   completionDate: string
 }
 

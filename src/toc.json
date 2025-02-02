@@ -361,45 +361,62 @@
   ],
   "cards": [
     {
+      "id": 2,
       "title": "Ramblings",
       "subtitle": "I write about stuff occasionally",
       "links": [
         {
+          "id": 2,
           "name": "Nerd Blog",
-          "url": "https://blog.jasonfedler.net",
-          "tooltip": "Nerd blog"
+          "url": "https://blog.jasonfedler.com",
+          "tooltip": "Nerd blog where I write about software, mostly"
         },
         {
+          "id": 3,
           "name": "Cycling Blog",
           "url": "https://cycling.jasonfedler.net",
-          "tooltip": "Cycling blog"
+          "tooltip": "Cycling blog where I write about bike rides or races, mostly"
         }
       ]
     },
     {
+      "id": 3,
       "title": "Socials",
       "subtitle": "I do other stuff, too",
       "links": [
         {
+          "id": 4,
           "name": "Strava",
           "url": "https://www.strava.com/athletes/16406695",
-          "tooltip": "Strava is a service that keeps up with athletic activities"
+          "tooltip": "I keep track of my outdoor activities using Strava"
         },
         {
-          "name": "Instragram",
+          "id": 5,
+          "name": "Instagram",
           "url": "https://instagram.com/threeninet7",
-          "tooltip": "I share photos occasionally"
+          "tooltip": "I rarely post on IG, but here's my account"
         }
       ]
     }
   ],
-  "certifications": [
+  "certifications": [  
     {
+      "id": 1,
       "name": "AZ-900 Azure Fundamentals",
       "service": "Azure",
-      "sourceUrl": "https://learn.microsoft.com/en-us/certifications/exams/az-900/",
-      "completionUrl": "https://learn.microsoft.com/api/credentials/share/en-us/jfedler/85481A73B767141B?sharingId=A225CCE97BCA0FB7",
-      "completionDate": "2023/08/28"
+      "sourceLink": {
+        "id": 2,
+        "name": "AZ-900 exam",
+        "url": "https://learn.microsoft.com/en-us/certifications/exams/az-900/",
+        "tooltip": "AZ-900 Azure Fundamentals exam"
+      },
+      "completionLink": {
+        "id": 1,
+        "name": "Certificate of completion",
+        "url": "https://learn.microsoft.com/api/credentials/share/en-us/jfedler/85481A73B767141B?sharingId=A225CCE97BCA0FB7",
+        "tooltip": "Completion certificate from Azure"
+      },
+      "completionDate": "2023-08-28"
     }
   ],
   "courses": [
