@@ -14,7 +14,7 @@ const Podcasts: FC<{ items: IPodcast[] }> = function({ items }) {
       {items.map((p: IPodcast) => {
         return (
           <div className="mt-1 " key={pIdx++}>
-            <Link name={p.name} url={p.url} tooltip={p.comments} /> - <i>{p.comments}</i>
+            <Link name={p.podcastLink.name} url={p.podcastLink.url} tooltip={p.podcastLink.tooltip} /> - <i>{p.comments}</i>
           </div>
         )
       })}

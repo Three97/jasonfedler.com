@@ -960,34 +960,81 @@
   ],
   "podcasts": [
     {
+      "id": 1,
       "name": "Coding Blocks",
-      "url": "https://www.codingblocks.net/",
+      "podcastLink": {
+        "id": 1,
+        "name": "Coding Blocks",
+        "url": "https://www.codingblocks.net/",
+        "tooltip": "Coding Blocks website"
+      },
       "comments": "Joe, Allen and Michael share some great content"
     },
     {
+      "id": 2,
       "name": "Darknet Diaries",
-      "url": "https://darknetdiaries.com/",
+      "podcastLink": {
+        "id": 2,
+        "name": "Darknet Diaries",
+        "url": "https://darknetdiaries.com/",
+        "tooltip": "Darknet Diaries website"
+      },
       "comments": "I enjoy hearing Jack Rhysider's stories from the darkside of the Internet"
     },
     {
+      "id": 3,
       "name": "Malicious Life",
-      "url": "https://malicious.life/",
+      "podcastLink": {
+        "id": 3,
+        "name": "Malicious Life",
+        "url": "https://malicious.life/",
+        "tooltip": "Malicious Life website"
+      },
       "comments": "Great stories about how things in the information industry can go sideways"
     },
     {
+      "id": 4,
       "name": "Azure DevOps",
-      "url": "http://azuredevopspodcast.clear-measure.com/",
+      "podcastLink": {
+        "id": 4,
+        "name": "Azure DevOps",
+        "url": "http://azuredevopspodcast.clear-measure.com/",
+        "tooltip": "Azure DevOps website"
+      },
       "comments": "It's a little weird their website isn't HTTPS, but the content is pretty good"
     },
     {
+      "id": 5,
       "name": "Huberman Lab",
-      "url": "https://hubermanlab.com/",
+      "podcastLink": {
+        "id": 5,
+        "name": "Huberman Lab",
+        "url": "https://hubermanlab.com/",
+        "tooltip": "Huberman Lab website"
+      },
       "comments": "Great science-based knowledge tidbits"
     },
     {
+      "id": 6,
       "name": "LeVar Burton Reads",
-      "url": "https://www.levarburtonpodcast.com/",
+      "podcastLink": {
+        "id": 6,
+        "name": "Levar Burton Reads",
+        "url": "https://www.levarburtonpodcast.com/",
+        "tooltip": "Levar Burton Reads website"
+      },
       "comments": "LeVar Burton of The Reading Rainbow picks and reads interesting short stories"
+    },
+    {
+      "id": 7,
+      "name": "Deep Questions",
+      "podcastLink": {
+        "id": 7,
+        "name": "Deep Questions",
+        "url": "https://www.thedeeplife.com/listen/",
+        "tooltip": "Cal Newport's Deep Questions"
+      },
+      "comments": "Cal Newport has a lot of great ideas and interesting viewpoints"
     }
   ]
 }
