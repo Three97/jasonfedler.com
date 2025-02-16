@@ -38,7 +38,7 @@ footer {
   padding: 2em 1em;
   font-weight: 700;
   color: white;
-  background: radial-gradient(circle at center, #69677B 0, rgb(165, 163.8, 175.8) 100%);
+  background: radial-gradient(circle at center, #69677B 0, #a5a4b0 100%);
 }
 
 .synopsis-statement {
@@ -50,525 +50,525 @@ footer {
   background-color: #6B0504;
 }
 .discipline-0:hover {
-  background-color: rgb(121.8, 30, 29.1);
+  background-color: #7a1e1d;
 }
 
 .expert-0 {
   background-color: #6b0504;
 }
 .expert-0:hover {
-  background-color: rgb(121.8, 30, 29.1);
+  background-color: #7a1e1d;
 }
 
 .extensive-0 {
   background-color: #6b0504;
 }
 .extensive-0:hover {
-  background-color: rgb(121.8, 30, 29.1);
+  background-color: #7a1e1d;
 }
 
 .working-0 {
   background-color: #6b0504;
 }
 .working-0:hover {
-  background-color: rgb(121.8, 30, 29.1);
+  background-color: #7a1e1d;
 }
 
 .basic-0 {
   background-color: #6b0504;
 }
 .basic-0:hover {
-  background-color: rgb(121.8, 30, 29.1);
+  background-color: #7a1e1d;
 }
 
 .discipline-0 {
   background-color: #6B0504;
 }
 .discipline-0:hover {
-  background-color: rgb(133.64, 50, 49.18);
+  background-color: #863231;
 }
 
 .expert-0 {
-  background-color: rgb(118.84, 25, 24.08);
+  background-color: #771918;
 }
 .expert-0:hover {
-  background-color: rgb(133.64, 50, 49.18);
+  background-color: #863231;
 }
 
 .extensive-0 {
-  background-color: rgb(118.84, 25, 24.08);
+  background-color: #771918;
 }
 .extensive-0:hover {
-  background-color: rgb(133.64, 50, 49.18);
+  background-color: #863231;
 }
 
 .working-0 {
-  background-color: rgb(130.68, 45, 44.16);
+  background-color: #832d2c;
 }
 .working-0:hover {
-  background-color: rgb(145.48, 70, 69.26);
+  background-color: #914645;
 }
 
 .basic-0 {
-  background-color: rgb(142.52, 65, 64.24);
+  background-color: #8f4140;
 }
 .basic-0:hover {
-  background-color: rgb(157.32, 90, 89.34);
+  background-color: #9d5a59;
 }
 
 .discipline-0 {
   background-color: #6B0504;
 }
 .discipline-0:hover {
-  background-color: rgb(145.48, 70, 69.26);
+  background-color: #914645;
 }
 
 .expert-0 {
-  background-color: rgb(130.68, 45, 44.16);
+  background-color: #832d2c;
 }
 .expert-0:hover {
-  background-color: rgb(145.48, 70, 69.26);
+  background-color: #914645;
 }
 
 .extensive-0 {
-  background-color: rgb(130.68, 45, 44.16);
+  background-color: #832d2c;
 }
 .extensive-0:hover {
-  background-color: rgb(145.48, 70, 69.26);
+  background-color: #914645;
 }
 
 .working-0 {
-  background-color: rgb(154.36, 85, 84.32);
+  background-color: #9a5554;
 }
 .working-0:hover {
-  background-color: rgb(169.16, 110, 109.42);
+  background-color: #a96e6d;
 }
 
 .basic-0 {
-  background-color: rgb(178.04, 125, 124.48);
+  background-color: #b27d7c;
 }
 .basic-0:hover {
-  background-color: rgb(192.84, 150, 149.58);
+  background-color: #c19696;
 }
 
 .discipline-1 {
   background-color: #607744;
 }
 .discipline-1:hover {
-  background-color: rgb(111.9, 132.6, 86.7);
+  background-color: #708557;
 }
 
 .expert-1 {
   background-color: #607744;
 }
 .expert-1:hover {
-  background-color: rgb(111.9, 132.6, 86.7);
+  background-color: #708557;
 }
 
 .extensive-1 {
   background-color: #607744;
 }
 .extensive-1:hover {
-  background-color: rgb(111.9, 132.6, 86.7);
+  background-color: #708557;
 }
 
 .working-1 {
   background-color: #607744;
 }
 .working-1:hover {
-  background-color: rgb(111.9, 132.6, 86.7);
+  background-color: #708557;
 }
 
 .basic-1 {
   background-color: #607744;
 }
 .basic-1:hover {
-  background-color: rgb(111.9, 132.6, 86.7);
+  background-color: #708557;
 }
 
 .discipline-1 {
   background-color: #607744;
 }
 .discipline-1:hover {
-  background-color: rgb(124.62, 143.48, 101.66);
+  background-color: #7d8f66;
 }
 
 .expert-1 {
-  background-color: rgb(108.72, 129.88, 82.96);
+  background-color: #6d8253;
 }
 .expert-1:hover {
-  background-color: rgb(124.62, 143.48, 101.66);
+  background-color: #7d8f66;
 }
 
 .extensive-1 {
-  background-color: rgb(108.72, 129.88, 82.96);
+  background-color: #6d8253;
 }
 .extensive-1:hover {
-  background-color: rgb(124.62, 143.48, 101.66);
+  background-color: #7d8f66;
 }
 
 .working-1 {
-  background-color: rgb(121.44, 140.76, 97.92);
+  background-color: #798d62;
 }
 .working-1:hover {
-  background-color: rgb(137.34, 154.36, 116.62);
+  background-color: #899a75;
 }
 
 .basic-1 {
-  background-color: rgb(134.16, 151.64, 112.88);
+  background-color: #869871;
 }
 .basic-1:hover {
-  background-color: rgb(150.06, 165.24, 131.58);
+  background-color: #96a584;
 }
 
 .discipline-1 {
   background-color: #607744;
 }
 .discipline-1:hover {
-  background-color: rgb(137.34, 154.36, 116.62);
+  background-color: #899a75;
 }
 
 .expert-1 {
-  background-color: rgb(121.44, 140.76, 97.92);
+  background-color: #798d62;
 }
 .expert-1:hover {
-  background-color: rgb(137.34, 154.36, 116.62);
+  background-color: #899a75;
 }
 
 .extensive-1 {
-  background-color: rgb(121.44, 140.76, 97.92);
+  background-color: #798d62;
 }
 .extensive-1:hover {
-  background-color: rgb(137.34, 154.36, 116.62);
+  background-color: #899a75;
 }
 
 .working-1 {
-  background-color: rgb(146.88, 162.52, 127.84);
+  background-color: #93a380;
 }
 .working-1:hover {
-  background-color: rgb(162.78, 176.12, 146.54);
+  background-color: #a3b093;
 }
 
 .basic-1 {
-  background-color: rgb(172.32, 184.28, 157.76);
+  background-color: #acb89e;
 }
 .basic-1:hover {
-  background-color: rgb(188.22, 197.88, 176.46);
+  background-color: #bcc6b0;
 }
 
 .discipline-2 {
   background-color: #ca8401;
 }
 .discipline-2:hover {
-  background-color: rgb(207.3, 144.3, 26.4);
+  background-color: #cf901a;
 }
 
 .expert-2 {
   background-color: #ca8401;
 }
 .expert-2:hover {
-  background-color: rgb(207.3, 144.3, 26.4);
+  background-color: #cf901a;
 }
 
 .extensive-2 {
   background-color: #ca8401;
 }
 .extensive-2:hover {
-  background-color: rgb(207.3, 144.3, 26.4);
+  background-color: #cf901a;
 }
 
 .working-2 {
   background-color: #ca8401;
 }
 .working-2:hover {
-  background-color: rgb(207.3, 144.3, 26.4);
+  background-color: #cf901a;
 }
 
 .basic-2 {
   background-color: #ca8401;
 }
 .basic-2:hover {
-  background-color: rgb(207.3, 144.3, 26.4);
+  background-color: #cf901a;
 }
 
 .discipline-2 {
   background-color: #ca8401;
 }
 .discipline-2:hover {
-  background-color: rgb(211.54, 154.14, 46.72);
+  background-color: #d49a2f;
 }
 
 .expert-2 {
-  background-color: rgb(206.24, 141.84, 21.32);
+  background-color: #ce8e15;
 }
 .expert-2:hover {
-  background-color: rgb(211.54, 154.14, 46.72);
+  background-color: #d49a2f;
 }
 
 .extensive-2 {
-  background-color: rgb(206.24, 141.84, 21.32);
+  background-color: #ce8e15;
 }
 .extensive-2:hover {
-  background-color: rgb(211.54, 154.14, 46.72);
+  background-color: #d49a2f;
 }
 
 .working-2 {
-  background-color: rgb(210.48, 151.68, 41.64);
+  background-color: #d2982a;
 }
 .working-2:hover {
-  background-color: rgb(215.78, 163.98, 67.04);
+  background-color: #d8a443;
 }
 
 .basic-2 {
-  background-color: rgb(214.72, 161.52, 61.96);
+  background-color: #d7a23e;
 }
 .basic-2:hover {
-  background-color: rgb(220.02, 173.82, 87.36);
+  background-color: #dcae57;
 }
 
 .discipline-2 {
   background-color: #ca8401;
 }
 .discipline-2:hover {
-  background-color: rgb(215.78, 163.98, 67.04);
+  background-color: #d8a443;
 }
 
 .expert-2 {
-  background-color: rgb(210.48, 151.68, 41.64);
+  background-color: #d2982a;
 }
 .expert-2:hover {
-  background-color: rgb(215.78, 163.98, 67.04);
+  background-color: #d8a443;
 }
 
 .extensive-2 {
-  background-color: rgb(210.48, 151.68, 41.64);
+  background-color: #d2982a;
 }
 .extensive-2:hover {
-  background-color: rgb(215.78, 163.98, 67.04);
+  background-color: #d8a443;
 }
 
 .working-2 {
-  background-color: rgb(218.96, 171.36, 82.28);
+  background-color: #dbab52;
 }
 .working-2:hover {
-  background-color: rgb(224.26, 183.66, 107.68);
+  background-color: #e0b86c;
 }
 
 .basic-2 {
-  background-color: rgb(227.44, 191.04, 122.92);
+  background-color: #e3bf7b;
 }
 .basic-2:hover {
-  background-color: rgb(232.74, 203.34, 148.32);
+  background-color: #e9cb94;
 }
 
 .discipline-3 {
   background-color: #356883;
 }
 .discipline-3:hover {
-  background-color: rgb(73.2, 119.1, 143.4);
+  background-color: #49778f;
 }
 
 .expert-3 {
   background-color: #356883;
 }
 .expert-3:hover {
-  background-color: rgb(73.2, 119.1, 143.4);
+  background-color: #49778f;
 }
 
 .extensive-3 {
   background-color: #356883;
 }
 .extensive-3:hover {
-  background-color: rgb(73.2, 119.1, 143.4);
+  background-color: #49778f;
 }
 
 .working-3 {
   background-color: #356883;
 }
 .working-3:hover {
-  background-color: rgb(73.2, 119.1, 143.4);
+  background-color: #49778f;
 }
 
 .basic-3 {
   background-color: #356883;
 }
 .basic-3:hover {
-  background-color: rgb(73.2, 119.1, 143.4);
+  background-color: #49778f;
 }
 
 .discipline-3 {
   background-color: #356883;
 }
 .discipline-3:hover {
-  background-color: rgb(89.36, 131.18, 153.32);
+  background-color: #598399;
 }
 
 .expert-3 {
-  background-color: rgb(69.16, 116.08, 140.92);
+  background-color: #45748d;
 }
 .expert-3:hover {
-  background-color: rgb(89.36, 131.18, 153.32);
+  background-color: #598399;
 }
 
 .extensive-3 {
-  background-color: rgb(69.16, 116.08, 140.92);
+  background-color: #45748d;
 }
 .extensive-3:hover {
-  background-color: rgb(89.36, 131.18, 153.32);
+  background-color: #598399;
 }
 
 .working-3 {
-  background-color: rgb(85.32, 128.16, 150.84);
+  background-color: #558097;
 }
 .working-3:hover {
-  background-color: rgb(105.52, 143.26, 163.24);
+  background-color: #6a8fa3;
 }
 
 .basic-3 {
-  background-color: rgb(101.48, 140.24, 160.76);
+  background-color: #658ca1;
 }
 .basic-3:hover {
-  background-color: rgb(121.68, 155.34, 173.16);
+  background-color: #7a9bad;
 }
 
 .discipline-3 {
   background-color: #356883;
 }
 .discipline-3:hover {
-  background-color: rgb(105.52, 143.26, 163.24);
+  background-color: #6a8fa3;
 }
 
 .expert-3 {
-  background-color: rgb(85.32, 128.16, 150.84);
+  background-color: #558097;
 }
 .expert-3:hover {
-  background-color: rgb(105.52, 143.26, 163.24);
+  background-color: #6a8fa3;
 }
 
 .extensive-3 {
-  background-color: rgb(85.32, 128.16, 150.84);
+  background-color: #558097;
 }
 .extensive-3:hover {
-  background-color: rgb(105.52, 143.26, 163.24);
+  background-color: #6a8fa3;
 }
 
 .working-3 {
-  background-color: rgb(117.64, 152.32, 170.68);
+  background-color: #7698ab;
 }
 .working-3:hover {
-  background-color: rgb(137.84, 167.42, 183.08);
+  background-color: #8aa7b7;
 }
 
 .basic-3 {
-  background-color: rgb(149.96, 176.48, 190.52);
+  background-color: #96b0bf;
 }
 .basic-3:hover {
-  background-color: rgb(170.16, 191.58, 202.92);
+  background-color: #aac0cb;
 }
 
 .discipline-4 {
   background-color: #666666;
 }
 .discipline-4:hover {
-  background-color: rgb(117.3, 117.3, 117.3);
+  background-color: #757575;
 }
 
 .expert-4 {
   background-color: #666666;
 }
 .expert-4:hover {
-  background-color: rgb(117.3, 117.3, 117.3);
+  background-color: #757575;
 }
 
 .extensive-4 {
   background-color: #666666;
 }
 .extensive-4:hover {
-  background-color: rgb(117.3, 117.3, 117.3);
+  background-color: #757575;
 }
 
 .working-4 {
   background-color: #666666;
 }
 .working-4:hover {
-  background-color: rgb(117.3, 117.3, 117.3);
+  background-color: #757575;
 }
 
 .basic-4 {
   background-color: #666666;
 }
 .basic-4:hover {
-  background-color: rgb(117.3, 117.3, 117.3);
+  background-color: #757575;
 }
 
 .discipline-4 {
   background-color: #666666;
 }
 .discipline-4:hover {
-  background-color: rgb(129.54, 129.54, 129.54);
+  background-color: #828282;
 }
 
 .expert-4 {
-  background-color: rgb(114.24, 114.24, 114.24);
+  background-color: #727272;
 }
 .expert-4:hover {
-  background-color: rgb(129.54, 129.54, 129.54);
+  background-color: #828282;
 }
 
 .extensive-4 {
-  background-color: rgb(114.24, 114.24, 114.24);
+  background-color: #727272;
 }
 .extensive-4:hover {
-  background-color: rgb(129.54, 129.54, 129.54);
+  background-color: #828282;
 }
 
 .working-4 {
-  background-color: rgb(126.48, 126.48, 126.48);
+  background-color: #7e7e7e;
 }
 .working-4:hover {
-  background-color: rgb(141.78, 141.78, 141.78);
+  background-color: #8e8e8e;
 }
 
 .basic-4 {
-  background-color: rgb(138.72, 138.72, 138.72);
+  background-color: #8b8b8b;
 }
 .basic-4:hover {
-  background-color: rgb(154.02, 154.02, 154.02);
+  background-color: #9a9a9a;
 }
 
 .discipline-4 {
   background-color: #666666;
 }
 .discipline-4:hover {
-  background-color: rgb(141.78, 141.78, 141.78);
+  background-color: #8e8e8e;
 }
 
 .expert-4 {
-  background-color: rgb(126.48, 126.48, 126.48);
+  background-color: #7e7e7e;
 }
 .expert-4:hover {
-  background-color: rgb(141.78, 141.78, 141.78);
+  background-color: #8e8e8e;
 }
 
 .extensive-4 {
-  background-color: rgb(126.48, 126.48, 126.48);
+  background-color: #7e7e7e;
 }
 .extensive-4:hover {
-  background-color: rgb(141.78, 141.78, 141.78);
+  background-color: #8e8e8e;
 }
 
 .working-4 {
-  background-color: rgb(150.96, 150.96, 150.96);
+  background-color: #979797;
 }
 .working-4:hover {
-  background-color: rgb(166.26, 166.26, 166.26);
+  background-color: #a6a6a6;
 }
 
 .basic-4 {
-  background-color: rgb(175.44, 175.44, 175.44);
+  background-color: #afafaf;
 }
 .basic-4:hover {
-  background-color: rgb(190.74, 190.74, 190.74);
+  background-color: #bfbfbf;
 }
 
 .discipline-container {
@@ -598,23 +598,23 @@ footer {
 }
 
 .vertical-tab-0 {
-  background: linear-gradient(#6B0504, rgb(195.8, 155, 154.6));
+  background: linear-gradient(#6B0504, #c49b9b);
 }
 
 .vertical-tab-1 {
-  background: linear-gradient(#607744, rgb(191.4, 200.6, 180.2));
+  background: linear-gradient(#607744, #bfc9b4);
 }
 
 .vertical-tab-2 {
-  background: linear-gradient(#ca8401, rgb(233.8, 205.8, 153.4));
+  background: linear-gradient(#ca8401, #eace99);
 }
 
 .vertical-tab-3 {
-  background: linear-gradient(#356883, rgb(174.2, 194.6, 205.4));
+  background: linear-gradient(#356883, #aec3cd);
 }
 
 .vertical-tab-4 {
-  background: linear-gradient(#666666, rgb(193.8, 193.8, 193.8));
+  background: linear-gradient(#666666, #c2c2c2);
 }
 
 .certification-container {
