@@ -1,3 +1,5 @@
+@use "variables";
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -8,12 +10,12 @@ a {
   transition: background-color 300ms ease-in-out;
   transition: padding 300ms ease-in-out;
   transition: color 150ms ease-in-out;
-  color: $link-color;
+  color: variables.$link-color;
   padding: 0.25rem;
 
   &:hover {
-    background-color: $highlight2-color;
-    color: $link-hover-color;
+    background-color: variables.$highlight2-color;
+    color: variables.$link-hover-color;
     padding: 0.25rem;
     border-radius: 0.25rem;
   }

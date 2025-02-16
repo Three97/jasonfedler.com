@@ -1,3 +1,4 @@
+import React from 'react';
 import { FC } from 'react';
 import ICourse from '../interfaces/ICourse';
 import GetDisciplineByDisciplineType from '../functions/GetDisciplineByDisciplineType';
