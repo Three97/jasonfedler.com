@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Google Analytics
+
+[Google Analytics is setup](https://analytics.google.com/analytics/web/provision/#/provision/create)
+
 ## Sites used to create this site
 
 * [SASS Meister](https://www.sassmeister.com/)

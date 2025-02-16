@@ -15,11 +15,13 @@ const Certifications: FC<{ certs: ICertification[] }> = function({ certs }) {
                 <img src={iconPath} alt="an icon representing the certificate issuer" height="48px"></img>
               </div>
               <div className="ms-3 text-start">
-                <a href={cert.sourceUrl} target="_blank" rel="noreferrer" title="Link to requirements for certification">
-                  <span className="certification-name">{cert.name}</span>
+                <a href={cert.sourceLink.url} target="_blank" rel="noreferrer" title={cert.sourceLink.tooltip}>
+                  <span className="certification-name">{cert.sourceLink.name}</span>
                 </a>
                 <div>
-                  <a href={cert.completionUrl} target="_blank" rel="noreferrer" title="Link to evidence of completion">Actual certificate</a>
+                  <a href={cert.completionLink.url} target="_blank" rel="noreferrer" title={cert.completionLink.tooltip}>
+                    {cert.completionLink.name}
+                  </a>
                 </div>
                 <div className="ms-1">
                   Completed on {new Date(cert.completionDate).toLocaleDateString('en-us', { year:"numeric", month:"long", day:"numeric"})}

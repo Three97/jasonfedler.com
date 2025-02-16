@@ -1,6 +1,8 @@
+import ILink from "./ILink";
+
 interface IPodcast {
   name: string,
-  url: string,
+  podcastLink: ILink,
   comments: string
 }
 

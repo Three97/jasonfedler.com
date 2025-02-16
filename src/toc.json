@@ -8,7 +8,19 @@
       "discipline": 0,
       "name": "C#.NET",
       "helpUrl": "https://learn.microsoft.com/en-us/dotnet/csharp/",
-      "proficiency": 75
+      "proficiency": 65
+    },
+    {
+      "discipline": 0,
+      "name": ".NET Aspire",
+      "helpUrl": "https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview",
+      "proficiency": 15
+    },
+    {
+      "discipline": 0,
+      "name": "Microsoft Orleans",
+      "helpUrl": "https://learn.microsoft.com/en-us/dotnet/orleans/overview",
+      "proficiency": 15
     },
     {
       "discipline": 0,
@@ -62,7 +74,7 @@
       "discipline": 0,
       "name": "Kotlin",
       "helpUrl": "https://kotlinlang.org/",
-      "proficiency": 25
+      "proficiency": 15
     },
     {
       "discipline": 0,
@@ -176,7 +188,7 @@
       "discipline": 2,
       "name": "SOLID Principles",
       "helpUrl": "https://en.wikipedia.org/wiki/SOLID",
-      "proficiency": 55
+      "proficiency": 45
     },
     {
       "discipline": 2,
@@ -239,13 +251,13 @@
       "proficiency": 15
     },
     {
-      "discipline": 0,
+      "discipline": 3,
       "name": "Kubernetes",
       "helpUrl": "https://kubernetes.io/",
       "proficiency": 15
     },
     {
-      "discipline": 0,
+      "discipline": 3,
       "name": "Terraform",
       "helpUrl": "https://www.terraform.io/",
       "proficiency": 15
@@ -373,45 +385,68 @@
   ],
   "cards": [
     {
+      "id": 2,
       "title": "Ramblings",
       "subtitle": "I write about stuff occasionally",
       "links": [
         {
+          "id": 2,
           "name": "Nerd Blog",
-          "url": "https://blog.jasonfedler.net",
-          "tooltip": "Nerd blog"
+          "url": "https://blog.jasonfedler.com",
+          "tooltip": "Nerd blog where I write about software, mostly"
         },
         {
+          "id": 3,
           "name": "Cycling Blog",
           "url": "https://cycling.jasonfedler.net",
-          "tooltip": "Cycling blog"
+          "tooltip": "Cycling blog where I write about bike rides or races, mostly"
         }
       ]
     },
     {
+      "id": 3,
       "title": "Socials",
       "subtitle": "I do other stuff, too",
       "links": [
         {
+          "id": 4,
           "name": "Strava",
           "url": "https://www.strava.com/athletes/16406695",
-          "tooltip": "Strava is a service that keeps up with athletic activities"
+          "tooltip": "I keep track of my outdoor activities using Strava"
         },
         {
-          "name": "Instragram",
+          "id": 5,
+          "name": "Instagram",
           "url": "https://instagram.com/threeninet7",
-          "tooltip": "I share photos occasionally"
+          "tooltip": "I rarely post on IG, but here's my account"
+        },
+        {
+          "id": 6,
+          "name": "GitHub",
+          "url": "https://github.com/Three97",
+          "tooltip": "I keep a lot of my software stuff in GitHub"
         }
       ]
     }
   ],
-  "certifications": [
+  "certifications": [  
     {
+      "id": 1,
       "name": "AZ-900 Azure Fundamentals",
       "service": "Azure",
-      "sourceUrl": "https://learn.microsoft.com/en-us/certifications/exams/az-900/",
-      "completionUrl": "https://learn.microsoft.com/api/credentials/share/en-us/jfedler/85481A73B767141B?sharingId=A225CCE97BCA0FB7",
-      "completionDate": "2023/08/28"
+      "sourceLink": {
+        "id": 2,
+        "name": "AZ-900 exam",
+        "url": "https://learn.microsoft.com/en-us/certifications/exams/az-900/",
+        "tooltip": "AZ-900 Azure Fundamentals exam"
+      },
+      "completionLink": {
+        "id": 1,
+        "name": "Certificate of completion",
+        "url": "https://learn.microsoft.com/api/credentials/share/en-us/jfedler/85481A73B767141B?sharingId=A225CCE97BCA0FB7",
+        "tooltip": "Completion certificate from Azure"
+      },
+      "completionDate": "2023-08-28"
     }
   ],
   "courses": [
@@ -955,34 +990,81 @@
   ],
   "podcasts": [
     {
+      "id": 1,
       "name": "Coding Blocks",
-      "url": "https://www.codingblocks.net/",
+      "podcastLink": {
+        "id": 1,
+        "name": "Coding Blocks",
+        "url": "https://www.codingblocks.net/",
+        "tooltip": "Coding Blocks website"
+      },
       "comments": "Joe, Allen and Michael share some great content"
     },
     {
+      "id": 2,
       "name": "Darknet Diaries",
-      "url": "https://darknetdiaries.com/",
+      "podcastLink": {
+        "id": 2,
+        "name": "Darknet Diaries",
+        "url": "https://darknetdiaries.com/",
+        "tooltip": "Darknet Diaries website"
+      },
       "comments": "I enjoy hearing Jack Rhysider's stories from the darkside of the Internet"
     },
     {
+      "id": 3,
       "name": "Malicious Life",
-      "url": "https://malicious.life/",
+      "podcastLink": {
+        "id": 3,
+        "name": "Malicious Life",
+        "url": "https://malicious.life/",
+        "tooltip": "Malicious Life website"
+      },
       "comments": "Great stories about how things in the information industry can go sideways"
     },
     {
+      "id": 4,
       "name": "Azure DevOps",
-      "url": "http://azuredevopspodcast.clear-measure.com/",
+      "podcastLink": {
+        "id": 4,
+        "name": "Azure DevOps",
+        "url": "http://azuredevopspodcast.clear-measure.com/",
+        "tooltip": "Azure DevOps website"
+      },
       "comments": "It's a little weird their website isn't HTTPS, but the content is pretty good"
     },
     {
+      "id": 5,
       "name": "Huberman Lab",
-      "url": "https://hubermanlab.com/",
+      "podcastLink": {
+        "id": 5,
+        "name": "Huberman Lab",
+        "url": "https://hubermanlab.com/",
+        "tooltip": "Huberman Lab website"
+      },
       "comments": "Great science-based knowledge tidbits"
     },
     {
-      "name": "LeVar Burton Reads (retired)",
-      "url": "https://www.levarburtonpodcast.com/",
+      "id": 6,
+      "name": "LeVar Burton Reads",
+      "podcastLink": {
+        "id": 6,
+        "name": "Levar Burton Reads",
+        "url": "https://www.levarburtonpodcast.com/",
+        "tooltip": "Levar Burton Reads website"
+      },
       "comments": "LeVar Burton of The Reading Rainbow picks and reads interesting short stories"
+    },
+    {
+      "id": 7,
+      "name": "Deep Questions",
+      "podcastLink": {
+        "id": 7,
+        "name": "Deep Questions",
+        "url": "https://www.thedeeplife.com/listen/",
+        "tooltip": "Cal Newport's Deep Questions"
+      },
+      "comments": "Cal Newport has a lot of great ideas and interesting viewpoints"
     }
   ]
 }
