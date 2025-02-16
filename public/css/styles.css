@@ -37,8 +37,8 @@ footer {
 .jumbotron {
   padding: 2em 1em;
   font-weight: 700;
-  color: white;
-  background: radial-gradient(circle at center, #69677B 0, #a5a4b0 100%);
+  color: #333;
+  background: radial-gradient(circle at center, #e3b10c 0, #eed06d 100%);
 }
 
 .synopsis-statement {
@@ -47,423 +47,423 @@ footer {
 }
 
 .discipline-0 {
-  background-color: #6B0504;
+  background-color: #e4572e;
 }
 .discipline-0:hover {
-  background-color: #7a1e1d;
+  background-color: #e76843;
 }
 
 .expert-0 {
-  background-color: #6b0504;
+  background-color: #e4572e;
 }
 .expert-0:hover {
-  background-color: #7a1e1d;
+  background-color: #e76843;
 }
 
 .extensive-0 {
-  background-color: #6b0504;
+  background-color: #e4572e;
 }
 .extensive-0:hover {
-  background-color: #7a1e1d;
+  background-color: #e76843;
 }
 
 .working-0 {
-  background-color: #6b0504;
+  background-color: #e4572e;
 }
 .working-0:hover {
-  background-color: #7a1e1d;
+  background-color: #e76843;
 }
 
 .basic-0 {
-  background-color: #6b0504;
+  background-color: #e4572e;
 }
 .basic-0:hover {
-  background-color: #7a1e1d;
+  background-color: #e76843;
 }
 
 .discipline-0 {
-  background-color: #6B0504;
+  background-color: #e4572e;
 }
 .discipline-0:hover {
-  background-color: #863231;
+  background-color: #e97554;
 }
 
 .expert-0 {
-  background-color: #771918;
+  background-color: #e6643f;
 }
 .expert-0:hover {
-  background-color: #863231;
+  background-color: #e97554;
 }
 
 .extensive-0 {
-  background-color: #771918;
+  background-color: #e6643f;
 }
 .extensive-0:hover {
-  background-color: #863231;
+  background-color: #e97554;
 }
 
 .working-0 {
-  background-color: #832d2c;
+  background-color: #e8724f;
 }
 .working-0:hover {
-  background-color: #914645;
+  background-color: #eb8364;
 }
 
 .basic-0 {
-  background-color: #8f4140;
+  background-color: #ea7f60;
 }
 .basic-0:hover {
-  background-color: #9d5a59;
+  background-color: #ed9075;
 }
 
 .discipline-0 {
-  background-color: #6B0504;
+  background-color: #e4572e;
 }
 .discipline-0:hover {
-  background-color: #914645;
+  background-color: #eb8364;
 }
 
 .expert-0 {
-  background-color: #832d2c;
+  background-color: #e8724f;
 }
 .expert-0:hover {
-  background-color: #914645;
+  background-color: #eb8364;
 }
 
 .extensive-0 {
-  background-color: #832d2c;
+  background-color: #e8724f;
 }
 .extensive-0:hover {
-  background-color: #914645;
+  background-color: #eb8364;
 }
 
 .working-0 {
-  background-color: #9a5554;
+  background-color: #ed8d71;
 }
 .working-0:hover {
-  background-color: #a96e6d;
+  background-color: #ef9e86;
 }
 
 .basic-0 {
-  background-color: #b27d7c;
+  background-color: #f1a892;
 }
 .basic-0:hover {
-  background-color: #c19696;
+  background-color: #f4b8a7;
 }
 
 .discipline-1 {
-  background-color: #607744;
+  background-color: #76b041;
 }
 .discipline-1:hover {
-  background-color: #708557;
+  background-color: #84b854;
 }
 
 .expert-1 {
-  background-color: #607744;
+  background-color: #76b041;
 }
 .expert-1:hover {
-  background-color: #708557;
+  background-color: #84b854;
 }
 
 .extensive-1 {
-  background-color: #607744;
+  background-color: #76b041;
 }
 .extensive-1:hover {
-  background-color: #708557;
+  background-color: #84b854;
 }
 
 .working-1 {
-  background-color: #607744;
+  background-color: #76b041;
 }
 .working-1:hover {
-  background-color: #708557;
+  background-color: #84b854;
 }
 
 .basic-1 {
-  background-color: #607744;
+  background-color: #76b041;
 }
 .basic-1:hover {
-  background-color: #708557;
+  background-color: #84b854;
 }
 
 .discipline-1 {
-  background-color: #607744;
+  background-color: #76b041;
 }
 .discipline-1:hover {
-  background-color: #7d8f66;
+  background-color: #8fbe63;
 }
 
 .expert-1 {
-  background-color: #6d8253;
+  background-color: #81b650;
 }
 .expert-1:hover {
-  background-color: #7d8f66;
+  background-color: #8fbe63;
 }
 
 .extensive-1 {
-  background-color: #6d8253;
+  background-color: #81b650;
 }
 .extensive-1:hover {
-  background-color: #7d8f66;
+  background-color: #8fbe63;
 }
 
 .working-1 {
-  background-color: #798d62;
+  background-color: #8cbd5f;
 }
 .working-1:hover {
-  background-color: #899a75;
+  background-color: #9ac572;
 }
 
 .basic-1 {
-  background-color: #869871;
+  background-color: #97c36f;
 }
 .basic-1:hover {
-  background-color: #96a584;
+  background-color: #a5cb82;
 }
 
 .discipline-1 {
-  background-color: #607744;
+  background-color: #76b041;
 }
 .discipline-1:hover {
-  background-color: #899a75;
+  background-color: #9ac572;
 }
 
 .expert-1 {
-  background-color: #798d62;
+  background-color: #8cbd5f;
 }
 .expert-1:hover {
-  background-color: #899a75;
+  background-color: #9ac572;
 }
 
 .extensive-1 {
-  background-color: #798d62;
+  background-color: #8cbd5f;
 }
 .extensive-1:hover {
-  background-color: #899a75;
+  background-color: #9ac572;
 }
 
 .working-1 {
-  background-color: #93a380;
+  background-color: #a2c97e;
 }
 .working-1:hover {
-  background-color: #a3b093;
+  background-color: #b0d191;
 }
 
 .basic-1 {
-  background-color: #acb89e;
+  background-color: #b8d69c;
 }
 .basic-1:hover {
-  background-color: #bcc6b0;
+  background-color: #c5deaf;
 }
 
 .discipline-2 {
-  background-color: #ca8401;
+  background-color: #e3b10c;
 }
 .discipline-2:hover {
-  background-color: #cf901a;
+  background-color: #e6b924;
 }
 
 .expert-2 {
-  background-color: #ca8401;
+  background-color: #e3b10c;
 }
 .expert-2:hover {
-  background-color: #cf901a;
+  background-color: #e6b924;
 }
 
 .extensive-2 {
-  background-color: #ca8401;
+  background-color: #e3b10c;
 }
 .extensive-2:hover {
-  background-color: #cf901a;
+  background-color: #e6b924;
 }
 
 .working-2 {
-  background-color: #ca8401;
+  background-color: #e3b10c;
 }
 .working-2:hover {
-  background-color: #cf901a;
+  background-color: #e6b924;
 }
 
 .basic-2 {
-  background-color: #ca8401;
+  background-color: #e3b10c;
 }
 .basic-2:hover {
-  background-color: #cf901a;
+  background-color: #e6b924;
 }
 
 .discipline-2 {
-  background-color: #ca8401;
+  background-color: #e3b10c;
 }
 .discipline-2:hover {
-  background-color: #d49a2f;
+  background-color: #e8bf38;
 }
 
 .expert-2 {
-  background-color: #ce8e15;
+  background-color: #e5b71f;
 }
 .expert-2:hover {
-  background-color: #d49a2f;
+  background-color: #e8bf38;
 }
 
 .extensive-2 {
-  background-color: #ce8e15;
+  background-color: #e5b71f;
 }
 .extensive-2:hover {
-  background-color: #d49a2f;
+  background-color: #e8bf38;
 }
 
 .working-2 {
-  background-color: #d2982a;
+  background-color: #e7bd33;
 }
 .working-2:hover {
-  background-color: #d8a443;
+  background-color: #eac54b;
 }
 
 .basic-2 {
-  background-color: #d7a23e;
+  background-color: #eac446;
 }
 .basic-2:hover {
-  background-color: #dcae57;
+  background-color: #edcc5f;
 }
 
 .discipline-2 {
-  background-color: #ca8401;
+  background-color: #e3b10c;
 }
 .discipline-2:hover {
-  background-color: #d8a443;
+  background-color: #eac54b;
 }
 
 .expert-2 {
-  background-color: #d2982a;
+  background-color: #e7bd33;
 }
 .expert-2:hover {
-  background-color: #d8a443;
+  background-color: #eac54b;
 }
 
 .extensive-2 {
-  background-color: #d2982a;
+  background-color: #e7bd33;
 }
 .extensive-2:hover {
-  background-color: #d8a443;
+  background-color: #eac54b;
 }
 
 .working-2 {
-  background-color: #dbab52;
+  background-color: #ecca5a;
 }
 .working-2:hover {
-  background-color: #e0b86c;
+  background-color: #efd272;
 }
 
 .basic-2 {
-  background-color: #e3bf7b;
+  background-color: #f0d681;
 }
 .basic-2:hover {
-  background-color: #e9cb94;
+  background-color: #f3de99;
 }
 
 .discipline-3 {
-  background-color: #356883;
+  background-color: #17bebb;
 }
 .discipline-3:hover {
-  background-color: #49778f;
+  background-color: #2ec5c2;
 }
 
 .expert-3 {
-  background-color: #356883;
+  background-color: #17bebb;
 }
 .expert-3:hover {
-  background-color: #49778f;
+  background-color: #2ec5c2;
 }
 
 .extensive-3 {
-  background-color: #356883;
+  background-color: #17bebb;
 }
 .extensive-3:hover {
-  background-color: #49778f;
+  background-color: #2ec5c2;
 }
 
 .working-3 {
-  background-color: #356883;
+  background-color: #17bebb;
 }
 .working-3:hover {
-  background-color: #49778f;
+  background-color: #2ec5c2;
 }
 
 .basic-3 {
-  background-color: #356883;
+  background-color: #17bebb;
 }
 .basic-3:hover {
-  background-color: #49778f;
+  background-color: #2ec5c2;
 }
 
 .discipline-3 {
-  background-color: #356883;
+  background-color: #17bebb;
 }
 .discipline-3:hover {
-  background-color: #598399;
+  background-color: #41cac7;
 }
 
 .expert-3 {
-  background-color: #45748d;
+  background-color: #2ac3c0;
 }
 .expert-3:hover {
-  background-color: #598399;
+  background-color: #41cac7;
 }
 
 .extensive-3 {
-  background-color: #45748d;
+  background-color: #2ac3c0;
 }
 .extensive-3:hover {
-  background-color: #598399;
+  background-color: #41cac7;
 }
 
 .working-3 {
-  background-color: #558097;
+  background-color: #3cc8c6;
 }
 .working-3:hover {
-  background-color: #6a8fa3;
+  background-color: #53cfcd;
 }
 
 .basic-3 {
-  background-color: #658ca1;
+  background-color: #4fcecb;
 }
 .basic-3:hover {
-  background-color: #7a9bad;
+  background-color: #66d4d2;
 }
 
 .discipline-3 {
-  background-color: #356883;
+  background-color: #17bebb;
 }
 .discipline-3:hover {
-  background-color: #6a8fa3;
+  background-color: #53cfcd;
 }
 
 .expert-3 {
-  background-color: #558097;
+  background-color: #3cc8c6;
 }
 .expert-3:hover {
-  background-color: #6a8fa3;
+  background-color: #53cfcd;
 }
 
 .extensive-3 {
-  background-color: #558097;
+  background-color: #3cc8c6;
 }
 .extensive-3:hover {
-  background-color: #6a8fa3;
+  background-color: #53cfcd;
 }
 
 .working-3 {
-  background-color: #7698ab;
+  background-color: #61d3d1;
 }
 .working-3:hover {
-  background-color: #8aa7b7;
+  background-color: #78d9d8;
 }
 
 .basic-3 {
-  background-color: #96b0bf;
+  background-color: #86dddc;
 }
 .basic-3:hover {
-  background-color: #aac0cb;
+  background-color: #9ee4e2;
 }
 
 .discipline-4 {
@@ -598,19 +598,19 @@ footer {
 }
 
 .vertical-tab-0 {
-  background: linear-gradient(#6B0504, #c49b9b);
+  background: linear-gradient(#e4572e, #f4bcab);
 }
 
 .vertical-tab-1 {
-  background: linear-gradient(#607744, #bfc9b4);
+  background: linear-gradient(#76b041, #c8dfb3);
 }
 
 .vertical-tab-2 {
-  background: linear-gradient(#ca8401, #eace99);
+  background: linear-gradient(#e3b10c, #f4e09e);
 }
 
 .vertical-tab-3 {
-  background: linear-gradient(#356883, #aec3cd);
+  background: linear-gradient(#17bebb, #a2e5e4);
 }
 
 .vertical-tab-4 {
@@ -629,7 +629,7 @@ footer {
 }
 
 .card-container {
-  background-color: #b9c7c8;
+  background-color: #e4e2da;
   border: 1px dotted grey;
   border-radius: 0.5rem;
 }
