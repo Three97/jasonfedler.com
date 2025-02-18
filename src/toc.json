@@ -986,39 +986,6 @@
         "hours": 2,
         "minutes": 48
       }
-    },
-    {
-      "discipline": 0,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/80cd26eb-ac20-4100-a23e-c4684d7e59d9",
-      "name": "Deploying Containerized Applications",
-      "completionDate": "January 20, 2024",
-      "duration": {
-        "hours": 2,
-        "minutes": 58
-      }
-    },
-    {
-      "discipline": 0,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/achievements/share/80cd26eb-ac20-4100-a23e-c4684d7e59d9",
-      "name": "EF Core: The Big Picture",
-      "completionDate": "August 11, 2024",
-      "duration": {
-        "hours": 1,
-        "minutes": 2
-      }
-    },
-    {
-      "discipline": 2,
-      "provider": "Pluralsight",
-      "completionUrl": "https://app.pluralsight.com/learner/user/courses/v2/04a053b6-3b4e-41c6-9b78-fba4522a0bee/certificate",
-      "name": "Domain Drive Design: The Big Picture",
-      "completionDate": "February 16, 2025",
-      "duration": {
-        "hours": 1,
-        "minutes": 3
-      }
     }
   ],
   "podcasts": [
@@ -1098,6 +1065,28 @@
         "tooltip": "Cal Newport's Deep Questions"
       },
       "comments": "Cal Newport has a lot of great ideas and interesting viewpoints"
+    },
+    {
+      "id": 8,
+      "name": "The Indicator from Planet Money",
+      "podcastLink": {
+        "id": 8,
+        "name": "The Indicator from Planet Money",
+        "url": "https://www.npr.org/podcasts/510325/the-indicator-from-planet-money",
+        "tooltip": "Brief synopsis of recent events surrounding the economy"
+      },
+      "comments": "NPR's weekday podcast with synopses of economic events"
+    },
+    {
+      "id": 9,
+      "name": "Criminal",
+      "podcastLink": {
+        "id": 9,
+        "name": "Criminal",
+        "url": "https://en.wikipedia.org/wiki/Criminal_(podcast)",
+        "tooltip": "A podcast that focuses on true crime"
+      },
+      "comments": "Phoebe Judge narrates some true crime stories"
     }
   ]
 }

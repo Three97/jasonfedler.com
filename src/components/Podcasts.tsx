@@ -4,6 +4,8 @@ import Link from './Link';
 
 const Podcasts: FC<{ items: IPodcast[] }> = function({ items }) {
   let pIdx = 0;
+  // (a:ICourse, b: ICourse) => (new Date(a.completionDate).getTime() - new Date(b.completionDate).getTime())
+  let sortedItems = items.sort((a:IPodcast, b:IPodcast) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))
   return (
     <div className="container text-center mt-4">
       <h1>Podcasts</h1>
@@ -11,7 +13,7 @@ const Podcasts: FC<{ items: IPodcast[] }> = function({ items }) {
         I regularly listen to several podcasts to stay up to date 
         with the latest technologies and approaches to software engineering.
       </p>
-      {items.map((p: IPodcast) => {
+      {sortedItems.map((p: IPodcast) => {
         return (
           <div className="mt-1 " key={pIdx++}>
             <Link name={p.podcastLink.name} url={p.podcastLink.url} tooltip={p.podcastLink.tooltip} /> - <i>{p.comments}</i>
