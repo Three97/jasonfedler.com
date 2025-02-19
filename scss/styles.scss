@@ -1,6 +1,6 @@
-@use "_mixins.scss";
-//@use "_alternateColors.scss";
-@use "_springColors.scss";
+@forward "_mixins.scss";
+// @use "_alternateColors.scss";
+@forward "_springColors.scss";
 //@use "_summerColors.scss";
 //@use "_fallColors.scss";
 //@use "_winterColors.scss";
