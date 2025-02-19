@@ -19,7 +19,7 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
   return (
     <>
       <div className="text-center" key={d++}>
-        <h1>Skills</h1>
+        <h1><i className="bi bi-tools"></i> Skills</h1>
         <p className="ps-5 pe-5">
           Software development is a vast and never-ending landscape of learning and is one of the main 
           reasons I gravitated to this career. It seems like the more we know, the more we know we do 
