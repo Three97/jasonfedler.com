@@ -1,4 +1,8 @@
-@use "winterColors";
+// @use "springColors" as colors;
+// @use "summerColors" as colors;
+// @use "fallolors" as colors;
+@use "winterColors" as colors;
+
 
 @use "sass:color";
 
@@ -30,17 +34,17 @@
 
 $percentage: 60%;
 .vertical-tab-0 {
-  background: linear-gradient(winterColors.$backend-base-color, color.mix(#FFF, winterColors.$backend-base-color, $percentage));
+  background: linear-gradient(colors.$backend-base-color, color.mix(#FFF, colors.$backend-base-color, $percentage));
 }
 .vertical-tab-1 {
-  background: linear-gradient(winterColors.$frontend-base-color, color.mix(#FFF, winterColors.$frontend-base-color, $percentage))
+  background: linear-gradient(colors.$frontend-base-color, color.mix(#FFF, colors.$frontend-base-color, $percentage))
 }
 .vertical-tab-2 {
-  background: linear-gradient(winterColors.$platform-base-color, color.mix(#FFF, winterColors.$platform-base-color, $percentage))
+  background: linear-gradient(colors.$platform-base-color, color.mix(#FFF, colors.$platform-base-color, $percentage))
 }
 .vertical-tab-3 {
-  background: linear-gradient(winterColors.$build-base-color, color.mix(#FFF, winterColors.$build-base-color, $percentage))
+  background: linear-gradient(colors.$build-base-color, color.mix(#FFF, colors.$build-base-color, $percentage))
 }
 .vertical-tab-4 {
-  background: linear-gradient(winterColors.$tools-base-color, color.mix(#FFF, winterColors.$tools-base-color, $percentage))
+  background: linear-gradient(colors.$tools-base-color, color.mix(#FFF, colors.$tools-base-color, $percentage))
 }

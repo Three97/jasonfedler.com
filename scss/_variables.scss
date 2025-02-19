@@ -1,4 +1,7 @@
-@use "winterColors";
+// @use "springColors" as colors;
+// @use "summerColors" as colors;
+// @use "fallColors" as colors;
+@use "winterColors" as colors;
 
 // link hover colors and footer text color
 $highlight2-color: #ff8800;
@@ -7,9 +10,9 @@ $highlight3-color: #cb769e;
 $link-color: rgba(0, 0, 139, 0.8);
 $link-hover-color: white;
 
-$linear-horizontal-gradient: linear-gradient(to right, winterColors.$primary-color, winterColors.$secondary-color);
-$linear-horizontal-reverse-gradient: linear-gradient(to right, winterColors.$primary-color 0 5%, winterColors.$secondary-color 5% 95%, winterColors.$primary-color 95% 100%);
-$linear-vertical-gradient: linear-gradient(to bottom, winterColors.$primary-color, winterColors.$secondary-color);
+$linear-horizontal-gradient: linear-gradient(to right, colors.$primary-color, colors.$secondary-color);
+$linear-horizontal-reverse-gradient: linear-gradient(to right, colors.$primary-color 0 5%, colors.$secondary-color 5% 95%, colors.$primary-color 95% 100%);
+$linear-vertical-gradient: linear-gradient(to bottom, colors.$primary-color, colors.$secondary-color);
 
 $banner-top-border: 1em rgba(0, 0, 0, 0.15) dashed;
 $banner-bottom-border: 1em rgba(0, 0, 0, 0.20) dashed;
