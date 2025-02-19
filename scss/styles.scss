@@ -1,16 +1,16 @@
-@import "_mixins.scss";
+@use "_mixins.scss";
 // @import "_alternateColors.scss";
 //@import "_springColors.scss";
 //@import "_summerColors.scss";
 //@import "_fallColors.scss";
-@import "_winterColors.scss";
-@import "_variables.scss";
+@use "_winterColors.scss";
+@use "_variables.scss";
 
-@import "_globals.scss";
-@import "_header.scss";
-@import "_proficiency.scss";
-@import "_disciplines.scss";
-@import "_certifications.scss";
-@import "_card.scss";
+@use "_globals.scss";
+@use "_header.scss";
+@use "_proficiency.scss";
+@use "_disciplines.scss";
+@use "_certifications.scss";
+@use "_card.scss";
 
-@import "_overrides.scss";
+@use "_overrides.scss";

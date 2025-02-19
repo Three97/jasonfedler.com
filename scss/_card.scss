@@ -1,5 +1,7 @@
+@use "winterColors";
+
 .card-container {
-  background-color: $highlight1-muted-color;
+  background-color: winterColors.$highlight1-muted-color;
   border: 1px dotted grey;
   border-radius: 0.5rem;
 }
