@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Disciplines from './components/Disciplines';
 import Certification from './components/Certifications';
 import Podcasts from './components/Podcasts';
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
   return (

@@ -1,11 +1,14 @@
+@use "mixins";
+@use "winterColors";
+
 // *-base-colors are declared in _variables
 
-@include shades-per-discipline-proficiency (2, $backend-base-color, 0);
+@include mixins.shades-per-discipline-proficiency (2, winterColors.$backend-base-color, 0);
 
-@include shades-per-discipline-proficiency (2, $frontend-base-color, 1);
+@include mixins.shades-per-discipline-proficiency (2, winterColors.$frontend-base-color, 1);
 
-@include shades-per-discipline-proficiency (2, $platform-base-color, 2);
+@include mixins.shades-per-discipline-proficiency (2, winterColors.$platform-base-color, 2);
 
-@include shades-per-discipline-proficiency (2, $build-base-color, 3);
+@include mixins.shades-per-discipline-proficiency (2, winterColors.$build-base-color, 3);
 
-@include shades-per-discipline-proficiency (2, $tools-base-color, 4);
+@include mixins.shades-per-discipline-proficiency (2, winterColors.$tools-base-color, 4);

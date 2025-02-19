@@ -1,9 +1,11 @@
+@use "sass:color";
+
 // SUMMER Colors
 // general page colors - cards, etc.
 $primary-color: #ed997d;
-$secondary-color: mix($primary-color, #fff, 20%);
-$highlight1-color: mix($primary-color, #fff, 40%);
-$highlight1-muted-color: mix($primary-color, #fff, 60%);
+$secondary-color: color.mix($primary-color, #fff, 20%);
+$highlight1-color: color.mix($primary-color, #fff, 40%);
+$highlight1-muted-color: color.mix($primary-color, #fff, 60%);
 
 // used for disciplines - consumed in _proficiency.scss
 $backend-base-color: #bc218e;

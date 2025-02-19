@@ -5,7 +5,7 @@ import GetIconPathFromServiceName from "../functions/GetIconPathFromServiceName"
 const Certifications: FC<{ certs: ICertification[] }> = function({ certs }) {
   return (
     <div className="mt-4 text-center">
-      <h1>Certifications</h1>
+      <h1><i className="bi bi-trophy"></i> Certifications</h1>
       {certs.map((cert: ICertification, c: number) => {
         const iconPath = GetIconPathFromServiceName(cert.service);
         return (

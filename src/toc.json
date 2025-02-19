@@ -386,7 +386,7 @@
   "cards": [
     {
       "id": 2,
-      "title": "Ramblings",
+      "title": "Writing",
       "subtitle": "I write about stuff occasionally",
       "links": [
         {
@@ -1064,7 +1064,7 @@
         "url": "http://azuredevopspodcast.clear-measure.com/",
         "tooltip": "Azure DevOps website"
       },
-      "comments": "It's a little weird their website isn't HTTPS, but the content is pretty good"
+      "comments": "A podcast about Azure and the .NET ecosystem as a whole"
     },
     {
       "id": 5,
@@ -1098,6 +1098,28 @@
         "tooltip": "Cal Newport's Deep Questions"
       },
       "comments": "Cal Newport has a lot of great ideas and interesting viewpoints"
+    },
+    {
+      "id": 8,
+      "name": "The Indicator from Planet Money",
+      "podcastLink": {
+        "id": 8,
+        "name": "The Indicator from Planet Money",
+        "url": "https://www.npr.org/podcasts/510325/the-indicator-from-planet-money",
+        "tooltip": "Brief synopsis of recent events surrounding the economy"
+      },
+      "comments": "NPR's weekday podcast with synopses of economic events"
+    },
+    {
+      "id": 9,
+      "name": "Criminal",
+      "podcastLink": {
+        "id": 9,
+        "name": "Criminal",
+        "url": "https://en.wikipedia.org/wiki/Criminal_(podcast)",
+        "tooltip": "A podcast that focuses on true crime"
+      },
+      "comments": "Phoebe Judge narrates some true crime stories"
     }
   ]
 }
