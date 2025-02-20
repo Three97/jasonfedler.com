@@ -1,7 +1,7 @@
 {
   "homepage": "https://three97.github.io/",
   "name": "jfcom",
-  "version": "2023.08.25",
+  "version": "2025.02.19",
   "private": true,
   "dependencies": {
     "@types/jest": "^29.5.4",

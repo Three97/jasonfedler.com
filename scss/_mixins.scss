@@ -11,16 +11,16 @@
 // Working     light
 // Basic       lightest
 // $count = number of shades
-// $startcolor = starting color for producing other shades
-// $disciplinetype = maps to DisciplineType enumeration
-@mixin shades-per-discipline-proficiency ($count, $startcolor, $disciplinetype ) {
+// $startColor = starting color for producing other shades
+// $disciplineType = maps to DisciplineType enumeration
+@mixin shades-per-discipline-proficiency ($count, $startColor, $disciplineType ) {
   @for $i from 0 through $count {
-    $background-color: $startcolor;
+    $background-color: $startColor;
 
     $multiplier: 8;
     $hover-incrementer: 10;
 
-    .discipline-#{$disciplinetype} {
+    .discipline-#{$disciplineType} {
       background-color: $background-color;
 
       &:hover {
@@ -28,7 +28,7 @@
       }
     }
 
-    .expert-#{$disciplinetype} {
+    .expert-#{$disciplineType} {
       background-color: color.mix(white, $background-color, math.percentage(math.div($i * $multiplier, 100)));
 
       &:hover {
@@ -36,7 +36,7 @@
       }
     }
 
-    .extensive-#{$disciplinetype} {
+    .extensive-#{$disciplineType} {
       background-color: color.mix(white, $background-color, math.percentage(math.div($i * (1 * $multiplier), 100)));
 
       &:hover {
@@ -44,7 +44,7 @@
       }
     }
 
-    .working-#{$disciplinetype} {
+    .working-#{$disciplineType} {
       background-color: color.mix(white, $background-color, math.percentage(math.div($i * (2 * $multiplier), 100)));
 
       &:hover {
@@ -52,7 +52,7 @@
       }
     }
 
-    .basic-#{$disciplinetype} {
+    .basic-#{$disciplineType} {
       background-color: color.mix(white, $background-color, math.percentage(math.div($i * (3 * $multiplier), 100)));
 
       &:hover {
