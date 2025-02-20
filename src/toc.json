@@ -419,12 +419,6 @@
           "name": "Instagram",
           "url": "https://instagram.com/threeninet7",
           "tooltip": "I rarely post on IG, but here's my account"
-        },
-        {
-          "id": 6,
-          "name": "GitHub",
-          "url": "https://github.com/Three97",
-          "tooltip": "I keep a lot of my software stuff in GitHub"
         }
       ]
     }
