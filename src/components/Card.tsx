@@ -5,7 +5,7 @@ import Link from "./Link";
 
 const Card: FC<ICardProps> = function({ title, subtitle, links }) {
   return (
-    <div className="card card-equal-height p-5 card-container">
+    <div className="card card-equal-height p-5 card-container block-segment">
       <h2>{title}</h2>
       <div className="mb-3">
         <em>{subtitle}</em>

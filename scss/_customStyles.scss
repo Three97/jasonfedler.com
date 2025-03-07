@@ -1,0 +1,59 @@
+/* CARDS */
+.card-container {
+  border: 1px dotted grey;
+  border-radius: 0.5rem;
+}
+
+/* BOOKS */
+.books-container {
+  outline: 1px solid lightgray;
+  border-radius: 0.5rem;
+    
+    li {
+      text-indent: -2rem;
+      padding-left: 2em; /* Indent for the rest of the lines */
+    }
+}
+
+/* CERTIFICATIONS */
+.certification-container {
+  outline: 1px dotted grey;
+  border-radius: 0.25rem;
+}
+
+.certification-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* DISCIPLINES */
+.discipline-container {
+  display: flex;
+}
+
+.discipline-inner-container {
+  border-top: 1px dotted grey;
+  border-right: 1px dotted grey;
+  border-bottom: 1px dotted grey;
+  padding: 1rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  width: 100%;
+}
+
+.vertical {
+  flex: 1;
+  writing-mode: vertical-rl;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 3rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+/* HEADER */
+.synopsis-statement {
+  background: linear-gradient(lightgrey, white);
+  color: #333;
+}

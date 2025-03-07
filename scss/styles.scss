@@ -1,16 +1,13 @@
 @use "_mixins.scss";
-//@ use "_alternateColors.scss";
-//@ use "_springColors.scss";
-//@ use "_summerColors.scss";
-//@ use "_fallColors.scss";
-@use "_winterColors.scss";
+// @use "_alternateColors.scss";
+// @use "_paletteSpring";
+// @use "_paletteSummer";
+// @use "_paletteFall";
+@use "_paletteWinter";
 @use "_variables.scss";
 
 @use "_globals.scss";
-@use "_header.scss";
-@use "_proficiency.scss";
-@use "_disciplines.scss";
-@use "_certifications.scss";
-@use "_card.scss";
+@use "_customStyles.scss";
+@use "_paletteStyles.scss";
 
 @use "_overrides.scss";

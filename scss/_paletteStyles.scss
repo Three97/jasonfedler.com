@@ -1,0 +1,52 @@
+// @use "paletteSpring" as palette;
+// @use "paletteSummer" as palette;
+// @use "paletteFall" as palette;
+@use "paletteWinter" as palette;
+
+@use "mixins";
+
+@use "sass:color";
+
+@use "variables";
+
+/* BACKGROUNDS */
+.block-segment {
+  background-color: color.mix(#FFF, palette.$primary-color, 90%);
+}
+
+/* DISCIPLINES */
+$percentage: 60%;
+.vertical-tab-0 {
+  background: linear-gradient(palette.$backend-base-color, color.mix(#FFF, palette.$backend-base-color, $percentage));
+}
+.vertical-tab-1 {
+  background: linear-gradient(palette.$frontend-base-color, color.mix(#FFF, palette.$frontend-base-color, $percentage))
+}
+.vertical-tab-2 {
+  background: linear-gradient(palette.$platform-base-color, color.mix(#FFF, palette.$platform-base-color, $percentage))
+}
+.vertical-tab-3 {
+  background: linear-gradient(palette.$build-base-color, color.mix(#FFF, palette.$build-base-color, $percentage))
+}
+.vertical-tab-4 {
+  background: linear-gradient(palette.$tools-base-color, color.mix(#FFF, palette.$tools-base-color, $percentage))
+}
+
+/* PROFICIENCY */
+@include mixins.shades-per-discipline-proficiency (2, palette.$backend-base-color, 0);
+
+@include mixins.shades-per-discipline-proficiency (2, palette.$frontend-base-color, 1);
+
+@include mixins.shades-per-discipline-proficiency (2, palette.$platform-base-color, 2);
+
+@include mixins.shades-per-discipline-proficiency (2, palette.$build-base-color, 3);
+
+@include mixins.shades-per-discipline-proficiency (2, palette.$tools-base-color, 4);
+
+/* BANNER / HEADER */
+.jumbotron {
+  padding: variables.$banner-padding;
+  font-weight: variables.$banner-font-weight;
+  color: palette.$banner-text-color;
+  background: radial-gradient(circle at center, palette.$primary-color 0, color.mix(#FFF, palette.$primary-color, 40%) 100%);
+}

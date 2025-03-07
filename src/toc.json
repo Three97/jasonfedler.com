@@ -1126,5 +1126,40 @@
       },
       "comments": "Phoebe Judge narrates some true crime stories"
     }
+  ],
+  "books": [
+    {
+      "title": "Pattern, Principles and Practices of Domain-Driven Design",
+      "author": "Scott Millett with Nick Tune",
+      "synopsis": "Build solutions for complex business problems more effectively with Domain-Driven Design",
+      "link": {
+        "name": "Some link",
+        "url": "https://a.co/d/eKEehfl",
+        "tooltip": "Amazon link to book"
+      },
+      "isCurrentlyReading": true
+    },
+    {
+      "title": "The Pragmatic Programmer: Your Journey To Mastery",
+      "author": "David Thomas, Andrew Hunt",
+      "synopsis": "There are certain tips and tricks that apply at all levels of software development, processes that are virtually universal, and ideas that are almost axiomatic. However, these approaches are rarely documented as such; you'll mostly find them written down as odd sentences in discussions of design, project management, or coding. But for your convenience, we'll bring these ideas and processes together here. ",
+      "link": {
+        "name": "Some link",
+        "url": "https://a.co/d/gZByVAo",
+        "tooltip": "Amazon link to book"
+      },
+      "isCurrentlyReading": false
+    },
+    {
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "synopsis": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way.",
+      "link": {
+        "name": "Some link",
+        "url": "https://a.co/d/dYUtqf8",
+        "tooltip": "Amazon link to book"
+      },
+      "isCurrentlyReading": false
+    }
   ]
 }
