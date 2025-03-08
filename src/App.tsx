@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Disciplines from './components/Disciplines';
 import Certification from './components/Certifications';
 import Podcasts from './components/Podcasts';
+// import Books from "./components/Books";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 function App() {
@@ -23,8 +24,9 @@ function App() {
           <div className="row">
             <Disciplines skills={toc.skills} courses={toc.courses} />
           </div>
-          <Podcasts items={toc.podcasts} />
           <Cards props={toc.cards} />
+          <Podcasts items={toc.podcasts} />
+          {/* <Books props={toc.books} /> */}
         </div>
       </main>
       <Footer />

@@ -34,18 +34,80 @@ footer {
   outline: 1px solid lightgrey;
 }
 
-.jumbotron {
-  padding: 2em 1em;
-  font-weight: 700;
-  color: white;
-  background: radial-gradient(circle at center, #69677B 0, rgb(165, 163.8, 175.8) 100%);
+li {
+  text-indent: -2rem;
+  padding-left: 2em; /* Indent for the rest of the lines */
 }
 
+/* CERTIFICATIONS */
+.certification-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* HEADER */
 .synopsis-statement {
   background: linear-gradient(lightgrey, white);
   color: #333;
 }
 
+/* BACKGROUNDS */
+.section-container {
+  background-color: rgb(240, 239.8, 241.8);
+}
+
+.bordered-container {
+  outline: 1px solid rgb(135, 133.4, 149.4);
+  border-radius: 0.5rem;
+}
+
+/* DISCIPLINES */
+.vertical-tab-0 {
+  background: linear-gradient(#6B0504, rgb(195.8, 155, 154.6));
+}
+
+.vertical-tab-1 {
+  background: linear-gradient(#607744, rgb(191.4, 200.6, 180.2));
+}
+
+.vertical-tab-2 {
+  background: linear-gradient(#ca8401, rgb(233.8, 205.8, 153.4));
+}
+
+.vertical-tab-3 {
+  background: linear-gradient(#356883, rgb(174.2, 194.6, 205.4));
+}
+
+.vertical-tab-4 {
+  background: linear-gradient(#666666, rgb(193.8, 193.8, 193.8));
+}
+
+.discipline-container {
+  display: flex;
+}
+
+.discipline-inner-container {
+  border-top: 1px dotted rgb(135, 133.4, 149.4);
+  border-right: 1px dotted rgb(135, 133.4, 149.4);
+  border-bottom: 1px dotted rgb(135, 133.4, 149.4);
+  padding: 1rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  width: 100%;
+}
+
+.vertical {
+  flex: 1;
+  writing-mode: vertical-rl;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 3rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+/* PROFICIENCY */
 .discipline-0 {
   background-color: #6B0504;
 }
@@ -571,67 +633,12 @@ footer {
   background-color: rgb(190.74, 190.74, 190.74);
 }
 
-.discipline-container {
-  display: flex;
-}
-
-.discipline-inner-container {
-  border-top: 1px dotted grey;
-  border-right: 1px dotted grey;
-  border-bottom: 1px dotted grey;
-  padding: 1rem;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  background-color: whitesmoke;
-  width: 100%;
-}
-
-.vertical {
-  flex: 1;
-  writing-mode: vertical-rl;
-  padding: 0.5rem;
-  font-weight: bold;
-  font-size: 1.5rem;
-  width: 3rem;
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-}
-
-.vertical-tab-0 {
-  background: linear-gradient(#6B0504, rgb(195.8, 155, 154.6));
-}
-
-.vertical-tab-1 {
-  background: linear-gradient(#607744, rgb(191.4, 200.6, 180.2));
-}
-
-.vertical-tab-2 {
-  background: linear-gradient(#ca8401, rgb(233.8, 205.8, 153.4));
-}
-
-.vertical-tab-3 {
-  background: linear-gradient(#356883, rgb(174.2, 194.6, 205.4));
-}
-
-.vertical-tab-4 {
-  background: linear-gradient(#666666, rgb(193.8, 193.8, 193.8));
-}
-
-.certification-container {
-  outline: 1px dotted grey;
-  border-radius: 0.25rem;
-  background-color: whitesmoke;
-}
-
-.certification-name {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.card-container {
-  background-color: #b9c7c8;
-  border: 1px dotted grey;
-  border-radius: 0.5rem;
+/* BANNER / HEADER */
+.jumbotron {
+  padding: 2em 1em;
+  font-weight: 700;
+  color: white;
+  background: radial-gradient(circle at center, #69677B 0, rgb(165, 163.8, 175.8) 100%);
 }
 
 .text-muted {
