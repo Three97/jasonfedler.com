@@ -9,7 +9,7 @@ const Certifications: FC<{ certs: ICertification[] }> = function({ certs }) {
       {certs.map((cert: ICertification, c: number) => {
         const iconPath = GetIconPathFromServiceName(cert.service);
         return (
-          <div className="certification-container block-segment my-4" key={++c}>
+          <div className="bordered-container section-container my-4" key={++c}>
             <div className="d-inline-flex py-4 px-5">
               <div className="mt-3 text-end">
                 <img src={iconPath} alt="an icon representing the certificate issuer" height="48px"></img>

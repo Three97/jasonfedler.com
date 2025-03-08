@@ -7,12 +7,12 @@ const Books: FC<{ props: IBookProps[] }> = function({ props }) {
   const readBooks = sortedItems.filter(x => !x.isCurrentlyReading);
   const currentlyReading = sortedItems.filter(x => x.isCurrentlyReading);
   return (
-      <div className="container mt-4 books-container block-segment p-3">
+      <div className="container mt-4 bordered-container section-container p-3">
         <div>
           <h1 className="text-center"><i className="bi bi-book"></i> Technical Books</h1>
           <hr />
           <p>
-            I read a variety of books, often several at a time, but I like to always be working through at least one technology book. Here are a few that I have finished.
+            I read a variety of books, often several at a time, but I like to always be working through at least one technology book.
           </p>
           <hr />
         </div>

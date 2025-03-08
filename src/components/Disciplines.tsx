@@ -38,7 +38,7 @@ const Disciplines: FC<{ skills: ISkill[]; courses: ICourse[];}> = function ({ sk
         return (
           <div className="discipline-container mt-3" key={++i}>
             <div className={classNameForDiscipline}>&nbsp;{GetDisciplineByDisciplineType(disc)}</div>
-            <div className="discipline-inner-container block-segment">
+            <div className="discipline-inner-container section-container">
               <div className="container-fluid">
                 <div className="skills-container">
                   {skillsPerDiscipline.map((item: ISkill, j: number) => {

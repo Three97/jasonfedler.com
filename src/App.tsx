@@ -16,7 +16,6 @@ function App() {
       <main role="main">
         <Synopsis synopsis={toc.synopsis} />
         <div className="container">
-          <Cards props={toc.cards} />
           {toc.certifications.length > 0 && 
             <div className="row">
               <Certification certs={toc.certifications} />
@@ -25,6 +24,7 @@ function App() {
           <div className="row">
             <Disciplines skills={toc.skills} courses={toc.courses} />
           </div>
+          <Cards props={toc.cards} />
           <Podcasts items={toc.podcasts} />
           <Books props={toc.books} />
         </div>

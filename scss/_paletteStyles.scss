@@ -9,9 +9,17 @@
 
 @use "variables";
 
+$background-percentage: 90%;
+$border-percentage: 20%;
+
 /* BACKGROUNDS */
-.block-segment {
-  background-color: color.mix(#FFF, palette.$primary-color, 90%);
+.section-container {
+  background-color: color.mix(#FFF, palette.$primary-color, $background-percentage);
+}
+
+.bordered-container {
+  outline: 1px solid color.mix(#FFF, palette.$primary-color, $border-percentage);
+  border-radius: 0.5rem;
 }
 
 /* DISCIPLINES */
@@ -30,6 +38,31 @@ $percentage: 60%;
 }
 .vertical-tab-4 {
   background: linear-gradient(palette.$tools-base-color, color.mix(#FFF, palette.$tools-base-color, $percentage))
+}
+
+.discipline-container {
+  display: flex;
+}
+
+.discipline-inner-container {
+  border-top: 1px dotted color.mix(#FFF, palette.$primary-color, $border-percentage);
+  border-right: 1px dotted color.mix(#FFF, palette.$primary-color, $border-percentage);
+  border-bottom: 1px dotted color.mix(#FFF, palette.$primary-color, $border-percentage);
+  padding: 1rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  width: 100%;
+}
+
+.vertical {
+  flex: 1;
+  writing-mode: vertical-rl;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 3rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 /* PROFICIENCY */
