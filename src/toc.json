@@ -1032,7 +1032,7 @@
       "name": "Coding Blocks",
       "podcastLink": {
         "id": 1,
-        "name": "Coding Blocks",
+        "name": "Coding Blocks (indefinite hiatus)",
         "url": "https://www.codingblocks.net/",
         "tooltip": "Coding Blocks website"
       },
@@ -1087,7 +1087,7 @@
       "name": "LeVar Burton Reads",
       "podcastLink": {
         "id": 6,
-        "name": "Levar Burton Reads",
+        "name": "Levar Burton Reads (concluded)",
         "url": "https://www.levarburtonpodcast.com/",
         "tooltip": "Levar Burton Reads website"
       },
@@ -1125,6 +1125,28 @@
         "tooltip": "A podcast that focuses on true crime"
       },
       "comments": "Phoebe Judge narrates some true crime stories"
+    },
+    {
+      "id": 10,
+      "name": "The Daily",
+      "podcastLink": {
+        "id": 9,
+        "name": "The Daily",
+        "url": "https://www.nytimes.com/column/the-daily",
+        "tooltip": "A (mostly) daily podcast that gives updates for today with a deep dive on a particular topic"
+      },
+      "comments": "This is how the news should sound. Twenty minutes a day, five days a week, powered by New York Times journalism."
+    },
+    {
+      "id": 11,
+      "name": "Perform",
+      "podcastLink": {
+        "id": 10,
+        "name": "Perform",
+        "url": "https://performpodcast.com/",
+        "tooltip": "Explore the science and tools for enhancing human performance with Dr. Andy Galpin"
+      },
+      "comments": "Explore the science and tools for enhancing human performance."
     }
   ],
   "books": [
