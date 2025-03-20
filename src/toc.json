@@ -1125,6 +1125,17 @@
         "tooltip": "A podcast that focuses on true crime"
       },
       "comments": "Phoebe Judge narrates some true crime stories"
+    },
+    {
+      "id": 10,
+      "name": "NYT The Daily",
+      "podcastLink": {
+        "id": 9,
+        "name": "The Daily",
+        "url": "https://www.nytimes.com/column/the-daily",
+        "tooltip": "A (mostly) daily podcast that gives updates for today with a deep dive on a particular topic"
+      },
+      "comments": "This is how the news should sound. Twenty minutes a day, five days a week, powered by New York Times journalism."
     }
   ],
   "books": [
