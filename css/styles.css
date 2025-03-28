@@ -33,6 +33,9 @@ footer {
 .skill-outline {
   outline: 1px solid lightgrey;
 }
+.skill-outline:hover {
+  outline: 1px solid grey;
+}
 
 li {
   text-indent: -2rem;
