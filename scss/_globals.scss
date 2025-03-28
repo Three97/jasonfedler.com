@@ -35,4 +35,8 @@ footer {
 
 .skill-outline {
   outline: 1px solid lightgrey;
+
+  &:hover {
+    outline: 1px solid grey;
+  }
 }
