@@ -17,14 +17,14 @@
   @for $i from 0 through $count {
     $background-color: $startcolor;
 
-    $multiplier: 8;
+    $multiplier: 10;
     $hover-incrementer: 10;
 
     .discipline-#{$disciplinetype} {
       background-color: $background-color;
 
       &:hover {
-        background-color: color.mix(white, $background-color, math.percentage(math.div($i * $multiplier + $hover-incrementer,100)));
+        background-color: color.mix(white, $background-color, math.percentage(math.div($i * $multiplier + $hover-incrementer, 100)));
       }
     }
 

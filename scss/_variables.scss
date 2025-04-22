@@ -4,11 +4,11 @@
 // @use "paletteWinter" as palette;
 
 // link hover colors and footer text color
-$highlight2-color: #ff8800;
+$highlight2-color: #ed997d;
 $highlight3-color: #cb769e;
 
 $link-color: rgba(0, 0, 139, 0.8);
-$link-hover-color: white;
+$link-hover-color: #333;
 
 $linear-horizontal-gradient: linear-gradient(to right, palette.$primary-color, palette.$secondary-color);
 $linear-horizontal-reverse-gradient: linear-gradient(to right, palette.$primary-color 0 5%, palette.$secondary-color 5% 95%, palette.$primary-color 95% 100%);
