@@ -1024,6 +1024,22 @@
         "hours": 1,
         "minutes": 3
       }
+    },
+    {
+      "discipline": 1,
+      "provider": "Pluralsight",
+      "completionUrl": "https://app.pluralsight.com/achievements/share/955ec8d3-5b5e-49ee-b8e3-ff48776441b7",
+      "name": "Blazor Fundamentals",
+      "completionDate": "May 28, 2025",
+      "duration": {
+        "hours": 7,
+        "minutes": 57
+      },
+      "repo": {
+        "name": "Blazor Fundamentals",
+        "description": "Blazor Fundamentals",
+        "url": "https://github.com/Three97/BlazorFundamentals"
+      }
     }
   ],
   "podcasts": [
