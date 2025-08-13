@@ -5,7 +5,10 @@ import Link from './Link';
 const Podcasts: FC<{ items: IPodcast[] }> = function({ items }) {
   let pIdx = 0;
   // (a:ICourse, b: ICourse) => (new Date(a.completionDate).getTime() - new Date(b.completionDate).getTime())
-  const sortedItems = items.sort((a:IPodcast, b:IPodcast) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))
+  const sortedItems = 
+    items
+      .filter((p:IPodcast) => p.isActive)
+      .sort((a:IPodcast, b:IPodcast) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))
   return (
     <div className="container mt-4 section-container bordered-container p-3">
       <div className="text-center">

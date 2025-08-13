@@ -1045,6 +1045,7 @@
   "podcasts": [
     {
       "id": 1,
+      "isActive": true,
       "name": "Coding Blocks",
       "podcastLink": {
         "id": 1,
@@ -1056,6 +1057,7 @@
     },
     {
       "id": 2,
+      "isActive": true,
       "name": "Darknet Diaries",
       "podcastLink": {
         "id": 2,
@@ -1067,10 +1069,11 @@
     },
     {
       "id": 3,
+      "isActive": true,
       "name": "Malicious Life",
       "podcastLink": {
         "id": 3,
-        "name": "Malicious Life",
+        "name": "Malicious Life (hibernated?",
         "url": "https://malicious.life/",
         "tooltip": "Malicious Life website"
       },
@@ -1078,6 +1081,7 @@
     },
     {
       "id": 4,
+      "isActive": true,
       "name": "Azure DevOps",
       "podcastLink": {
         "id": 4,
@@ -1089,6 +1093,7 @@
     },
     {
       "id": 5,
+      "isActive": true,
       "name": "Huberman Lab",
       "podcastLink": {
         "id": 5,
@@ -1100,6 +1105,7 @@
     },
     {
       "id": 6,
+      "isActive": false,
       "name": "LeVar Burton Reads",
       "podcastLink": {
         "id": 6,
@@ -1111,6 +1117,7 @@
     },
     {
       "id": 7,
+      "isActive": false,
       "name": "Deep Questions",
       "podcastLink": {
         "id": 7,
@@ -1122,6 +1129,7 @@
     },
     {
       "id": 8,
+      "isActive": false,
       "name": "The Indicator from Planet Money",
       "podcastLink": {
         "id": 8,
@@ -1133,6 +1141,7 @@
     },
     {
       "id": 9,
+      "isActive": true,
       "name": "Criminal",
       "podcastLink": {
         "id": 9,
@@ -1144,6 +1153,7 @@
     },
     {
       "id": 10,
+      "isActive": false,
       "name": "The Daily",
       "podcastLink": {
         "id": 9,
@@ -1155,6 +1165,7 @@
     },
     {
       "id": 11,
+      "isActive": true,
       "name": "Perform",
       "podcastLink": {
         "id": 10,
