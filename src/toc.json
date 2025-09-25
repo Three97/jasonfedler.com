@@ -402,19 +402,6 @@
           "tooltip": "Cycling blog where I write about bike rides or races, mostly"
         }
       ]
-    },
-    {
-      "id": 3,
-      "title": "Socials",
-      "subtitle": "I do other stuff, too",
-      "links": [
-        {
-          "id": 4,
-          "name": "Strava",
-          "url": "https://www.strava.com/athletes/16406695",
-          "tooltip": "I keep track of my outdoor activities using Strava"
-        }
-      ]
     }
   ],
   "certifications": [  
