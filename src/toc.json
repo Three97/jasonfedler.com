@@ -413,12 +413,6 @@
           "name": "Strava",
           "url": "https://www.strava.com/athletes/16406695",
           "tooltip": "I keep track of my outdoor activities using Strava"
-        },
-        {
-          "id": 5,
-          "name": "Instagram",
-          "url": "https://instagram.com/threeninet7",
-          "tooltip": "I rarely post on IG, but here's my account"
         }
       ]
     }
